@@ -6,17 +6,27 @@
   }
   
   .home,
-  .services,
-  .products,
-  .sign-up {
+  .printing,
+  .consulting,
+  .projects,
+  .join-us {
     display: flex;
     height: 90vh;
     align-items: center;
     justify-content: center;
     font-size: 3rem;
   }
-  
-  .services {
+
+  .printing {
+    background-image: url('../public/images/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .consulting {
     background-image: url('../public/images/img-2.jpg');
     background-position: center;
     background-size: cover;
@@ -25,7 +35,7 @@
     font-size: 100px;
   }
   
-  .products {
+  .projects {
     background-image: url('../public/images/img-1.jpg');
     background-position: center;
     background-size: fill;
@@ -34,7 +44,7 @@
     font-size: 100px;
   }
   
-  .sign-up {
+  .join-us {
     background-image: url('../public/images/img-8.jpg');
     background-position: center;
     background-size: cover;

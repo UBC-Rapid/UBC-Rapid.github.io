@@ -1,10 +1,12 @@
 import '../../App.css';
-import HeroSection from '../HeroSection';
+import InfoSection from '../InfoSection';
+import Cards from '../Cards';
 
 function About() {
     return (
         <>
-            <HeroSection />
+            <InfoSection />
+            <Cards />
         </>
     );
 }
