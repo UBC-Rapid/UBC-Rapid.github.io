@@ -1,14 +1,12 @@
 import '../../App.css';
-import InfoSection from '../InfoSection';
+import TitleSection from '../TitleSection';
 import Cards from '../Cards';
-import Footer from '../Footer';
 
 function About() {
     return (
         <>
-            <InfoSection />
+            <TitleSection />
             <Cards />
-            <Footer />
         </>
     );
 }

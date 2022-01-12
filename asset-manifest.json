@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.21dbcdb2.css",
-    "main.js": "/static/js/main.59d87138.js",
-    "static/media/img-2.jpg": "/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
-    "static/media/img-1.jpg": "/static/media/img-1.53f4843759ebec256cb9.jpg",
-    "static/media/img-8.jpg": "/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
+    "main.css": "/static/css/main.153b7973.css",
+    "main.js": "/static/js/main.d62ee82f.js",
+    "static/media/group_photo.jpg": "/static/media/group_photo.accb56e548e5026f67a2.jpg",
+    "static/media/cloned_printer.JPG": "/static/media/cloned_printer.9788341f9f0939987f05.JPG",
+    "static/media/gear_heart.JPG": "/static/media/gear_heart.94bbfd889e58416ddf48.JPG",
+    "static/media/mini_cairns.jpg": "/static/media/mini_cairns.f928bf4397a82957520e.jpg",
     "index.html": "/index.html",
-    "main.21dbcdb2.css.map": "/static/css/main.21dbcdb2.css.map",
-    "main.59d87138.js.map": "/static/js/main.59d87138.js.map"
+    "main.153b7973.css.map": "/static/css/main.153b7973.css.map",
+    "main.d62ee82f.js.map": "/static/js/main.d62ee82f.js.map"
   },
   "entrypoints": [
-    "static/css/main.21dbcdb2.css",
-    "static/js/main.59d87138.js"
+    "static/css/main.153b7973.css",
+    "static/js/main.d62ee82f.js"
   ]
 }

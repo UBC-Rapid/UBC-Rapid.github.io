@@ -1,6 +1,12 @@
 import React from 'react';
 import '../../App.css';
+import Cards from '../Cards';
 
 export default function Consulting() {
-    return <h1 className='consulting'>Consulting</h1>;
+    return (
+        <>
+            <h1 className='consulting'>CONSULTING</h1>
+            <Cards />
+        </>
+    );
 }

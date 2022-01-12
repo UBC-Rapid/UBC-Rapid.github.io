@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import About from'./components/pages/About';
@@ -19,6 +20,7 @@ function App() {
           <Route path='/projects' exact component={Projects}/>
           <Route path='/join-us' exact component={JoinUs}/>
         </Switch>
+        <Footer />
         </Router>
     </>
   );
