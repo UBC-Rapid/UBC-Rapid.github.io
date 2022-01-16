@@ -18,7 +18,7 @@
   max-width: 1500px;
 }
 
-.navbar-logo {
+/* .navbar-logo {
   color: #fff;
   justify-self: start;
   margin-left: 20px;
@@ -27,6 +27,18 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+} */
+
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  overflow: auto;
 }
 
 .fa-typo3 {
