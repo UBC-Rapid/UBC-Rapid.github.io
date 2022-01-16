@@ -1,6 +1,6 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-  height: 80px;
+  background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(236, 236, 236) 100%);
+  height: 110px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,17 +29,40 @@
   align-items: center;
 } */
 
-.navbar-logo {
-  color: #fff;
-  justify-self: start;
-  margin-left: 20px;
-  cursor: pointer;
-  display: flex;
+
+
+
+/* .navbar-logo {
+  display: block;
+  margin-left: 10px;
+} */
+
+/* .rapid-logo {
+  height: 50px;
+  width: 100%;
+  object-fit: contain;
+  overflow: auto;
+} */
+
+.brand-logo {
+  display: inline-flex !important;
   align-items: center;
-  position: relative;
+}
+
+#logo {
+  display: inline-block;
   height: 100%;
+}
+
+.rapid-logo {
+  height: 50px;
+  width: 130px;
   overflow: auto;
 }
+
+
+
+
 
 .fa-typo3 {
   margin-left: 0.5rem;
@@ -62,7 +85,7 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: #000;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -71,12 +94,12 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
+  border-bottom: 4px solid #000;
   transition: all 0.2s ease-out;
 }
 
 .fa-bars {
-  color: #fff;
+  color: #000;
 }
 
 .nav-links-mobile {
@@ -105,7 +128,7 @@
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: #ececec;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -120,7 +143,7 @@
   }
 
   .nav-links:hover {
-    background-color: #fff;
+    background-color: rgb(184, 184, 184);
     color: #242424;
     border-radius: 0;
   }
@@ -143,7 +166,7 @@
   }
 
   .fa-times {
-    color: #fff;
+    color: #000;
     font-size: 2rem;
   }
 
@@ -156,15 +179,15 @@
     text-decoration: none;
     font-size: 1.5rem;
     background-color: transparent;
-    color: #fff;
+    color: #000;
     padding: 14px 20px;
-    border: 1px solid #fff;
+    border: 1px solid #000;
     transition: all 0.3s ease-out;
   }
 
   .nav-links-mobile:hover {
-    background: #fff;
-    color: #242424;
+    background: #000;
+    color: #dbdbdb;
     transition: 250ms;
   }
 }

@@ -29,10 +29,16 @@ function Navbar() {
         <>
             <nav className='navbar'>
                 <div className='navbar-container'>
-                <img src="../images/rapid_logo.jpg" className="navbar-logo" />
-                    {/* <Link to='/' className='navbar-logo'>
-                        UBC Rapid <i className='fab fa-typo3'/>
-                    </Link> */}
+                    {/* <img src="../images/rapid_logo.jpg" class="img-fluid" /> */}
+                    <Link to='/' className='brand-logo'>
+                        
+                        <img src="../images/rapid_logo.jpg" className='rapid-logo' />
+                        {/* <div id="logo">Logo</div> */}
+                    </Link>
+                    
+
+
+
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>

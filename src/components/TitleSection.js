@@ -22,7 +22,7 @@ function TitleSection() {
                     className='btns'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'
-                    onClick={console.log('hey')}
+                    onClick={console.log('do something')}
                 >
                     Printing Service <i className='far fa-play-circle' />
                 </Button>
