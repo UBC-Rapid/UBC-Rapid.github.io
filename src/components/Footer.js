@@ -53,8 +53,9 @@ function Footer() {
             <section className='social-media'>
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
-                        <Link className='social-logo'>
-                            UBC RAPID <i className='fab fa-typo3' />
+                        <Link className='nav-logo'>
+                            <img src="../images/rapid_logo.png" className='rapid-logo' />
+                            {/* UBC RAPID <i className='fab fa-typo3' /> */}
                         </Link>
                     </div>
                     <small className='website-rights'>UBC RAPID © 2022</small>

@@ -29,16 +29,9 @@ function Navbar() {
         <>
             <nav className='navbar'>
                 <div className='navbar-container'>
-                    {/* <img src="../images/rapid_logo.jpg" class="img-fluid" /> */}
-                    <Link to='/' className='brand-logo'>
-                        
-                        <img src="../images/rapid_logo.jpg" className='rapid-logo' />
-                        {/* <div id="logo">Logo</div> */}
+                    <Link to='/' className='nav-logo'>
+                        <img src="../images/rapid_logo.png" className='rapid-logo' />
                     </Link>
-                    
-
-
-
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>

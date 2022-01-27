@@ -131,6 +131,18 @@
     align-items: center;
     margin-bottom: 16px;
   }
+
+  .nav-logo {
+    display: inline-flex !important;
+    align-items: center;
+    margin-right: 180px;
+  }
+  
+  .rapid-logo {
+    height: 50px;
+    width: 150px;
+    overflow: auto;
+  }
   
   .website-rights {
     color: #fff;

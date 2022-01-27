@@ -18,51 +18,17 @@
   max-width: 1500px;
 }
 
-/* .navbar-logo {
-  color: #fff;
-  justify-self: start;
-  margin-left: 20px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
-} */
-
-
-
-
-/* .navbar-logo {
-  display: block;
-  margin-left: 10px;
-} */
-
-/* .rapid-logo {
-  height: 50px;
-  width: 100%;
-  object-fit: contain;
-  overflow: auto;
-} */
-
-.brand-logo {
+.nav-logo {
   display: inline-flex !important;
   align-items: center;
-}
-
-#logo {
-  display: inline-block;
-  height: 100%;
+  margin-right: 180px;
 }
 
 .rapid-logo {
   height: 50px;
-  width: 130px;
+  width: 150px;
   overflow: auto;
 }
-
-
-
-
 
 .fa-typo3 {
   margin-left: 0.5rem;
