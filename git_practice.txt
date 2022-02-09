@@ -1,7 +1,7 @@
 isabelle andre
 willem van dam
 <<<<<<< HEAD
-aftahi ardi
+Aftahi ardi
 =======
 Idil Bil
 ram jayakumar
