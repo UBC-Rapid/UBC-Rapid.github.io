@@ -8,17 +8,11 @@ function Footer() {
         <div className='footer-container'>
            <section className='footer-subscription'>
                 <p className='footer-subscription-heading'>
-                    Follow UBC Rapid on Social Media!
+                    Keep up to date with UBC Rapid on social media!
                 </p>
                 <p className='footer-subscription-text'>
-                    Some more text.
+                    Find us on Facebook, Instagram and Linkedin.
                 </p>
-                <div className='input-areas'>
-                    <form>
-                        <input type='email' name='email' placeholder='Your Email'/>
-                        <Button buttonStyle='btn--outline'>Subscribe</Button>
-                    </form>
-                </div>
             </section>
             <div className='footer-links'>
                 <div className='footer-link-wrapper'>
@@ -61,21 +55,21 @@ function Footer() {
                     <small className='website-rights'>UBC RAPID © 2022</small>
                     <div className='social-icons'>
                         <Link className='social-icon-link facebook'
-                            to='/'
+                            to={{ pathname: 'https://www.facebook.com/ubc.rapid/' }}
                             target='_blank'
                             aria-label='Facebook'
                         >
                            <i className='fab fa-facebook-f'></i> 
                         </Link>
                         <Link className='social-icon-link instagram'
-                            to='/'
+                            to={{ pathname: 'https://www.instagram.com/ubc_rapid/' }}
                             target='_blank'
                             aria-label='Instagram'
                         >
                             <i className='fab fa-instagram'></i>
                         </Link>
                         <Link className='social-icon-link linkedin'
-                            to='/'
+                            to={{ pathname: 'https://www.linkedin.com/company/ubc-rapid/' }}
                             target='_blank'
                             aria-label='Linkedin'
                         >
