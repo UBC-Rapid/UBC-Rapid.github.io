@@ -24,7 +24,7 @@ function TitleSection() {
                     buttonSize='btn--large'
                     onClick={console.log('do something')}
                 >
-                    Printing Service <i className='far fa-play-circle' />
+                    Printing Service
                 </Button>
             </div>
         </div>
