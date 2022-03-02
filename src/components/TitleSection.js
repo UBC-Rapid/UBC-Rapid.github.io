@@ -15,16 +15,18 @@ function TitleSection() {
                     className='btns' 
                     buttonStyle='btn--outline'
                     buttSize='btn--large'
+                    link='/printing'
                 >
-                    Consulting Service
+                    3D Printing Service
                 </Button>
                 <Button
                     className='btns'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'
                     onClick={console.log('do something')}
+                    link='/consulting'
                 >
-                    Printing Service
+                    Consulting Service
                 </Button>
             </div>
         </div>
