@@ -5,7 +5,7 @@ import './TitleSection.css';
 
 function TitleSection() {
     return (
-        <div className='info-container'>
+        <div className='title-container'>
             {/* <video src="/videos/gearbox_timelapse_x2.mp4" autoPlay loop muted /> */}
             <img src="../images/cloned_printer.JPG" />
             <h1>UBC RAPID</h1>

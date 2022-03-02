@@ -1,0 +1,37 @@
+.info {
+    padding: 4rem;
+    background: #fff;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .info_container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .info_wrapper {
+    position: relative;
+    margin: 50px 0 45px;
+  }
+  
+  .info_items {
+    margin-bottom: 24px;
+  }
+
+  .cards_items {
+    margin-bottom: 24px;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .cards_items {
+      display: flex;
+    }
+  }
+  
