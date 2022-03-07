@@ -132,21 +132,17 @@
     margin-bottom: 16px;
   }
 
-  .nav-logo {
-    display: inline-flex !important;
-    align-items: center;
-    margin-right: 180px;
-  }
-  
-  .rapid-logo {
+  .footer-logo {
+    z-index: 1;
+    display: flex;
+    width: 130px; /* Not the cleanest fix sorry but it works as long as we don't resize the logo*/
     height: 50px;
-    width: 150px;
-    overflow: auto;
   }
   
   .website-rights {
     color: #fff;
     margin-bottom: 16px;
+    margin-top: 16px;
   }
   
   @media screen and (max-width: 820px) {
