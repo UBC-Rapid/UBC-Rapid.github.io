@@ -14,11 +14,11 @@ export default function Projects() {
                 <div className='projects-Wrapper'>
                     <p>
                     <h3>CONSULTING AND 3D PRINTING</h3> 
-
+                    <br></br>
                     Our main and most popular team activity! Starting at only $0.15/gram and a  5$ setup fee, our printing service is one of the most affordable on  campus! Using our 6 available printers, we aim to offer low-cost, high quality 3D printing services to UBC students, staff, and faculty.
-
+                    <br></br><br></br>
                     Recently last year, our brand new Consulting team has also  kicked off, now providing the first CAD modelling and design consultation service on campus!
-                    
+                    <br></br>
                     <img src={"../images/projects1.jpg"} className='projects1' />
                     
                     </p>
@@ -35,7 +35,7 @@ export default function Projects() {
                 <div className='projects-Wrapper'>
                     <p>
                     <h3>3D PRINTER DESIGN AND CONSTRUCTION</h3>
-
+                    <br></br>
                     We  enjoy experimenting and pushing the boundaries of what 3D printers can  do, optimizing them to work faster, smarter and add clever features.  This year, we have launched our newest and most ambitious project to date: To build UBC Rapid's first original compact 
                     3D printer, ideal for engineering students with limited space or hobbyists that would like to travel with their printer. The printer is still in its early development stages. Some other Printer development ideas considered include a Monorail printer, and a Cable driven printer.
                     
@@ -52,35 +52,27 @@ export default function Projects() {
                 <div className='projects-Wrapper'>
                     <p>
                     <h3>EXOTIC MATERIAL TESTING</h3>
-
+                    <br></br>
                     UBC Rapid will be expanding the variety of materials available for student and faculty rapid prototyping projects. Currently, most printers available to UBC undergraduate students are limited to either ABS and PLA. While both materials are useful in prototyping, they severely limit
                     the types of parts students can produce. The biggest challenge is the lack of generally accepted guidelines for printing in materials other than PLA and ABS; this project aims to fill in the gaps of knowledge by developing resources for using non-standard materials on 3D printers, 
                     and ultimately make other materials (such as composites) available for student/faculty use. Filaments to be tested include:                    
                     </p>
-
-                    <p> 
-                    Metal (Aluminum, Brass, Bronze, Stainless Steel)
-
-                    Carbon fiber
-
-                    Flexible (TPU, TPE)
-
-                    Polycarbonate
-
-                    PTFE (Nylon)
-
-                    Water Soluble
-
-                    PETG
-
-                    Conductive
-
-                    Magnetic
-
-                    Wax
-
-                    and many more!
-
+                    <br></br><br></br>
+                    <p>
+                    <ul>
+                        <li>Metal (Aluminum, Brass, Bronze, Stainless Steel)</li><br></br>
+                        <li>Carbon fiber</li><br></br>
+                        <li>Flexible (TPU, TPE)</li><br></br>
+                        <li>Polycarbonate</li><br></br>
+                        <li>PTFE (Nylon)</li><br></br>
+                        <li>Water Soluble</li><br></br>
+                        <li>PETG</li><br></br>
+                        <li>Conductive</li><br></br>
+                        <li>Magnetic</li><br></br>
+                        <li>Wax</li><br></br>
+                        <li>and many more!</li>
+                    </ul>
+                    
                     <img src={"../images/projects3.png"} className='projects3' />
 
                     </p>
