@@ -12,7 +12,7 @@ h1 {
   flex-flow: column;
   align-items: center;
   max-width: 1120px;
-  width: 90%;
+  width:90%;
   margin: 0 auto;
 }
 
@@ -30,6 +30,7 @@ h1 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+  pointer-events: none;
 }
 
 .cards__item__link {
@@ -39,7 +40,7 @@ h1 {
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  border-radius: 10px;
+  border-radius: 3px;
   overflow: hidden;
   text-decoration: none;
 }
@@ -47,7 +48,7 @@ h1 {
 .cards__item__pic-wrap {
   position: relative;
   width: 100%;
-  padding-top: 67%;
+  padding-top: 100%;
   overflow: hidden;
 }
 
@@ -65,9 +66,9 @@ h1 {
   max-width: calc((100%) - 60px);
   font-size: 12px;
   font-weight: 700;
-  color: #fff;
-  background-color: #1f98f4;
+  color: rgb(255, 255, 255);
   box-sizing: border-box;
+  margin-top: 1px;
 }
 
 .cards__item__img {
@@ -90,13 +91,18 @@ h1 {
 }
 
 .cards__item__info {
-  padding: 20px 30px 30px;
+  padding: 15px 15px 15px;
+  color: #746E6E;
+  text-align: left;
+  font-size: 15px;
 }
 
 .cards__item__text {
-  color: #252e48;
+  color: black;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 20px;
+  font-family: Bahnschrift;
+  padding: 5px 0px 5px; 
 }
 
 @media only screen and (min-width: 1200px) {
