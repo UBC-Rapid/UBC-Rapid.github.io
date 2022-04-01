@@ -1,50 +1,51 @@
 .projects-Page {
-    padding: 4rem;
-    background: #fff;
-    display: flex;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-  }
+  padding: 4rem;
+  background: #fff;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
 
-  .projects-Page {
-    /*background-image: url('../public/images/cloned_printer.JPG');*/
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: rgb(0, 0, 0);
-    font-size: 10px;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  .projects-Container {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    max-width: 1120px;
-    width: 90%;
-    margin: 0 auto;
-  }
-  
-  .projects-Wrapper {
-    position: relative;
-    margin: 50px 0 45px;
-  }
-  
-  .info_items {
-    margin-bottom: 24px;
-  }
+.projects-Page {
+  /*background-image: url('../public/images/cloned_printer.JPG');*/
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+}
 
+h1 {
+  text-align: center;
+}
+
+.projects-Container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.projects-Wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+  font-size: 15px;
+}
+
+.info_items {
+  margin-bottom: 24px;
+}
+
+.cards_items {
+  margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 1024px) {
   .cards_items {
-    margin-bottom: 24px;
+    display: flex;
   }
-
-  @media only screen and (min-width: 1024px) {
-    .cards_items {
-      display: flex;
-    }
-  }
+}
