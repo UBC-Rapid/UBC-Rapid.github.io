@@ -8,72 +8,64 @@ function Footer() {
         <div className='footer-container'>
            <section className='footer-subscription'>
                 <p className='footer-subscription-heading'>
-                    Follow UBC Rapid on Social Media!
+                    Keep up to date with UBC Rapid on social media!
                 </p>
                 <p className='footer-subscription-text'>
-                    Some more text.
+                    Find us on Facebook, Instagram and Linkedin.
                 </p>
-                <div className='input-areas'>
-                    <form>
-                        <input type='email' name='email' placeholder='Your Email'/>
-                        <Button buttonStyle='btn--outline'>Subscribe</Button>
-                    </form>
-                </div>
+                <p className='footer-subscription-text'></p>
+                <p className='footer-subscription-text'>
+                    Put in a request for any of our services all throughout the school year.
+                </p>
             </section>
             <div className='footer-links'>
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
-                        <h2>About Us</h2>
-                        <Link to='/join-us'>How it works</Link>
+                        <h3><Link to='/'>About Us</Link></h3>
+
+                        {/*<Link to='/join-us'>How it works</Link> *** Extra smaller links below if needed
                         <Link to='/printing'>Printing Service</Link>
-                        <Link to='/consulting'>Consulting Service</Link>
+                        <Link to='/consulting'>Consulting Service</Link>*/}
                     </div>
                     <div className='footer-link-items'>
-                        <h2>About Us</h2>
-                        <Link to='/join-us'>How it works</Link>
-                        <Link to='/printing'>Printing Service</Link>
-                        <Link to='/consulting'>Consulting Service</Link>
+                        <h3><Link to='/printing'>Printing</Link></h3>
                     </div>
                 </div>
                 <div className='footer-link-wrapper'>
-                    <div className='footer-link-items'>
-                        <h2>About Us</h2>
-                        <Link to='/join-us'>How it works</Link>
-                        <Link to='/printing'>Printing Service</Link>
-                        <Link to='/consulting'>Consulting Service</Link>
+                <div className='footer-link-items'>
+                        <h3><Link to='/consulting'>Consulting</Link></h3>
                     </div>
                     <div className='footer-link-items'>
-                        <h2>About Us</h2>
-                        <Link to='/join-us'>How it works</Link>
-                        <Link to='/printing'>Printing Service</Link>
-                        <Link to='/consulting'>Consulting Service</Link>
+                        <h3><Link to='/join-us'>Our Team</Link></h3>
                     </div>
                 </div>
             </div>
             <section className='social-media'>
                 <div className='social-media-wrap'>
-                    <Link to='/' className='footer-logo'>                        
-                            <img src="../images/rapid_logo.jpg"  className='rapid-logo'/> 
+                
+                    <Link to='/' className='footer-logo'>
+                        <img src="../images/rapid_logo.png" className='rapid-logo' />
+                        {/* UBC RAPID <i className='fab fa-typo3' /> */}
                     </Link>
-
+                   
                     <small className='website-rights'>UBC RAPID © 2022</small>
                     <div className='social-icons'>
                         <Link className='social-icon-link facebook'
-                            to='/'
+                            to={{ pathname: 'https://www.facebook.com/ubc.rapid/' }}
                             target='_blank'
                             aria-label='Facebook'
                         >
                            <i className='fab fa-facebook-f'></i> 
                         </Link>
                         <Link className='social-icon-link instagram'
-                            to='/'
+                            to={{ pathname: 'https://www.instagram.com/ubc_rapid/' }}
                             target='_blank'
                             aria-label='Instagram'
                         >
                             <i className='fab fa-instagram'></i>
                         </Link>
                         <Link className='social-icon-link linkedin'
-                            to='/'
+                            to={{ pathname: 'https://www.linkedin.com/company/ubc-rapid/' }}
                             target='_blank'
                             aria-label='Linkedin'
                         >
