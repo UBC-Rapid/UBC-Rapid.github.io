@@ -1,0 +1,29 @@
+.info-container {
+    background: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0);
+    object-fit: contain;
+    background-attachment: fixed;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+
+.header {
+    color: #252e48;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-content: center;
+}
+
+
+.info-container_text{
+    color: #b3b3b3;
+    font-size: 18px;
+    line-height: 24px;
+}
+
