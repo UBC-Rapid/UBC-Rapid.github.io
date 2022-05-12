@@ -7,7 +7,8 @@ video, img {
   }
 
 .about {
-  background-image: url('../../public/images/multiple_printers.jpg');
+  /* use relative or absolute path for css media */
+  background-image: url('/public/images/multiple_printers.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
