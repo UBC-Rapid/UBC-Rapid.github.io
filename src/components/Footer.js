@@ -44,7 +44,7 @@ function Footer() {
                 <div className='social-media-wrap'>
                 
                     <Link to='/' className='footer-logo'>
-                        <img src="../images/rapid_logo.png" className='rapid-logo' />
+                        <img src='/images/rapid_logo.png' className='rapid-logo' />
                         {/* UBC RAPID <i className='fab fa-typo3' /> */}
                     </Link>
                    

@@ -17,8 +17,8 @@
     font-size: 3rem;
   }
 
-.about {
-    background-image: url('../public/images/mini_cairns.jpg');
+/* .about {
+    background-image: url('../public/images/multiple_printers.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,11 +27,11 @@
     position: relative;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
     background-attachment: fixed;
-}
+} */
 
 
     .printing {
-    background-image: url('../public/images/mini_cairns.jpg');
+    background-image: url('/public/images/mini_cairns.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@
 }
 
 .consulting {
-    background-image: url('../public/images/gear_heart.JPG');
+    background-image: url('/public/images/gear_heart.JPG');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,7 +54,7 @@
 }
 
 .projects {
-    background: url('/images/multiple_printers.jpg') center center/cover no-repeat;
+    background: url('/public/images/multiple_printers.jpg') center center/cover no-repeat;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -65,7 +65,7 @@
 }
 
 .join-us {
-    background-image: url('../public/images/group_photo.jpg');
+    background-image: url('/public/images/group_photo.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

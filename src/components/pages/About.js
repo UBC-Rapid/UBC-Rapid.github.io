@@ -17,13 +17,13 @@ function About() {
                             at the University of British Columbia. Our major interest is rapid prototyping technology, 
                             the most popular of which is 3D-printing. Rapid prototyping describes the technique of using computer 
                             aided design (CAD) to generate physical models from product ideas.</c>
-                        {/* <ul className='info_items'></ul> */}
                     </div>
                     <h1>Our Printing and Consulting Services</h1>
                     <div className='info_wrapper'>
                         <ul className='cards_items'>
+                            {/* media src in react js link from within src or using /public as root */}
                             <CardItem 
-                                src='images/card-1.jpg'
+                                src='images/card-1.JPG'
                                 text='Affordability'
                                 subtext='Starting at $0.15 per gram, our 3D printing service is one of the most affordable on campus.'
                             />
@@ -38,7 +38,7 @@ function About() {
                                 subtext='With multiple resolution and infill settings, we offer a large range of quality prints for different purposes and price points.'
                             />
                             <CardItem 
-                                src='images/card-4.jpg'
+                                src='images/card-4.JPG'
                                 text='Support'
                                 subtext='We offer free 3D CAD modelling assistance to anyone who needs to clean up or fix their model files for a better print.'
                             />
