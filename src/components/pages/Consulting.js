@@ -28,7 +28,6 @@ export default function Consulting() {
                 <div class='body'><p><strong>
                 If you choose to print the final product via our printing service we will give you a $5 discount!
                 </strong></p></div>
-                <img src="images/consulting1.png" alt=""/>
             </div>
             </div>        
         </>

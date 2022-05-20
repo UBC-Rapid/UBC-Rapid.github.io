@@ -46,6 +46,9 @@ function About() {
                     </div>
                     <div className='info_wrapper'>
                         <h2>Don't know what to print or where to begin? We can help.</h2>
+                        <br /><br />
+                        <h1>Our Team</h1>
+                        <center><img src="/images/teamphoto.jpg" ></img></center>
                     </div>
                 </div>
             </div>

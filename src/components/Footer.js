@@ -36,7 +36,7 @@ function Footer() {
                         <h3><Link to='/consulting'>Consulting</Link></h3>
                     </div>
                     <div className='footer-link-items'>
-                        <h3><Link to='/join-us'>Our Team</Link></h3>
+                        <h3><Link to='/join-us'>Join Us</Link></h3>
                     </div>
                 </div>
             </div>
