@@ -5,7 +5,7 @@ export default function JoinUs() {
     return (
         <>
             <h1 className='join-us'>JOIN US</h1>
-            <div className='info_wrapper'>
+            <div className='joinus_wrapper'>
                 <p>We are recruiting members to work in our consulting and 3d printing 
                     sub-teams, as the demands for prototyping and 3d printing orders 
                     have increased over the years. Newer members will be attending our 

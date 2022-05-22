@@ -1,4 +1,4 @@
-.info_wrapper > p {
+.joinus_wrapper > p {
   text-align: left;
   font-family: Bahnschrift;
   font-size: 14px;
@@ -10,7 +10,7 @@
   box-sizing:border-box;
 }
 
-h3 {
+.joinus_wrapper > h3 {
   text-align: left;
   font-family: Bahnschrift;
   font-size: 15px;
