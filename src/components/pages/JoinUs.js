@@ -1,9 +1,5 @@
 import '../../App.css';
-import TitleSection from '../TitleSection';
-import CardItem from '../CardItem';
 import './JoinUs.css';
-import { Button } from '../Button';
-import react from "react";
 
 export default function JoinUs() {
     return (
@@ -49,7 +45,7 @@ export default function JoinUs() {
                 </p>
                 <br /><br />
                 <a href="https://docs.google.com/forms/d/1vI3_x4qAs0IlqLz8rUABv2z_WNvAZ3xuf_NvAqvzGNU/closedform" 
-                    nclick="window.open(this.href); return false;" target="_blank">
+                    nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
                 <h3>UBC Rapid application form</h3></a>
                 <br /><br />
                 <p>We are considering a wide array of skill sets, such as 

@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../App.css';
 import './Projects.css';
-import Cards from '../Cards';
 
 export default function Projects() {
     return (
@@ -16,7 +15,7 @@ export default function Projects() {
                     Recently last year, our brand new Consulting team has also  kicked off, 
                     now providing the first CAD modelling and design consultation service on campus! 
                 </p>
-                <center><img src="/images/projects1.png" ></img></center>
+                <center><img src="/images/projects1.png" alt=""></img></center>
                 <br /><br />
                 <h5>3D PRINTER DESIGN AND CONSTRUCTION</h5>
                 <p>We  enjoy experimenting and pushing the boundaries of what 3D printers can  
@@ -28,7 +27,7 @@ export default function Projects() {
                     Printer development ideas considered include a Monorail printer, and a Cable 
                     driven printer. 
                 </p>
-                <center><img src="/images/projects2.png" ></img></center>
+                <center><img src="/images/projects2.png" alt=""></img></center>
                 <br /><br />
                 <h5>EXOTIC MATERIAL TESTING</h5>
                 <p>UBC Rapid will be expanding the variety of materials available for 
@@ -53,7 +52,7 @@ export default function Projects() {
                     - Magnetic <br /><br />
                     - Wax and many more!
                 </p>
-                <center><img src="/images/projects3.jpg" ></img></center>
+                <center><img src="/images/projects3.jpg" alt=""></img></center>
                 <br /><br />
                 <h5>MAINTENANCE</h5>
                 <p>Working and well-calibrated 3D printers are the core of UBC Rapid’s 
@@ -64,7 +63,7 @@ export default function Projects() {
                     as these printers are used the most, these printers often require more 
                     love in the form of replacement parts and monthly repairs.
                 </p>
-                <center><img src="/images/projects4.jpg" ></img></center>
+                <center><img src="/images/projects4.jpg" alt=""></img></center>
                 <br /><br />
                 <h5>PRINTER AND MULTI-MATERIAL UPGRADES</h5>
                 <p>UBC Rapid aims to upgrade the current Prusa i3 MK2 printers with the 
@@ -72,7 +71,7 @@ export default function Projects() {
                     Prusa i3 MK2 Multi Material upgrade kits, UBC Rapid will be able to 
                     print up to four materials onto a single part.
                 </p>
-                <center><img src="/images/projects5.jpg" ></img></center>
+                <center><img src="/images/projects5.jpg" alt=""></img></center>
                 <br /><br />
                 <h5>WORKSHOPS</h5>
                 <p>UBC Rapid hosts workshops to teach new recruits about 3D printers. 
@@ -93,7 +92,7 @@ export default function Projects() {
                     have a future edge in leading teams or in jobs requiring fluency in 
                     CAD software.
                 </p>
-                <center><img src="/images/projects6.jpg" ></img></center>
+                <center><img src="/images/projects6.jpg" alt=""></img></center>
             </div>
         </>
     );

@@ -2,7 +2,6 @@ import '../../App.css';
 import TitleSection from '../TitleSection';
 import CardItem from '../CardItem';
 import './About.css';
-import { Button } from '../Button';
 
 function About() {
     return (
@@ -48,7 +47,7 @@ function About() {
                         <h2>Don't know what to print or where to begin? We can help.</h2>
                         <br /><br />
                         <h1>Our Team</h1>
-                        <center><img src="/images/teamphoto.jpg" ></img></center>
+                        <center><img src="/images/teamphoto.jpg" alt=""></img></center>
                     </div>
                 </div>
             </div>
