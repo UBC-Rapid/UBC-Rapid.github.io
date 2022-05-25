@@ -44,9 +44,9 @@ export default function JoinUs() {
                     more about the effort and critical thinking of the responses.
                 </p>
                 <br /><br />
-                <a href="https://docs.google.com/forms/d/1vI3_x4qAs0IlqLz8rUABv2z_WNvAZ3xuf_NvAqvzGNU/closedform" 
+                <h3><a href="https://docs.google.com/forms/d/1vI3_x4qAs0IlqLz8rUABv2z_WNvAZ3xuf_NvAqvzGNU/closedform" 
                     nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
-                <h3>UBC Rapid application form</h3></a>
+                UBC Rapid application form</a></h3>
                 <br /><br />
                 <p>We are considering a wide array of skill sets, such as 
                     people from various majors with artistic skill or 
