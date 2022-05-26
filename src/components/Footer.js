@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Footer.css'
 
@@ -36,7 +35,7 @@ function Footer() {
                         <h3><Link to='/consulting'>Consulting</Link></h3>
                     </div>
                     <div className='footer-link-items'>
-                        <h3><Link to='/join-us'>Our Team</Link></h3>
+                        <h3><Link to='/join-us'>Join Us</Link></h3>
                     </div>
                 </div>
             </div>
@@ -44,7 +43,7 @@ function Footer() {
                 <div className='social-media-wrap'>
                 
                     <Link to='/' className='footer-logo'>
-                        <img src='/images/rapid_logo.png' className='rapid-logo' />
+                        <img src='/images/rapid_logo.png' className='rapid-logo' alt="" />
                         {/* UBC RAPID <i className='fab fa-typo3' /> */}
                     </Link>
                    

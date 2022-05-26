@@ -1,0 +1,35 @@
+.projects_wrapper > h3 {
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  padding: 15px 0px 15px;
+}
+
+.projects_wrapper > p {
+  box-sizing: border-box;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.projects_wrapper > ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.projects_wrapper {
+    padding: 15px;
+    margin: 30px 90px 30px 90px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    font-family: Bahnschrift;
+  }
+
+  img {
+    position: relative;
+    width: 500px;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 20px;
+    object-fit:contain;
+  }

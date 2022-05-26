@@ -1,22 +1,22 @@
-h4 {
-    text-align: left;
-    font-family: Bahnschrift;
-    font-size: 14px;
-    padding: 15px 15px;
-    font-weight: lighter;
-    margin-left: 90px;
-    margin-right: 90px;
-    line-height: 20px;
-    box-sizing:border-box;
-  }
+.joinus_wrapper > p {
+  text-align: left;
+  font-family: Bahnschrift;
+  font-size: 14px;
+  padding: 15px 15px;
+  font-weight: lighter;
+  margin-left: 90px;
+  margin-right: 90px;
+  line-height: 20px;
+  box-sizing:border-box;
+}
 
-  h3 {
-    text-align: left;
-    font-family: Bahnschrift;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 15px 15px 15px;
-    margin-left: 90px;
-    margin-right: 90px;
-    display: inline-block;
-  }
+.joinus_wrapper > h3 {
+  text-align: left;
+  font-family: Bahnschrift;
+  font-size: 15px;
+  font-weight: bold;
+  padding:0px 15px 15px;
+  margin-left: 90px;
+  margin-right: 90px;
+  display: inline-block;
+}

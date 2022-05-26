@@ -2,24 +2,23 @@ import '../../App.css';
 import TitleSection from '../TitleSection';
 import CardItem from '../CardItem';
 import './About.css';
-import { Button } from '../Button';
 
 function About() {
     return (
         <>
             <TitleSection />
 
-            <div className='info'>
-                <div className='info_container'>
+            <div className='about_block'>
+                <div className='about_container'>
                     <h1>About Us</h1>
-                    <div className='info_wrapper'>
+                    <div className='about_wrapper'>
                         <c> UBC Rapid is an Engineering Student Team offering low cost Consulting and Printing Services 
                             at the University of British Columbia. Our major interest is rapid prototyping technology, 
                             the most popular of which is 3D-printing. Rapid prototyping describes the technique of using computer 
                             aided design (CAD) to generate physical models from product ideas.</c>
                     </div>
                     <h1>Our Printing and Consulting Services</h1>
-                    <div className='info_wrapper'>
+                    <div className='about_wrapper'>
                         <ul className='cards_items'>
                             {/* media src in react js link from within src or using /public as root */}
                             <CardItem 
@@ -44,8 +43,11 @@ function About() {
                             />
                         </ul>
                     </div>
-                    <div className='info_wrapper'>
+                    <div className='about_wrapper'>
                         <h2>Don't know what to print or where to begin? We can help.</h2>
+                        <br></br>
+                        <h1>Our Team</h1>
+                        <img src="/images/teamphoto.jpg" alt=""></img>
                     </div>
                 </div>
             </div>
