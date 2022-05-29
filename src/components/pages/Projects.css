@@ -27,9 +27,18 @@
 
   img {
     position: relative;
-    width: 500px;
-    height: auto;
     max-width: 100%;
+    height: auto;
     margin-bottom: 20px;
     object-fit:contain;
+  }
+
+  table {
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-spacing: 40px 10px;
   }

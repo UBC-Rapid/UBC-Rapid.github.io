@@ -6,6 +6,7 @@ export default function JoinUs() {
         <>
             <h1 className='join-us'>JOIN US</h1>
             <div className='joinus_wrapper'>
+            <br /><br />
                 <p>We are recruiting members to work in our consulting and 3d printing 
                     sub-teams, as the demands for prototyping and 3d printing orders 
                     have increased over the years. Newer members will be attending our 
@@ -54,6 +55,7 @@ export default function JoinUs() {
                     looking for are dedicated people that will grow with the team.<br /><br />
                     We look forward to meeting you!
                 </p>
+                <br /><br />
             </div>
         </>
     );

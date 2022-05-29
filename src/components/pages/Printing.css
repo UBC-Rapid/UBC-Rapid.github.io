@@ -1,0 +1,58 @@
+.printing_wrapper > p {
+    text-align: left;
+    font-family: Bahnschrift;
+    font-size: 14px;
+    padding: 15px 15px;
+    font-weight: lighter;
+    margin-left: 90px;
+    margin-right: 90px;
+    line-height: 20px;
+    box-sizing:border-box;
+  }
+  
+  .printing_wrapper > h3 {
+    text-align: left;
+    font-family: Bahnschrift;
+    font-size: 20px;
+    font-weight: bold;
+    padding:0px 15px 15px;
+    margin-left: 90px;
+    margin-right: 90px;
+    display: inline-block;
+  }
+
+  .printing_wrapper > h2 {
+    text-align: left;
+    font-family: Bahnschrift;
+    font-size: 25px;
+    font-weight: bold;
+    padding:0px 15px 15px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 45px;
+    display: inline-block;
+  }
+
+  img {
+    position: relative;
+    width: 500px;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 20px;
+    object-fit:contain;
+  }
+    
+  .info-btns-printing .btn {
+    margin: 10px;
+    color: white;
+    background-color: #BF3B3B;
+    max-width: 150px;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+  }
