@@ -51,16 +51,44 @@ export default function Printing() {
                         <td>All Colours</td>
                     </tr>
                     <tr>
+                        <td><a href="https://reprap.org/wiki/PETG" 
+                            nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
+                            PETG</a></td>
+                        <td>$0.20</td>
+                        <td>All Colours + transparent</td>
+                    </tr>
+                    <tr>
                         <td><a href="https://reprap.org/wiki/ABS" 
                             nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
                             ABS</a></td>
                         <td>$0.30</td>
-                        <td>Black and White only</td>
+                        <td>Currently Unavailable</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://filaments.ca/pages/search-results-page?q=pett" 
+                            nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
+                            PETT</a></td>
+                        <td>Contact Us</td>
+                        <td>Currently Unavailable</td>
                     </tr>
                     <tr>
                         <td><a href="https://reprap.org/wiki/Polyamide" 
                             nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
                             Nylon</a></td>
+                        <td>$0.50</td>
+                        <td>Limited quantity / On Special Request</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://filaments.ca/pages/search-results-page?q=copolyester" 
+                            nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
+                            Copolyester</a></td>
+                        <td>$0.50</td>
+                        <td>Limited quantity / On Special Request</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://filaments.ca/products/moldlay-filament-1-75mm" 
+                            nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
+                            Moldlay</a></td>
                         <td>$0.50</td>
                         <td>Limited quantity / On Special Request</td>
                     </tr>
@@ -72,23 +100,37 @@ export default function Printing() {
                         <td>Limited quantity / On Special Request</td>
                     </tr>
                     <tr>
-                        <td><a href="https://seacans.com/products/uglyflex-red-1-75mm-0-5kg" 
+                        <td><a href="https://filaments.ca/search?options%5Bunavailable_products%5D=show&options%5Bprefix%5D=last&q=rubber+tpu" 
                             nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
                             Rubber UglyFlex TPU</a></td>
                         <td>$0.50</td>
                         <td>Limited quantity / On Special Request</td>
                     </tr>
                     <tr>
-                        <td><a href="https://taulman3d.com/t-glase-features.html" 
+                        <td><a href="https://filaments.ca/search?options%5Bunavailable_products%5D=show&options%5Bprefix%5D=last&q=tpe" 
                             nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
-                            PETT</a></td>
-                        <td>Contact Us</td>
-                        <td>Currently Unavailable</td>
+                            TPE</a></td>
+                        <td>$0.50</td>
+                        <td>Limited quantity / On Special Request</td>
                     </tr>
                     <tr>
                         <td><a href="https://filaments.ca/collections/1-75mm-3d-filaments/products/easywood-filament-birch-1-75mm" 
                             nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
-                            Wood Filament (Birch)</a></td>
+                            Wood Filament - Birch</a></td>
+                        <td>Contact Us</td>
+                        <td>Limited quantity / On Special Request</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://filaments.ca/products/easycork-cork-filament-2-85mm" 
+                            nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
+                            Wood Filament - Cork</a></td>
+                        <td>Contact Us</td>
+                        <td>Limited quantity / On Special Request</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://filaments.ca/products/esun-esilk-pla-filament-silk-copper-1-75mm" 
+                            nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
+                            Wood Filament - Silk Copper</a></td>
                         <td>Contact Us</td>
                         <td>Limited quantity / On Special Request</td>
                     </tr>
