@@ -185,7 +185,7 @@ export default function Printing() {
                     Order Now
                 </Button>
                 <br /><br />
-            </div>
+                </div>
             </div>
         </>
     );

@@ -1,29 +1,59 @@
-.info-container {
-    background: white;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.consulting_wrapper > p {
+    text-align: left;
+    font-family: Bahnschrift;
+    font-size: 14px;
+    padding: 15px 15px;
+    font-weight: lighter;
+    margin-left: 90px;
+    margin-right: 90px;
+    line-height: 20px;
+    box-sizing:border-box;
+  }
+
+  .consulting_wrapper > ul {
+    text-align: left;
+    font-family: Bahnschrift;
+    font-size: 14px;
+    margin-left: 130px;
+    margin-right: 90px;
+    line-height: 20px;
+  }
+  
+  .consulting_wrapper > h3 {
+    text-align: left;
+    font-family: Bahnschrift;
+    font-size: 20px;
+    font-weight: bold;
+    padding:0px 15px 15px;
+    margin-left: 90px;
+    margin-right: 90px;
+    display: inline-block;
+  }
+
+  .consulting_wrapper > h2 {
+    text-align: left;
+    font-family: Bahnschrift;
+    font-size: 25px;
+    font-weight: bold;
+    padding:0px 15px 15px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 45px;
+    display: inline-block;
+  }
+
+  .info-btns-consulting .btn {
+    margin: 10px;
+    color: white;
+    background-color: #BF3B3B;
+    max-width: 150px;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0);
-    object-fit: contain;
-    background-attachment: fixed;
-    font-family: 'Arial Narrow Bold', sans-serif;
-}
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
 
-
-.header {
-    color: #252e48;
-    padding: 8px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    align-content: center;
-}
-
-
-.info-container_text{
-    color: #b3b3b3;
-    font-size: 18px;
-    line-height: 24px;
-}
+  a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+  }
 
