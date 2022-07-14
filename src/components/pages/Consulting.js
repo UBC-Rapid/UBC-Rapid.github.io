@@ -24,11 +24,13 @@ export default function Consulting() {
                 general public to various industries and fields of academia.
                 </p>
                 <br /><br /> 
+                <center><img src="/images/consulting2.png" alt=""></img></center>
                 <h3>PRICING</h3>
                 <p>Our consulting fee is $30-$50 depending on the length and complexity 
                     of the project.
                 </p>
                 <br /><br />   
+                <center><img src="/images/consulting1.png" alt=""></img></center>
                 <h3>1. SUBMIT FORM</h3>
                 <p>Fill out the form at the bottom of the page to give us the details 
                     about who you are, your project and how we can help you.

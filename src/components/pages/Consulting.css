@@ -41,6 +41,15 @@
     margin-top: 45px;
     display: inline-block;
   }
+  
+  img {
+    position: relative;
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 20px;
+    object-fit:contain;
+  }
 
   .info-btns-consulting .btn {
     margin: 10px;
