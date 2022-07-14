@@ -76,7 +76,14 @@ export default function Printing() {
                             nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
                             Nylon</a></td>
                         <td>$0.50</td>
-                        <td>Limited quantity / On Special Request</td>
+                        <td>Currently Unavailable</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://reprap.org/wiki/Polycarbonate" 
+                            nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
+                            PolyCarbonate	</a></td>
+                        <td>$0.50</td>
+                        <td>Currently Unavailable</td>
                     </tr>
                     <tr>
                         <td><a href="https://filaments.ca/pages/search-results-page?q=copolyester" 
@@ -89,13 +96,6 @@ export default function Printing() {
                         <td><a href="https://filaments.ca/products/moldlay-filament-1-75mm" 
                             nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
                             Moldlay</a></td>
-                        <td>$0.50</td>
-                        <td>Limited quantity / On Special Request</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://reprap.org/wiki/Polycarbonate" 
-                            nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
-                            PolyCarbonate	</a></td>
                         <td>$0.50</td>
                         <td>Limited quantity / On Special Request</td>
                     </tr>
