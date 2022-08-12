@@ -26,16 +26,20 @@ a:hover {
 }
 
 .nav-logo {
-    display: inline-flex !important;
-    align-items: center;
-    margin-right: 180px;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+  margin-right: 180px;
 }
 
 .rapid-logo {
   height: 40px;
   width: 120px;
   overflow: auto;
-  position: absolute;
+  position: relative;
+  display: block;
+  margin: auto;
 }
 
 
@@ -165,6 +169,10 @@ a:hover {
     background: #000;
     color: #dbdbdb;
     transition: 250ms;
+  }
+
+  .nav-logo {
+    margin-right: 0px;
   }
 }
 
