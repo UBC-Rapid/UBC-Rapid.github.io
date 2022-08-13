@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.e18020f5.css",
-    "main.js": "/static/js/main.31c0d1f9.js",
-    "static/media/group_photo.jpg": "/static/media/group_photo.accb56e548e5026f67a2.jpg",
+    "main.css": "/static/css/main.3d6dcb03.css",
+    "main.js": "/static/js/main.a707be0e.js",
+    "static/media/cloned_printer.JPG": "/static/media/cloned_printer.9788341f9f0939987f05.JPG",
     "static/media/gear_heart.JPG": "/static/media/gear_heart.94bbfd889e58416ddf48.JPG",
+    "static/media/team-working.jpg": "/static/media/team-working.ac0bc68d35c2c239a816.jpg",
     "static/media/multiple_printers.jpg": "/static/media/multiple_printers.fdc6c3b0cccb9efe1cc6.jpg",
     "static/media/mini_cairns.jpg": "/static/media/mini_cairns.f928bf4397a82957520e.jpg",
     "index.html": "/index.html",
-    "main.e18020f5.css.map": "/static/css/main.e18020f5.css.map",
-    "main.31c0d1f9.js.map": "/static/js/main.31c0d1f9.js.map"
+    "main.3d6dcb03.css.map": "/static/css/main.3d6dcb03.css.map",
+    "main.a707be0e.js.map": "/static/js/main.a707be0e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e18020f5.css",
-    "static/js/main.31c0d1f9.js"
+    "static/css/main.3d6dcb03.css",
+    "static/js/main.a707be0e.js"
   ]
 }
