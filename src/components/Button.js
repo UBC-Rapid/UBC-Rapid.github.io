@@ -8,7 +8,6 @@ const SIZES = ['btn--medium'];
 export const Button = ({
     children,
     type,
-    onClick,
     buttonStyle, 
     buttonSize,
     link
@@ -21,16 +20,17 @@ export const Button = ({
     ? buttonSize
     : SIZES[0];
 
-    return (
-        <Link to={link} className='btn-mobile'>
-            <button 
-                className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-                onClic={onClick}
-                type={type}
-            >
+    const openInNewTab = url => {
+        window.open(url, '_blank', 'noopener, noreferrer');
+      };
 
-                {children}
-            </button>
-        </Link>
+    return (
+        <button 
+            className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+            onClick={() => openInNewTab(link)}
+            type={type}
+        >
+            {children}
+        </button>
     )
 };

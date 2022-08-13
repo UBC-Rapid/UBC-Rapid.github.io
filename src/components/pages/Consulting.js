@@ -55,17 +55,17 @@ export default function Consulting() {
                 </p>
                 <br /><br />
                 <div className="info-btns-consulting">
-                <Button
-                    className='btns'
-                    buttonStyle='btn--primary'
-                    buttonSize='btn--large'
-                    OnClick="window.open(this.href); return false;"
-                    link='https://docs.google.com/forms/d/e/1FAIpQLSeb8O365rpcZojkts_luhRQp6LPY3-MFesKHeF3gASIEXF0VQ/viewform?usp=sf_link'
-                >
-                    Order Now
-                </Button>
-                <br /><br />
+                    <Button
+                        className='btns'
+                        buttonStyle='btn--primary'
+                        buttonSize='btn--large'
+                        OnClick="window.open(this.href); return false;"
+                        link='https://docs.google.com/forms/d/e/1FAIpQLSeb8O365rpcZojkts_luhRQp6LPY3-MFesKHeF3gASIEXF0VQ/viewform?usp=sf_link'
+                    >
+                        Order Now
+                    </Button>
                 </div>
+                <br /><br />
             </div>
         </>
     );

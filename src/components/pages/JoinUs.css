@@ -13,10 +13,19 @@
 .joinus_wrapper > h3 {
   text-align: left;
   font-family: Bahnschrift;
-  font-size: 15px;
   font-weight: bold;
   padding:0px 15px 15px;
   margin-left: 90px;
   margin-right: 90px;
   display: inline-block;
+}
+
+.info-btns-joinus .btn {
+  margin: 10px;
+  color: white;
+  background-color: #BF3B3B;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
