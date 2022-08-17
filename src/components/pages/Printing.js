@@ -179,7 +179,7 @@ export default function Printing() {
                     className='btns'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'
-                    OnClick="window.open(this.href); return false;"
+                    newTab='true'
                     link='https://docs.google.com/forms/d/1fHBhsOu6otlXZHiqFhmgtjYRDYMIfBZbN4hVD4HhOBM/viewform?edit_requested=true'
                 >
                     Order Now
