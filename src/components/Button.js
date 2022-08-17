@@ -1,6 +1,5 @@
 import React from 'react';
 import './Button.css';
-import { Link } from 'react-router-dom';
 
 const STYLES = ['btn--primary', 'btn--outline'];
 const SIZES = ['btn--medium'];
@@ -10,6 +9,7 @@ export const Button = ({
     type,
     buttonStyle, 
     buttonSize,
+    newTab,
     link
 }) => {
     const checkButtonStyle = STYLES.includes(buttonStyle) 
@@ -20,14 +20,18 @@ export const Button = ({
     ? buttonSize
     : SIZES[0];
 
-    const openInNewTab = url => {
-        window.open(url, '_blank', 'noopener, noreferrer');
+    const routeToPage = (newTab, link) => {
+        if (newTab == 'true') {
+            window.open(link, '_blank', 'noopener, noreferrer');
+        } else {
+            window.open(link, '_self');
+        }
       };
 
     return (
         <button 
             className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-            onClick={() => openInNewTab(link)}
+            onClick={() => routeToPage(newTab, link)}
             type={type}
         >
             {children}
