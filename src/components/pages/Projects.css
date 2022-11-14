@@ -27,7 +27,7 @@
 
   img {
     position: relative;
-    max-width: 100%;
+    width: 600px;
     height: auto;
     margin-bottom: 20px;
     object-fit:contain;

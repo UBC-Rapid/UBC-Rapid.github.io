@@ -29,6 +29,11 @@ export default function Projects() {
                 </p>
                 <center><img src="/images/projects5.jpg" alt=""></img></center>
                 <br></br>
+                {/* <h3>FILAMENT RECYCLER DESIGN AND CONSTRUCTION</h3>
+                <p>New project!
+                </p>
+                <center><img src="/images/projects7.JPG" alt=""></img></center>
+                <br></br> */}
                 <h3>EXOTIC MATERIAL TESTING</h3>
                 <p>UBC Rapid will be expanding the variety of materials available for 
                     student and faculty rapid prototyping projects. Currently, most printers 

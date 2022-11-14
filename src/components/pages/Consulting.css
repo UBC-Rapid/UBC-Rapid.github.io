@@ -44,9 +44,8 @@
   
   img {
     position: relative;
-    width: 300px;
+    width: 400px;
     height: auto;
-    max-width: 100%;
     margin-bottom: 20px;
     object-fit:contain;
   }

@@ -35,9 +35,8 @@
 
   img {
     position: relative;
-    width: 7500px;
+    width: 600px;
     height: auto;
-    max-width: 100%;
     margin-bottom: 20px;
     object-fit:contain;
   }

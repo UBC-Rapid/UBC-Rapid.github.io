@@ -48,8 +48,8 @@ export default function JoinUs() {
                         className='btns'
                         buttonStyle='btn--primary'
                         buttonSize='btn--large'
-                        OnClick="window.open(this.href); return false;"
-                        link='https://docs.google.com/forms/d/1vI3_x4qAs0IlqLz8rUABv2z_WNvAZ3xuf_NvAqvzGNU/closedform'
+                        newTab='true'
+                        link='https://forms.gle/9gLwCo4K69pxQCuQ8'
                     >
                         UBC Rapid Application Form
                     </Button>
