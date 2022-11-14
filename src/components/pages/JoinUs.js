@@ -49,7 +49,7 @@ export default function JoinUs() {
                         buttonStyle='btn--primary'
                         buttonSize='btn--large'
                         newTab='true'
-                        link='https://forms.gle/ejQHmVSGqVZomsd88'
+                        link='https://forms.gle/9gLwCo4K69pxQCuQ8'
                     >
                         UBC Rapid Application Form
                     </Button>

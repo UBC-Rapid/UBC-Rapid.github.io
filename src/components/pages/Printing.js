@@ -22,11 +22,10 @@ export default function Printing() {
                 </p>
                 <br /><br />
                 <h3>2. CHOOSE A PRINT RESOLUTION</h3>
-                <p>Higher resolution means higher quality, but slower print time. 
+                <p>Higher resolution means higher surface quality and details, but slower print time.
                 </p>
                 <center><img src="/images/print-resolution.jpg" alt=""></img></center>
-                <p>*An additional setup fee of $2 applies for a print resolution 
-                    of 0.10 mm or less.
+                <p>*An additional fee of $3/hour applies for a print resolution of 0.10 mm or less
                 </p>
                 <br /><br />
                 <h3>3. CHOOSE A FILAMENT</h3>
@@ -137,13 +136,13 @@ export default function Printing() {
                     </tbody>
                 </table></center>
                 <br /><br />
-                <h3>4. SPECIFIY AN INFILL DENSITY</h3>
+                <h3>4. SPECIFY AN INFILL DENSITY</h3>
                 <p>Higher density means more material and higher cost.
                 </p>
                 <br /><br />
                 <h3>5. CHOOSE A COLOUR</h3>
-                <p>We have all colours available below, as well as black, white, 
-                    silver, and gold.
+                <p>We have a limited amount of colours available. Please contact us if you would 
+                    like a specific colour and we will accommodate depending on our availability of materials.
                 </p>
                 <center><img src="/images/print-colours.JPG" alt=""></img></center>
                 <h3>6. SPECIFY REQUIREMENTS</h3>
@@ -160,18 +159,20 @@ export default function Printing() {
                 </p>
                 <br /><br />
                 <h3>8. CONFIRMATION AND PAYMENT</h3>
-                <p>You should receive a quote for your print within 48 hours after filling 
-                    out an order, when you can then make a cash payment at Hennings 122 
-                    or arrange alternative payment methods with us. 
+                <p>You should receive a quote for your print within 48 hours after 
+                    filling out an order. When you decide to proceed, send us an e-transfer 
+                    to <u>internal.ubcrapid@gmail.com</u> and use the security 
+                    answer “ubcrapid” without the quotes.
                 </p>
                 <br /><br />
                 <h3>9. PICK UP</h3>
-                <p>Once we have your payment, your print should be ready for pick up 
-                    within 5-7 business days. More complex prints may take more time. 
-                    Rush orders may be completed in 2-3 business days if no problems 
-                    are encountered and are subject to a 10%+$5 fee. Please come to 
-                    Hennings 112 to pick up your print when you receive an email 
-                    notification from us.  Delivery may be arranged for additional charge.
+                <p>Once we have your payment, your print should be ready for 
+                    pick up within 1~2 business weeks. More complex prints may 
+                    take more time. Rush orders may be completed in 2-4 
+                    business days if no problems are encountered and are subject 
+                    to a 50% + 10$ fee. One of our Rapid members will contact 
+                    you when your print is ready to arrange a time and place. 
+                    Delivery may be arranged for additional charge.
                 </p>
                 <br /><br />
                 <div className="info-btns-printing">
