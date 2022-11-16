@@ -20,20 +20,20 @@ export default function Projects() {
                 <h3>3D PRINTER DESIGN AND CONSTRUCTION</h3>
                 <p>We  enjoy experimenting and pushing the boundaries of what 3D printers can  
                     do, optimizing them to work faster, smarter and add clever features.  
-                    This year, we have launched our newest and most ambitious project to date: 
+                    So, we have launched one of our most ambitious project to date: 
                     To build UBC Rapid's first original compact 3D printer, ideal for engineering 
                     students with limited space or hobbyists that would like to travel with their 
-                    printer. The printer is still in its early development stages. Some other
+                    printer. The printer is in its final development stages. Some other
                     Printer development ideas considered include a Monorail printer, and a Cable 
                     driven printer. 
                 </p>
                 <center><img src="/images/projects5.jpg" alt=""></img></center>
                 <br></br>
-                {/* <h3>FILAMENT RECYCLER DESIGN AND CONSTRUCTION</h3>
+                <h3>FILAMENT RECYCLER DESIGN AND CONSTRUCTION</h3>
                 <p>New project!
                 </p>
                 <center><img src="/images/projects7.JPG" alt=""></img></center>
-                <br></br> */}
+                <br></br>
                 <h3>EXOTIC MATERIAL TESTING</h3>
                 <p>UBC Rapid will be expanding the variety of materials available for 
                     student and faculty rapid prototyping projects. Currently, most printers 
@@ -92,8 +92,7 @@ export default function Projects() {
                     <li>General 3D printer safety orientations</li>
                 </ul>
                 <p>Workshops rotate between individual work and group work. By the end 
-                    of the workshops, recruits may work in a team of 5 to build a 3D 
-                    printer and operate printers for the UBC Rapid Printing Service. 
+                    of the workshops, recruits may operate printers for the UBC Rapid Printing Service. 
                     As some workshop content is applicable to student life beyond 3D 
                     printers, students who successfully complete the workshops will 
                     have a future edge in leading teams or in jobs requiring fluency in 

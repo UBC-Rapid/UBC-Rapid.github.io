@@ -21,7 +21,7 @@ function App() {
           <Route path='/join-us' exact component={JoinUs}/>
         </Switch>
         <Footer />
-        </Router>
+      </Router>
     </>
   );
 }
