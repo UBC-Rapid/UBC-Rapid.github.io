@@ -21,7 +21,7 @@ export const Button = ({
     : SIZES[0];
 
     const routeToPage = (newTab, link) => {
-        if (newTab == 'true') {
+        if (newTab === 'true') {
             window.open(link, '_blank', 'noopener, noreferrer');
         } else {
             window.open(link, '_self');
