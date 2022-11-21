@@ -19,7 +19,7 @@ function TitleSection() {
                     buttonStyle='btn--outline'
                     buttSize='btn--large'
                     newTab='false'
-                    link='/printing'
+                    link='#/printing'
                 >
                     3D Printing Service
                 </Button>
@@ -28,7 +28,7 @@ function TitleSection() {
                     buttonStyle='btn--outline'
                     buttonSize='btn--large'
                     newTab='false'
-                    link='/consulting'
+                    link='#/consulting'
                 >
                     Consulting Service
                 </Button>
