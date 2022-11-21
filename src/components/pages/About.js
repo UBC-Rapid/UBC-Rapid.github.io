@@ -7,15 +7,14 @@ function About() {
     return (
         <>
             <TitleSection />
-
             <div className='about_block'>
                 <div className='about_container'>
                     <h1>About Us</h1>
                     <div className='about_wrapper'>
-                        <c> UBC Rapid is an Engineering Student Team offering low cost Consulting and Printing Services 
+                        <p> UBC Rapid is an Engineering Student Team offering low cost Consulting and Printing Services 
                             at the University of British Columbia. Our major interest is rapid prototyping technology, 
                             the most popular of which is 3D-printing. Rapid prototyping describes the technique of using computer 
-                            aided design (CAD) to generate physical models from product ideas.</c>
+                            aided design (CAD) to generate physical models from product ideas.</p>
                     </div>
                     <h1>Our Printing and Consulting Services</h1>
                     <div className='about_wrapper'>

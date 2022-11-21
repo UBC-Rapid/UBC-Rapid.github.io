@@ -21,7 +21,11 @@ export const Button = ({
     : SIZES[0];
 
     const routeToPage = (newTab, link) => {
-        if (newTab == 'true') {
+        // console.log(window.location.host);
+        // console.log(window.location.hostname);
+        // console.log(window.location.origin);
+        // console.log(window.location.pathname);
+        if (newTab === 'true') {
             window.open(link, '_blank', 'noopener, noreferrer');
         } else {
             window.open(link, '_self');

@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import About from'./components/pages/About';
 import Printing from'./components/pages/Printing';
@@ -11,7 +11,7 @@ import Projects from'./components/pages/Projects';
 function App() {
   return (
     <>
-      <Router>
+      <BrowserRouter>
         <Navbar />
         <Switch>
           <Route path='/' exact component={About}/>
@@ -21,7 +21,7 @@ function App() {
           <Route path='/join-us' exact component={JoinUs}/>
         </Switch>
         <Footer />
-        </Router>
+      </BrowserRouter>
     </>
   );
 }
