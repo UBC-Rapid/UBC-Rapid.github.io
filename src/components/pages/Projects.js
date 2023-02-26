@@ -7,13 +7,20 @@ export default function Projects() {
         <>
             <h1 className='projects'>PROJECTS</h1>
             <div className='projects_wrapper'>
-                <h3>CONSULTING AND 3D PRINTING</h3>
-                <p>Our main and most popular team activity! Starting at only $0.15/gram and a  
-                    $5 setup fee, our printing service is one of the most affordable on  campus! 
-                    Using our 6 available printers, we aim to offer low-cost, high quality 3D 
-                    printing services to UBC students, staff, and faculty. <br></br>
-                    Recently last year, our brand new Consulting team has also  kicked off, 
-                    now providing the first CAD modelling and design consultation service on campus! 
+                <h3>3D PRINTING</h3>
+                <p>Starting at only $0.15/gram and a $5 setup fee, our printing service is one of the most 
+                    affordable on  campus! Using our available printers, we aim to offer low-cost, 
+                    high quality 3D printing services to UBC students, staff, and faculty. 
+                    We are staffed by students with many years of experience in 3D-printing and offer quality 
+                    prints with multiple resolutions, infill settings, and filament types to choose from.
+                </p>
+                <br></br>
+                <h3>CONSULTING</h3>
+                <p>Our Consulting team has also kicked off, now providing the first CAD modelling and design 
+                    consultation service on campus! Our members work with clients to design and prototype CAD 
+                    models through multiple iterations so that they can achieve their desired print. 
+                    The project timeline begins with needs and requirements consultation, followed by 
+                    multiple rounds of prototyping, then printing of the final product.
                 </p>
                 <center><img src="/images/projects1.png" alt=""></img></center>
                 <br></br>
@@ -23,14 +30,20 @@ export default function Projects() {
                     So, we have launched one of our most ambitious project to date: 
                     To build UBC Rapid's first original compact 3D printer, ideal for engineering 
                     students with limited space or hobbyists that would like to travel with their 
-                    printer. The printer is in its final development stages. Some other
-                    Printer development ideas considered include a Monorail printer, and a Cable 
-                    driven printer. 
+                    printer. With the construction of our first custom-made printer soon coming to an end, 
+                    we are working on completing the concept for the printer frame, and adapting the Marlin 
+                    firmware and controls for the scissor lifted bed. Some other Printer development ideas 
+                    considered include a Monorail printer, and a Cable driven printer. 
                 </p>
                 <center><img src="/images/projects5.jpg" alt=""></img></center>
                 <br></br>
                 <h3>FILAMENT RECYCLER DESIGN AND CONSTRUCTION</h3>
-                <p>New project!
+                <p>To make 3D printing a more sustainable practice within the team and in the broader 
+                    UBC community our team is aiming to build a custom filament recycler. 
+                    The system, consisting of the shredder, the extruder, and the spooler, 
+                    will be able to shred and melt filament scraps from FDM printers, then extrude 
+                    new spools of filaments. Currently, this project is at its design and development 
+                    phase, with the team working on complex assemblies. 
                 </p>
                 <center><img src="/images/projects7.JPG" alt=""></img></center>
                 <br></br>

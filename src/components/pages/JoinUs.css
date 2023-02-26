@@ -24,6 +24,7 @@
   margin: 10px;
   color: white;
   background-color: #BF3B3B;
+  max-width: 300px;
   align-items: center;
   margin: auto;
   display: flex;

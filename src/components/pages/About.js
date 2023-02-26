@@ -2,6 +2,7 @@ import '../../App.css';
 import TitleSection from '../TitleSection';
 import CardItem from '../CardItem';
 import './About.css';
+import { Button } from '../Button';
 
 function About() {
     return (
@@ -48,6 +49,17 @@ function About() {
                         <h1>Our Team</h1>
                         <img src="/images/teamphoto.jpg" alt=""></img>
                     </div>
+                    <div className="info-btns-about-us">
+                    <Button
+                        className='btns'
+                        buttonStyle='btn--primary'
+                        buttonSize='btn--large'
+                        newTab='true'
+                        link='https://linktr.ee/ubcrapid'
+                    >
+                        Contact Us
+                    </Button>
+                </div>
                 </div>
             </div>
         </>
