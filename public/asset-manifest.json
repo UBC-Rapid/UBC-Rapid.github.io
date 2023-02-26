@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d8d45cd2.css",
+    "main.js": "/static/js/main.71467d29.js",
+    "static/media/cloned_printer.JPG": "/static/media/cloned_printer.9788341f9f0939987f05.JPG",
+    "static/media/gear_heart.JPG": "/static/media/gear_heart.94bbfd889e58416ddf48.JPG",
+    "static/media/team-working.jpg": "/static/media/team-working.ac0bc68d35c2c239a816.jpg",
+    "static/media/multiple_printers.jpg": "/static/media/multiple_printers.fdc6c3b0cccb9efe1cc6.jpg",
+    "static/media/mini_cairns.jpg": "/static/media/mini_cairns.f928bf4397a82957520e.jpg",
+    "index.html": "/index.html",
+    "main.d8d45cd2.css.map": "/static/css/main.d8d45cd2.css.map",
+    "main.71467d29.js.map": "/static/js/main.71467d29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8d45cd2.css",
+    "static/js/main.71467d29.js"
+  ]
+}
