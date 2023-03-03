@@ -17,7 +17,8 @@
     font-size: 3rem;
   }
 
-/* .about {
+/* 
+.about {
     background-image: url('../public/images/multiple_printers.jpg');
     background-position: center;
     background-size: cover;
@@ -27,10 +28,11 @@
     position: relative;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
     background-attachment: fixed;
-} */
+}
+*/
 
 
-    .printing {
+.printing {
     background-image: url('/public/images/mini_cairns.jpg');
     background-position: center;
     background-size: cover;
