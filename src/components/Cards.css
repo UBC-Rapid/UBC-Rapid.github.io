@@ -94,14 +94,14 @@ h1 {
   padding: 15px 15px 15px;
   color: #746E6E;
   text-align: left;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .cards__item__text {
   color: black;
   font-size: 18px;
   line-height: 20px;
-  font-family: Bahnschrift;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 5px 0px 5px; 
 }
 

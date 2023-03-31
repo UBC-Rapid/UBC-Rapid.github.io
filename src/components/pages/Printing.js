@@ -144,7 +144,7 @@ export default function Printing() {
                 <p>We have a limited amount of colours available. Please contact us if you would 
                     like a specific colour and we will accommodate depending on our availability of materials.
                 </p>
-                <center><img src="/images/print-colours.JPG" alt=""></img></center>
+                <center><img src="/images/print-colours.jpg" alt=""></img></center>
                 <h3>6. SPECIFY REQUIREMENTS</h3>
                 <p>Additional fees may apply for special requests such as surface smoothing, 
                     post-print processing, support removal, etc. Please contact us at the 

@@ -14,9 +14,10 @@ export default function Projects() {
                     We are staffed by students with many years of experience in 3D-printing and offer quality 
                     prints with multiple resolutions, infill settings, and filament types to choose from.
                 </p>
+                <center><img src="/images/octopus.jpg" alt=""></img></center>
                 <br></br>
                 <h3>CONSULTING</h3>
-                <p>Our Consulting team has also kicked off, now providing the first CAD modelling and design 
+                <p>Our Consulting team is now providing the first CAD modelling and design 
                     consultation service on campus! Our members work with clients to design and prototype CAD 
                     models through multiple iterations so that they can achieve their desired print. 
                     The project timeline begins with needs and requirements consultation, followed by 
@@ -45,7 +46,7 @@ export default function Projects() {
                     new spools of filaments. Currently, this project is at its design and development 
                     phase, with the team working on complex assemblies. 
                 </p>
-                <center><img src="/images/projects7.JPG" alt=""></img></center>
+                <center><img src="/images/projects7.jpg" alt=""></img></center>
                 <br></br>
                 <h3>EXOTIC MATERIAL TESTING</h3>
                 <p>UBC Rapid will be expanding the variety of materials available for 
@@ -71,7 +72,7 @@ export default function Projects() {
                     <li>Magnetic</li>
                     <li>Wax and many more!</li>
                 </ul>
-                <center><img src="/images/projects3.jpg" alt=""></img></center>
+                <center><img src="/images/projects3.JPG" alt=""></img></center>
                 <br></br>
                 <h3>MAINTENANCE</h3>
                 <p>Working and well-calibrated 3D printers are the core of UBC Rapid’s 
@@ -82,7 +83,7 @@ export default function Projects() {
                     as these printers are used the most, these printers often require more 
                     love in the form of replacement parts and monthly repairs.
                 </p>
-                <center><img src="/images/projects4.jpg" alt=""></img></center>
+                <center><img src="/images/projects4.JPG" alt=""></img></center>
                 <br></br>
                 <h3>PRINTER AND MULTI-MATERIAL UPGRADES</h3>
                 <p>UBC Rapid aims to upgrade the current Prusa i3 MK2 printers with the 
