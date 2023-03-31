@@ -52,6 +52,25 @@
     justify-content: center;
   }
 
+  .sponsorship_wrapper {
+    position: relative;
+    margin: 50px 5px 50px;
+  }
+
+  .sponsorship-btns-about-us .btn {
+    margin: 10px;
+    color: #BF3B3B;
+    font-weight: bold;
+    background-color: white;
+    border-color: #BF3B3B;
+    border-width: 5px;
+    max-width: 300px;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
   @media only screen and (min-width: 1024px) {
     .cards_items {
       display: flex;

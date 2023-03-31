@@ -60,6 +60,21 @@ function About() {
                         >
                             Contact Us
                         </Button>
+                    </div>
+                    <div className='sponsorship_wrapper'>
+                        <h2>Want to support us or learn more about sponsorship? 
+                            Check our our sponsorship package below.</h2>
+                    </div>
+                        <div className="sponsorship-btns-about-us">
+                        <Button
+                            className='btns'
+                            buttonStyle='btn--primary'
+                            buttonSize='btn--large'
+                            newTab='true'
+                            link='https://drive.google.com/file/d/1O22d1tCTD1DoHD2hmsdUT2E_NGCV5_eV/view?usp=sharing'
+                        >
+                            Sponsorship Package
+                        </Button>
                         <br></br>
                         <br></br>
                     </div>
