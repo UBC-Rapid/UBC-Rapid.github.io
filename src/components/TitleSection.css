@@ -28,14 +28,14 @@ video, img {
   color: #fff;
   font-size: 80px;
   margin-top: -100px;
-  font-family: Bahnschrift;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .about > h2 {
   margin-top: 8px;
   color: #fff;
   font-size: 30px;
-  font-family: Bahnschrift;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
@@ -43,7 +43,7 @@ video, img {
   margin-top: 8px;
   color: #fff;
   font-size: 16px;
-  font-family: Bahnschrift;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
   
@@ -53,6 +53,7 @@ video, img {
   
 .info-btns .btn {
   margin: 10px;
+  max-width: 250px;
 }
   
 .fa-play-circle {
@@ -71,13 +72,13 @@ video, img {
   .about > h1 {
       font-size: 50px;
       margin-top: -100px;
-      font-family: Bahnschrift;
+      font-family: Arial, Helvetica, sans-serif;
       text-align: center;
   }
 
   .about > p {
       font-size: 16px;
-      font-family: Bahnschrift;
+      font-family: Arial, Helvetica, sans-serif;
       text-align: center;
   }
   

@@ -13,7 +13,7 @@ function TitleSection() {
             <p>Starting at only $0.15 per gram and a $5 setup fee, our 3D printing service is the 
                 most affordable on campus.
             </p>
-            <div className="info-btns">
+            <center><div className="info-btns">
                 <Button 
                     className='btns' 
                     buttonStyle='btn--outline'
@@ -32,7 +32,7 @@ function TitleSection() {
                 >
                     Consulting Service
                 </Button>
-            </div>
+            </div></center>
         </div>
     );
 }

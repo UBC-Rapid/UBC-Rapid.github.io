@@ -1,5 +1,5 @@
 .about_block {
-    font-family: Bahnschrift;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   h2 {
@@ -35,7 +35,7 @@
 
   .about_wrapper > img {
     position: relative;
-    width: 600px;
+    width: 800px;
     height: auto;
     max-width: 100%;
     display: visible; 
