@@ -15,12 +15,12 @@ export default function JoinUs() {
                     workshops to learn prototyping and 3d printing basics, while paired 
                     with a mentor to help with some requests and gain real professional 
                     experience with stakeholders.<br /><br />
-                    Our new printer design sub-team is also making progress on 
-                    the design and construction of a new compact 3d printer, 
-                    which is now in its integration stages and on track to complete this year!
-                    Once members gain adequate experience, they will also be welcome to contribute 
-                    to that sub-team and be part of the construction of the first 
-                    UBC Rapid original printer! <br /><br />
+                    Our Printer Design sub-team is in the final stages of 
+                    the design and construction of a new compact 3d printer, and our Filamet Recycler sub-team
+                    is now in its initial stages so
+                    once members gain adequate experience, they will also be welcome to contribute 
+                    to these sub-teams and be part of the construction of the first 
+                    UBC Rapid original Printer and Filament Recycler! <br /><br />
                     By joining UBC Rapid, you will go through an intensive workshop 
                     on 3D printing, be paired with an experienced mentor to work on 
                     real projects, get the chance to build and repair your own 3D 

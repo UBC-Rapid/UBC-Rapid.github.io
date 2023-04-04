@@ -1,6 +1,6 @@
 .joinus_wrapper > p {
   text-align: left;
-  font-family: Bahnschrift;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   padding: 15px 15px;
   font-weight: lighter;
@@ -12,7 +12,7 @@
 
 .joinus_wrapper > h3 {
   text-align: left;
-  font-family: Bahnschrift;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   padding:0px 15px 15px;
   margin-left: 90px;

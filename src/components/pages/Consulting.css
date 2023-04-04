@@ -1,6 +1,6 @@
 .consulting_wrapper > p {
     text-align: left;
-    font-family: Bahnschrift;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     padding: 15px 15px;
     font-weight: lighter;
@@ -12,7 +12,7 @@
 
   .consulting_wrapper > ul {
     text-align: left;
-    font-family: Bahnschrift;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     margin-left: 130px;
     margin-right: 90px;
@@ -21,7 +21,7 @@
   
   .consulting_wrapper > h3 {
     text-align: left;
-    font-family: Bahnschrift;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold;
     padding:0px 15px 15px;
@@ -32,7 +32,7 @@
 
   .consulting_wrapper > h2 {
     text-align: left;
-    font-family: Bahnschrift;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     font-weight: bold;
     padding:0px 15px 15px;
@@ -44,7 +44,7 @@
   
   img {
     position: relative;
-    width: 100%;
+    max-width: 400px;
     height: auto;
     margin-bottom: 20px;
     object-fit:contain;

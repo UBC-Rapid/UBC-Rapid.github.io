@@ -10,6 +10,7 @@ function About() {
             <TitleSection />
             <div className='about_block'>
                 <div className='about_container'>
+                    <br></br>
                     <h1>About Us</h1>
                     <div className='about_wrapper'>
                         <p> UBC Rapid is an Engineering Student Team offering low cost Consulting and Printing Services 
@@ -47,19 +48,36 @@ function About() {
                         <h2>Don't know what to print or where to begin? We can help.</h2>
                         <br></br>
                         <h1>Our Team</h1>
-                        <img src="/images/teamphoto.jpg" alt=""></img>
+                        <img src="/images/teamphoto2023.jpg" alt=""></img>
                     </div>
                     <div className="info-btns-about-us">
-                    <Button
-                        className='btns'
-                        buttonStyle='btn--primary'
-                        buttonSize='btn--large'
-                        newTab='true'
-                        link='https://linktr.ee/ubcrapid'
-                    >
-                        Contact Us
-                    </Button>
-                </div>
+                        <Button
+                            className='btns'
+                            buttonStyle='btn--primary'
+                            buttonSize='btn--large'
+                            newTab='true'
+                            link='https://linktr.ee/ubcrapid'
+                        >
+                            Contact Us
+                        </Button>
+                    </div>
+                    <div className='sponsorship_wrapper'>
+                        <h2>Want to support us or learn more about sponsorship? 
+                            Check our our sponsorship package below.</h2>
+                    </div>
+                        <div className="sponsorship-btns-about-us">
+                        <Button
+                            className='btns'
+                            buttonStyle='btn--primary'
+                            buttonSize='btn--large'
+                            newTab='true'
+                            link='https://drive.google.com/file/d/1O22d1tCTD1DoHD2hmsdUT2E_NGCV5_eV/view?usp=sharing'
+                        >
+                            Sponsorship Package
+                        </Button>
+                        <br></br>
+                        <br></br>
+                    </div>
                 </div>
             </div>
         </>
