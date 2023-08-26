@@ -50,18 +50,21 @@ function Footer() {
                     <small className='website-rights'>UBC RAPID © 2022</small>
                     <div className='social-icons'>
                         <a className='social-icon-link facebook'
+                            target="_blank"
                             href="https://www.facebook.com/ubc.rapid/"
                             aria-label='Facebook'
                         >
                            <i className='fab fa-facebook-f'></i> 
                         </a>
                         <a className='social-icon-link instagram'
+                            target="_blank"
                             href="https://www.instagram.com/ubc_rapid/?hl=en"
                             aria-label='Instagram'
                         >
                             <i className='fab fa-instagram'></i>
                         </a>
                         <a className='social-icon-link linkedin'
+                            target="_blank"
                             href='https://www.linkedin.com/company/ubc-rapid/'
                             aria-label='Linkedin' 
                         >
