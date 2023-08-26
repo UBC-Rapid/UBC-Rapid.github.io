@@ -29,7 +29,7 @@ export default function JoinUs() {
                     individuals willing to put in the time and effort to learn.
                 </p>
                 <br /><br />
-                <h3>The applications open on August 25th 2022 and will close September 16th 2022 @ 11:59 PM.</h3>
+                <h3>The applications open on August 28th 2023 and will close September 17th 2023 @ 11:59 PM.</h3>
                 <br /><br />
                 <p>Linked below is the application form for UBC Rapid. Please answer 
                     all the required questions. If selected for an interview, you 
@@ -49,7 +49,7 @@ export default function JoinUs() {
                         buttonStyle='btn--primary'
                         buttonSize='btn--large'
                         newTab='true'
-                        link='https://forms.gle/9gLwCo4K69pxQCuQ8'
+                        link='https://forms.gle/KKCuQ7gWRK8WgMbF8'
                     >
                         UBC Rapid Application Form
                     </Button>
