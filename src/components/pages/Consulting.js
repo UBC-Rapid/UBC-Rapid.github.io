@@ -58,7 +58,7 @@ export default function Consulting() {
                     <Button
                         className='btns'
                         buttonStyle='btn--primary'
-                        buttonSize='btn--large'
+                        buttonSize='btn--med'
                         newTab='true'
                         link='https://docs.google.com/forms/d/e/1FAIpQLSeb8O365rpcZojkts_luhRQp6LPY3-MFesKHeF3gASIEXF0VQ/viewform?usp=sf_link'
                     >

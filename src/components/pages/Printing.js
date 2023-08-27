@@ -179,7 +179,7 @@ export default function Printing() {
                 <Button
                     className='btns'
                     buttonStyle='btn--primary'
-                    buttonSize='btn--large'
+                    buttonSize='btn--med'
                     newTab='true'
                     link='https://docs.google.com/forms/d/1fHBhsOu6otlXZHiqFhmgtjYRDYMIfBZbN4hVD4HhOBM/viewform?edit_requested=true'
                 >

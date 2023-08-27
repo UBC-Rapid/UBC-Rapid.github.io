@@ -60,7 +60,7 @@ a:hover {
 }
 
 .nav-item {
-  font-size: 2rem;
+  font-size: 1rem;
   padding: 0px;
   margin-top: 0px;
 
@@ -182,8 +182,11 @@ a:hover {
 
 
 @media screen and (max-width: 500px) {
-
   
+  .nav-item {
+    font-size: 2rem;
+  
+  }
 
     
 }

@@ -54,7 +54,7 @@ function About() {
                         <Button
                             className='btns'
                             buttonStyle='btn--primary'
-                            buttonSize='btn--large'
+                            buttonSize='btn--med'
                             newTab='true'
                             link='https://linktr.ee/ubcrapid'
                         >
@@ -69,7 +69,7 @@ function About() {
                         <Button
                             className='btns'
                             buttonStyle='btn--primary'
-                            buttonSize='btn--large'
+                            buttonSize='btn--med'
                             newTab='true'
                             link='https://drive.google.com/file/d/1O22d1tCTD1DoHD2hmsdUT2E_NGCV5_eV/view?usp=sharing'
                         >

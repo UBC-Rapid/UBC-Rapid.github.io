@@ -17,7 +17,7 @@ function TitleSection() {
                 <Button 
                     className='btns' 
                     buttonStyle='btn--outline'
-                    buttSize='btn--large'
+                    buttonSize='btn--large'
                     newTab='false'
                     link='#/printing'
                 >

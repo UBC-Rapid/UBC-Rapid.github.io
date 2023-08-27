@@ -14,8 +14,7 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding: 0px 30px;
     width: 100%;
     margin: 0 auto;
   }
@@ -23,6 +22,12 @@
   .about_wrapper {
     position: relative;
     margin: 50px 5px 50px;
+  }
+
+  .about_wrapper p {
+    width: 80%;
+    font-size: x-large;
+    margin: auto;
   }
   
   .about_items {

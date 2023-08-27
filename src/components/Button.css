@@ -30,8 +30,21 @@
     padding: 8px 20px;
     font-size: 20px;
   }
+
+  .btn--large {
+    padding: 8px 20px;
+    font-size: 4vh;
+    width: 600px;
+  }
   
   .btn--medium:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+  }
+
+  .btn--large:hover {
     transition: all 0.3s ease-out;
     background: #fff;
     color: #242424;

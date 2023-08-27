@@ -16,7 +16,7 @@ video, img {
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
   background-attachment: fixed;
   width: 100vw;
-  height: 75vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,7 +26,7 @@ video, img {
 
 @media only screen and (max-width: 600px) {
   .about {
-    height: 80vh;
+    height: 85vh;
     background-attachment: unset;
   }
 }
@@ -61,7 +61,7 @@ video, img {
   
 .info-btns .btn {
   margin: 10px;
-  max-width: 250px;
+  max-width: 50vw;
 }
   
 .fa-play-circle {
@@ -98,4 +98,5 @@ video, img {
   .btn {
     width: 100%;
   }
+
 }

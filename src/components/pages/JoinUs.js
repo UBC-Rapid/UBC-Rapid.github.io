@@ -4,6 +4,19 @@ import './JoinUs.css';
 import { Button } from '../Button';
 
 export default function JoinUs() {
+
+    return (
+
+    <div class="">
+        <h1 className='join-us'>JOIN US</h1>
+        <div className='joinus_wrapper'></div>
+        <h1>Recruitment is currently closed.</h1>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+    </div>)
+
     return (
         <>
             <h1 className='join-us'>JOIN US</h1>
