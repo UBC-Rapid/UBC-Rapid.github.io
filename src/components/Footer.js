@@ -49,27 +49,27 @@ function Footer() {
                    
                     <small className='website-rights'>UBC RAPID © 2022</small>
                     <div className='social-icons'>
-                        <Link className='social-icon-link facebook'
-                            to={{ pathname: 'https://www.facebook.com/ubc.rapid/' }}
-                            target='_blank'
+                        <a className='social-icon-link facebook'
+                            target="_blank"
+                            href="https://www.facebook.com/ubc.rapid/"
                             aria-label='Facebook'
                         >
                            <i className='fab fa-facebook-f'></i> 
-                        </Link>
-                        <Link className='social-icon-link instagram'
-                            to={{ pathname: 'https://www.instagram.com/ubc_rapid/' }}
-                            target='_blank'
+                        </a>
+                        <a className='social-icon-link instagram'
+                            target="_blank"
+                            href="https://www.instagram.com/ubc_rapid/?hl=en"
                             aria-label='Instagram'
                         >
                             <i className='fab fa-instagram'></i>
-                        </Link>
-                        <Link className='social-icon-link linkedin'
-                            to={{ pathname: 'https://www.linkedin.com/company/ubc-rapid/' }}
-                            target='_blank'
+                        </a>
+                        <a className='social-icon-link linkedin'
+                            target="_blank"
+                            href='https://www.linkedin.com/company/ubc-rapid/'
                             aria-label='Linkedin'
                         >
                             <i className='fab fa-linkedin'></i>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </section>
