@@ -25,7 +25,7 @@ function TitleSection() {
                     buttonStyle='btn--outline'
                     buttonSize='btn--large'
                     newTab='false'
-                    link='#/consulting'
+                    link='#/modelling'
                 >
                     CAD Modelling Service
                 </Button>
