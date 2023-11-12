@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.32841445.css",
-    "main.js": "/static/js/main.37d98423.js",
+    "main.css": "/static/css/main.4df52ff6.css",
+    "main.js": "/static/js/main.b40dc0be.js",
     "static/media/cloned_printer.JPG": "/static/media/cloned_printer.9788341f9f0939987f05.JPG",
     "static/media/gear_heart.JPG": "/static/media/gear_heart.94bbfd889e58416ddf48.JPG",
-    "static/media/team-working.jpg": "/static/media/team-working.ac0bc68d35c2c239a816.jpg",
+    "static/media/openhouse2223.jpg": "/static/media/openhouse2223.c96b5d8a0cb729461486.jpg",
     "static/media/multiple_printers.jpg": "/static/media/multiple_printers.fdc6c3b0cccb9efe1cc6.jpg",
     "static/media/mini_cairns.jpg": "/static/media/mini_cairns.f928bf4397a82957520e.jpg",
     "index.html": "/index.html",
-    "main.32841445.css.map": "/static/css/main.32841445.css.map",
-    "main.37d98423.js.map": "/static/js/main.37d98423.js.map"
+    "main.4df52ff6.css.map": "/static/css/main.4df52ff6.css.map",
+    "main.b40dc0be.js.map": "/static/js/main.b40dc0be.js.map"
   },
   "entrypoints": [
-    "static/css/main.32841445.css",
-    "static/js/main.37d98423.js"
+    "static/css/main.4df52ff6.css",
+    "static/js/main.b40dc0be.js"
   ]
 }
