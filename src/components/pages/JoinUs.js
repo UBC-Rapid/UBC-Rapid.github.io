@@ -9,22 +9,18 @@ export default function JoinUs() {
             <h1 className='join-us'>JOIN US</h1>
             <div className='joinus_wrapper'>
             <br /><br />
-                <p>We are recruiting members to work in our consulting and 3d printing 
-                    sub-teams, as the demands for prototyping and 3d printing orders 
-                    have increased over the years. Newer members will be attending our 
-                    workshops to learn prototyping and 3d printing basics, while paired 
-                    with a mentor to help with some requests and gain real professional 
-                    experience with stakeholders.<br /><br />
-                    Our Printer Design sub-team is in the final stages of 
-                    the design and construction of a new compact 3d printer, and our Filamet Recycler sub-team
-                    is now in its initial stages so
-                    once members gain adequate experience, they will also be welcome to contribute 
-                    to these sub-teams and be part of the construction of the first 
-                    UBC Rapid original Printer and Filament Recycler! <br /><br />
-                    By joining UBC Rapid, you will go through an intensive workshop 
-                    on 3D printing, be paired with an experienced mentor to work on 
-                    real projects, get the chance to build and repair your own 3D 
-                    printer, and experience printing with exotic materials. 
+                <p>We are recruiting members to work in our sub-teams, as the demands for 
+                    CAD Modelling and 3D Printing orders have increased over the years. 
+                    New members will be attending our 
+                    workshops to learn prototyping and 3d printing basics. Once they gain adequate 
+                    experience, they will be welcome to contribute to our service or project sub-teams.
+                    In the service sub-teams they will be paired with a mentor to help with orders 
+                    and gain real professional experience with stakeholders. Or they can join our 
+                    project sub-teams and partake in the construction of original
+                    UBC Rapid projects!
+                    <br /><br />
+                    By joining UBC Rapid, you will also get the chance to build and repair 3D 
+                    printers, and gain experience printing with exotic materials. 
                     Regardless of experience level, we are looking for dedicated 
                     individuals willing to put in the time and effort to learn.
                 </p>

@@ -2,6 +2,10 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 
+  p {
+    line-height: 25px;
+  }
+
   h2 {
     font-size: 20px;
   }
@@ -14,15 +18,15 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 70px;
+    padding-right: 70px;
     width: 100%;
     margin: 0 auto;
   }
   
   .about_wrapper {
     position: relative;
-    margin: 50px 5px 50px;
+    margin: 20px 5px 20px;
   }
   
   .about_items {
@@ -54,7 +58,12 @@
 
   .sponsorship_wrapper {
     position: relative;
-    margin: 50px 5px 50px;
+    margin: 30px 5px 30px;
+  }
+
+  .sponsorship_wrapper > h2 {
+    text-align: center;
+    font-size: 18px;
   }
 
   .sponsorship-btns-about-us .btn {
@@ -63,11 +72,11 @@
     font-weight: bold;
     background-color: white;
     border-color: #BF3B3B;
-    border-width: 5px;
+    border-width: 3px;
     max-width: 300px;
     align-items: center;
-    margin: auto;
-    display: flex;
+    margin: 10px;
+    display: inline-block;
     justify-content: center;
   }
 

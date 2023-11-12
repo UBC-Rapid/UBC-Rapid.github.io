@@ -2,13 +2,14 @@
   font-weight: bold;
   font-size: 20px;
   display: inline-block;
-  padding: 15px 0px 15px;
+  padding: 5px 0px 5px;
 }
 
 .projects_wrapper > p {
   box-sizing: border-box;
   font-weight: lighter;
   margin-bottom: 20px;
+  line-height: 20px;
 }
 
 .projects_wrapper > ul {
@@ -17,8 +18,8 @@
 }
 
 .projects_wrapper {
-    padding: 15px;
-    margin: 30px 90px 30px 90px;
+    padding: 5px;
+    margin: 30px 70px 30px 70px;
     font-size: 14px;
     line-height: 20px;
     text-align: left;
@@ -27,9 +28,9 @@
 
   img {
     position: relative;
-    max-width: 600px;
+    max-width: 500px;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     object-fit:contain;
   }
 
