@@ -26,7 +26,7 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  img {
+img {
     position: relative;
     max-width: 500px;
     height: auto;
@@ -43,7 +43,3 @@
     padding-bottom: 10px;
     border-spacing: 40px 10px;
   }
-
-img {
-    width: 100%;
-}
