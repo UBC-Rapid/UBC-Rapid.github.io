@@ -62,6 +62,13 @@ function About() {
                         </Button>
                     </div>
                     <div className='sponsorship_wrapper'>
+                        <h1>Our Sponsors</h1>
+                    </div>
+                    <div className='sponsors_wrapper'>
+                        <img src="/images/onshape.jpg" alt=""></img>
+                        <img src="/images/M3D.png" alt=""></img>
+                    </div>
+                    <div className='sponsorship_wrapper'>
                         <h2>Want to learn more about sponsorships? 
                             Check our our Sponsorship Package below.</h2>
                     </div>
