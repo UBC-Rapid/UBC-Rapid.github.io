@@ -54,7 +54,7 @@ function About() {
                         <Button
                             className='btns'
                             buttonStyle='btn--primary'
-                            buttonSize='btn--large'
+                            buttSize='btn--large'
                             newTab='true'
                             link='https://linktr.ee/ubcrapid'
                         >
@@ -76,7 +76,7 @@ function About() {
                         <Button
                             className='btns'
                             buttonStyle='btn--primary'
-                            buttonSize='btn--large'
+                            buttSize='btn--large'
                             newTab='true'
                             link='https://drive.google.com/file/d/1-wG5AcdqzSSQaFPSBcPRpHc7dDWxR8sb/view?usp=sharing'
                         >
@@ -91,7 +91,7 @@ function About() {
                         <Button
                             className='btns'
                             buttonStyle='btn--primary'
-                            buttonSize='btn--large'
+                            buttSize='btn--large'
                             newTab='true'
                             link='https://donate.give.ubc.ca/page/80953/donate/1?transaction.dirgift=UBC+Rapid%20G1273'
                         >
@@ -100,7 +100,7 @@ function About() {
                         <Button
                             className='btns'
                             buttonStyle='btn--primary'
-                            buttonSize='btn--large'
+                            buttSize='btn--large'
                             newTab='true'
                             link='https://give.ubc.ca/'
                         >

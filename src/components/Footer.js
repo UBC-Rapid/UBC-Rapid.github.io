@@ -47,7 +47,7 @@ function Footer() {
                         {/* UBC RAPID <i className='fab fa-typo3' /> */}
                     </Link>
                    
-                    <small className='website-rights'>UBC RAPID © 2022</small>
+                    <small className='website-rights'>UBC RAPID © 2024</small>
                     <div className='social-icons'>
                         <a className='social-icon-link facebook'
                             target="_blank"

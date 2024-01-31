@@ -45,16 +45,18 @@
     display: visible; 
   }
   
-  .info-btns-about-us .btn {
+  /* .info-btns-about-us .btn {
     margin: 10px;
     color: white;
     background-color: #BF3B3B;
+    border-color: #BF3B3B;
     max-width: 150px;
     align-items: center;
     margin: auto;
     display: flex;
     justify-content: center;
-  }
+    border-width: 3px;
+  } */
 
   .sponsors_wrapper {
     position: relative;
@@ -89,7 +91,14 @@
     margin: 10px;
     display: inline-block;
     justify-content: center;
+    transition: background-color 0.3s, color 0.3s;
   }
+
+    .sponsorship-btns-about-us .btn:hover {
+      background-color: #BF3B3B;
+      color: white;
+      border-radius: 0;
+    }
 
   @media only screen and (min-width: 1024px) {
     .cards_items {

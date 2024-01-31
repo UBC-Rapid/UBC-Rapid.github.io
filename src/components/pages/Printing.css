@@ -49,16 +49,18 @@
     margin-top: 10px;
   }
     
-  .info-btns-printing .btn {
+  /* .info-btns-printing .btn {
     margin: 10px;
     color: white;
     background-color: #BF3B3B;
+    border-color: #BF3B3B;
     max-width: 150px;
     align-items: center;
     margin: auto;
     display: flex;
     justify-content: center;
-  }
+    border-width: 3px;
+  } */
 
   a:hover, a:visited, a:link, a:active {
     text-decoration: none;
