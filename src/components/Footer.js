@@ -47,7 +47,7 @@ function Footer() {
             <section className='social-media'>
                 <div className='social-media-wrap'>
                 
-                    <Link to='/' className='footer-logo'>
+                    <Link to='/' onClick={scrollToTop} className='footer-logo'>
                         <img src='/images/rapid_logo.png' className='rapid-logo' alt="" />
                         {/* UBC RAPID <i className='fab fa-typo3' /> */}
                     </Link>
