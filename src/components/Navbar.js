@@ -21,7 +21,6 @@ function Navbar() {
 
     const scrollToTop = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
-        closeMobileMenu();
     };
     
     // render button only once

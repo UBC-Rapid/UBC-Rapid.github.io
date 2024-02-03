@@ -65,8 +65,12 @@ function About() {
                         <h1>Our Sponsors</h1>
                     </div>
                     <div className='sponsors_wrapper'>
-                        <img src="/images/onshape.jpg" alt=""></img>
-                        <img src="/images/M3D.png" alt=""></img>
+                        <a href='https://www.onshape.com/en/' target="_blank" rel="noreferrer" style={{ width: '300px', margin: '0 5px' }}>
+                            <img src="/images/onshape.jpg" alt="" style={{ width: '100%', height: 'auto' }} />
+                        </a>
+                        <a href='https://www.matter3d.com/' target="_blank" rel="noreferrer" style={{ width: '150px', margin: '0 5px' }}>
+                            <img src="/images/M3D.png" alt="" style={{ width: '100%', height: 'auto' }} />
+                        </a>
                     </div>
                     <div className='sponsorship_wrapper'>
                         <h2>Want to learn more about sponsorships? 

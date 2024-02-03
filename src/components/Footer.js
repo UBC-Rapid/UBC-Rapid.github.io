@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom';
 import './Footer.css'
 
 function Footer() {
+
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
     return (
         <div className='footer-container'>
            <section className='footer-subscription'>
@@ -20,22 +25,22 @@ function Footer() {
             <div className='footer-links'>
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
-                        <h3><Link to='/'>About Us</Link></h3>
+                        <h3><Link to='/' onClick={scrollToTop}>About Us</Link></h3>
 
                         {/*<Link to='/join-us'>How it works</Link> *** Extra smaller links below if needed
                         <Link to='/printing'>Printing Service</Link>
                         <Link to='/consulting'>Consulting Service</Link>*/}
                     </div>
                     <div className='footer-link-items'>
-                        <h3><Link to='/printing'>Printing</Link></h3>
+                        <h3><Link to='/printing' onClick={scrollToTop}>Printing</Link></h3>
                     </div>
                 </div>
                 <div className='footer-link-wrapper'>
                 <div className='footer-link-items'>
-                        <h3><Link to='/modelling'>Modelling</Link></h3>
+                        <h3><Link to='/modelling' onClick={scrollToTop}>Modelling</Link></h3>
                     </div>
                     <div className='footer-link-items'>
-                        <h3><Link to='/join-us'>Join Us</Link></h3>
+                        <h3><Link to='/join-us' onClick={scrollToTop}>Join Us</Link></h3>
                     </div>
                 </div>
             </div>
@@ -53,6 +58,7 @@ function Footer() {
                             target="_blank"
                             href="https://www.facebook.com/ubc.rapid/"
                             aria-label='Facebook'
+                            rel="noreferrer"
                         >
                            <i className='fab fa-facebook-f'></i> 
                         </a>
@@ -60,6 +66,7 @@ function Footer() {
                             target="_blank"
                             href="https://www.instagram.com/ubc_rapid/?hl=en"
                             aria-label='Instagram'
+                            rel="noreferrer"
                         >
                             <i className='fab fa-instagram'></i>
                         </a>
@@ -67,6 +74,7 @@ function Footer() {
                             target="_blank"
                             href='https://www.linkedin.com/company/ubc-rapid/'
                             aria-label='Linkedin'
+                            rel="noreferrer"
                         >
                             <i className='fab fa-linkedin'></i>
                         </a>

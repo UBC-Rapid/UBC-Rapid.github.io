@@ -59,15 +59,20 @@
   } */
 
   .sponsors_wrapper {
-    position: relative;
-    margin: 0px 0px 0px;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-  .sponsors_wrapper > img {
-    width: 300px;
-    height: 100px;
-    display: inline-block;
-  }
+.sponsors_wrapper > a {
+    margin: 0 5px; /* spacing between images */
+}
+
+.sponsors_wrapper > a > img {
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+}
 
   .sponsorship_wrapper {
     position: relative;
@@ -81,24 +86,13 @@
 
   .sponsorship-btns-about-us .btn {
     margin: 10px;
-    color: #BF3B3B;
     font-weight: bold;
-    background-color: white;
-    border-color: #BF3B3B;
     border-width: 3px;
     max-width: 300px;
     align-items: center;
-    margin: 10px;
     display: inline-block;
     justify-content: center;
-    transition: background-color 0.3s, color 0.3s;
   }
-
-    .sponsorship-btns-about-us .btn:hover {
-      background-color: #BF3B3B;
-      color: white;
-      border-radius: 0;
-    }
 
   @media only screen and (min-width: 1024px) {
     .cards_items {

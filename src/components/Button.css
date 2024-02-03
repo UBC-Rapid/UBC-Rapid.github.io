@@ -26,8 +26,8 @@
 /* Use this button for any default red button */
 .btn--primary {
   margin: 10px;
-  color: white;
-  background-color: #BF3B3B;
+  color: #BF3B3B;
+  background-color: white;
   max-width: 150px;
   align-items: center;
   margin: auto;
@@ -40,8 +40,9 @@
 
 .btn--primary:hover {
   transition: all 0.3s ease-out;
-  background-color: white;
-  color: #BF3B3B;
+  background-color: #BF3B3B;
+  color: white;
+  transform: scale(1.05); /* Scale up on hover */
 }
 
 .btn--outline:hover {

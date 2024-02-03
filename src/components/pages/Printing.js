@@ -5,6 +5,7 @@ import { Button } from '../Button';
 
 export default function Printing() {
     return (
+        
         <>
             <h1 className='printing'>PRINTING</h1>
             <div className='printing_wrapper'>
