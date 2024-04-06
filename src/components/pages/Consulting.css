@@ -41,7 +41,7 @@
     object-fit: contain;
   }
 
-  .info-btns-consulting .btn {
+  /* .info-btns-consulting .btn {
     margin: 10px;
     color: white;
     background-color: #BF3B3B;
@@ -50,7 +50,7 @@
     margin: auto;
     display: flex;
     justify-content: center;
-  }
+  } */
 
   a:hover, a:visited, a:link, a:active {
     text-decoration: none;
