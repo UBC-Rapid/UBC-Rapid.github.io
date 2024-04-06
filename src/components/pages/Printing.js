@@ -8,7 +8,7 @@ export default function Printing() {
         <>
             <h1 className='printing'>PRINTING</h1>
             <div className='printing_wrapper'>
-                <h2> HOW TO ORDER A PRINT </h2> 
+                <h2> HOW TO ORDER A PRINT </h2>
                 <p>*This service is exclusively available to groups and organizations 
                     affiliated with the University of British Columbia. If you fall 
                     under any of the following categories, you are eligible to complete this form:
