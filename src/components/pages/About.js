@@ -13,7 +13,7 @@ function About() {
                     <br></br>
                     <h1>About Us</h1>
                     <div className='about_wrapper'>
-                        <p> UBC Rapid is an Engineering Student Team offering CAD Modelling and 3D Printing Services 
+                        <p> UBC Rapid is an Engineering Student Team offering CAD Modelling and 3D Printing Services
                             at the University of British Columbia. Our major interest is rapid prototyping technology, 
                             the most popular of which is 3D-printing. Rapid prototyping describes the technique of using computer 
                             aided design (CAD) to generate physical models from product ideas.</p>
@@ -48,7 +48,7 @@ function About() {
                         <h2>Don't know what to print or where to begin? We can help.</h2>
                         <br></br>
                         <h1>Our Team</h1>
-                        <img src="/images/teamphoto2023.jpg" alt=""></img>
+                        <img src="/images/teamphoto2023.jpg" alt="" ></img>
                     </div>
                     <div className="info-btns-about-us">
                         <Button

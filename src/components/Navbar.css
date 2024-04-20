@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap');
+
+
 .navbar {
     background: #F8F8F8;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Montserrat, Arial, Helvetica, serif;
     font-weight: bold;
     height: 80px;
     display: flex;
@@ -40,6 +43,7 @@ a:hover {
   position: relative;
   display: block;
   margin: auto;
+
 }
 
 

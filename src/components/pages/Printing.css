@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap');
+
 .printing_wrapper > p {
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-family: Signika Negative, Arial, Helvetica, serif;
+    font-size: 16px;
     padding: 5px 5px;
     font-weight: lighter;
     margin-left: 70px;
@@ -9,10 +11,24 @@
     line-height: 20px;
     box-sizing:border-box;
   }
-  
-  .printing_wrapper > h3 {
+
+.printing_wrapper > h4 {
+   text-align: left;
+   font-family: Signika Negative, Arial, Helvetica, serif;
+   font-size: 18px;
+   padding: 5px 5px;
+   font-weight: lighter;
+   margin-left: 70px;
+   margin-right: 70px;
+   line-height: 20px;
+   box-sizing:border-box;
+   /* to replace the 'p' in printing.js */
+ }
+
+
+ .printing_wrapper > h3 {
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Signika Negative, Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold;
     padding:0px 5px 5px;
@@ -21,9 +37,9 @@
     display: inline-block;
   }
 
-  .printing_wrapper > h2 {
+.printing_wrapper > h2 {
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 25px;
     font-weight: bold;
     padding:0px 5px 5px;
@@ -33,6 +49,18 @@
     display: inline-block;
   }
 
+.printing_wrapper > h5 {
+  text-align: center;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding:0px 5px 5px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 45px;
+  display: inline-block;
+}
+
   img {
     position: relative;
     max-width: 700px;
@@ -41,13 +69,28 @@
     object-fit:contain;
   }
 
-  .list {
-    margin-left: 5%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+  strong {
+    font-family: Signika Negative, Arial, Helvetica, sans-serif;
+    font-size: 20px;
   }
+
+list {
+  margin-left: 5%;
+  font-family: Signika Negative, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+li {
+  margin-left: 5%;
+  font-family: Signika Negative, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
     
   /* .info-btns-printing .btn {
     margin: 10px;
@@ -63,6 +106,7 @@
   } */
 
   a:hover, a:visited, a:link, a:active {
+      font-family: Signika Negative, Arial, Helvetica, sans-serif;
     text-decoration: none;
   }
 
