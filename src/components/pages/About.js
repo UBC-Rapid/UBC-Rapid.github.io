@@ -82,7 +82,7 @@ function About() {
                             buttonStyle='btn--primary'
                             buttSize='btn--large'
                             newTab='true'
-                            link='https://drive.google.com/file/d/16h1vt-LfFECUJALc_nB1i8MtwY-gd8GR/view?usp=sharing'
+                            link='https://drive.google.com/file/d/1T509EAUtGzbmfX_KZrQIv5QqKSpH1fFi/view?usp=sharing'
                         >
                             Sponsorship Package
                         </Button>
