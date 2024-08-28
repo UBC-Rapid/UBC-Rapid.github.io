@@ -11,7 +11,9 @@ function TitleSection() {
             <h1>UBC RAPID</h1>
             <h2>A Rapid Prototyping Engineering Design Team</h2>
             <br></br>
-            <h2>Applications Now Open for 2024/25</h2>
+            <h2>
+                <a href="#/join-us" class="highlight-link">Applications Now Open for 2024/25</a>
+            </h2>
             <center><div className="info-btns">
                 <Button 
                     className='btns' 

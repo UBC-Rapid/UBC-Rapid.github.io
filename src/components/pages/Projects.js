@@ -86,14 +86,16 @@ export default function Projects() {
                 <h3>WORKSHOPS</h3>
                 <p>UBC Rapid hosts workshops to teach new recruits about 3D design and printing. 
                     These workshops repeat every year after recruiting 
-                    new members. They are mandatory for all new recruits as 
-                    they include skills required to work safely and efficiently in the 
-                    workspace. Workshops include, but are not limited to:
+                    new members. The workshops include skills required to work safely and efficiently in the 
+                    workspace. There are also specialized workshops in areas like web-development and PCB design.
+                    Workshops include, but are not limited to:
                 </p>
                 <ul>
                     <li>How to use software required to operate UBC Rapid’s 3D printers</li>
                     <li>Operating and troubleshooting 3D printers</li>
                     <li>General 3D printer safety orientations</li>
+                    <li>PCB design, printing, and safety</li>
+                    <li>Website development and GitHub basics</li>
                 </ul>
                 <p>Workshops rotate between individual work and group work. By the end 
                     of the workshops, recruits may operate printers for the UBC Rapid Printing Service. 
