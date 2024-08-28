@@ -9,8 +9,11 @@ export default function JoinUs() {
             <h1 className='join-us'>JOIN US</h1>
             <div className='joinus_wrapper'>
             <br /><br />
+                <h3>The applications open on August 28th 2024 and will close September 17th 2024 @ 11:59 PM.</h3>
+                <br /><br />
                 <p>We are recruiting members to work in our sub-teams, as the demands for 
-                    CAD Modelling and 3D Printing orders have increased over the years. 
+                    CAD Modelling, printer repair and 3D Printing orders have increased over the years. 
+                    We are also hiring for outreach positions. 
                     New members will be attending our 
                     workshops to learn prototyping and 3d printing basics. Once they gain adequate 
                     experience, they will be welcome to contribute to our service or project sub-teams.
@@ -25,8 +28,7 @@ export default function JoinUs() {
                     individuals willing to put in the time and effort to learn.
                 </p>
                 <br /><br />
-                <h3>The applications open on August 28th 2023 and will close September 17th 2023 @ 11:59 PM.</h3>
-                <br /><br />
+                
                 <p>Linked below is the application form for UBC Rapid. Please answer 
                     all the required questions. If selected for an interview, you 
                     will receive an email during the application time frame to                             
@@ -45,7 +47,7 @@ export default function JoinUs() {
                         buttonStyle='btn--primary'
                         buttonSize='btn--large'
                         newTab='true'
-                        link='https://forms.gle/KKCuQ7gWRK8WgMbF8'
+                        link='https://forms.gle/RYVh95frtJTTT3UR6'
                     >
                         UBC Rapid Application Form
                     </Button>

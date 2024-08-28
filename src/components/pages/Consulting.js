@@ -10,6 +10,8 @@ export default function Consulting() {
             <div className='consulting_wrapper'>
                 <h2> HOW TO USE OUR SERVICE </h2>
                 <br /><br /> 
+                <p><strong>Cost:</strong> FREE</p>
+                <p><strong>Who can use this service:</strong> UBC Affiliated Teams, Students and Staff</p>
                 <h3>OUR OBJECTIVE</h3>
                 <p>Welcome to our free 3D Modelling Service! Our goal is to help transform your 
                     creative ideas into reality by pairing you with experienced CAD designers and 

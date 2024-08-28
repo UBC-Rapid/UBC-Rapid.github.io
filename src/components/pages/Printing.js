@@ -9,6 +9,9 @@ export default function Printing() {
         <>
             <h1 className='printing'>PRINTING</h1>
             <div className='printing_wrapper'>
+                <br /><br /> 
+                <p><strong>Cost:</strong> Filament Costs Only (Specified Below)</p>
+                <p><strong>Who can use this service:</strong> UBC Affiliated Teams, Students and Staff</p>
                 <h2> HOW TO ORDER A PRINT </h2>
                 <h4>*This service is exclusively available to groups and organizations
                     affiliated with the University of British Columbia. If you fall 
