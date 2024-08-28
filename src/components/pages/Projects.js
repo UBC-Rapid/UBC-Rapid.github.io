@@ -28,17 +28,6 @@ export default function Projects() {
                 </p>
                 <center><img src="/images/projects1.png" alt=""></img></center>
                 <br></br>
-                <h3>3D PRINTER DESIGN AND CONSTRUCTION</h3>
-                <p>We  enjoy experimenting and pushing the boundaries of what 3D printers can  
-                    do, optimizing them to work faster, smarter and add clever features.  
-                    So, we have launched one of our most ambitious project to date: 
-                    To build UBC Rapid's first original compact 3D printer with a foldable X-bed, ideal for engineering 
-                    students with limited space or hobbyists that would like to travel with their 
-                    printer! Some other Printer development ideas 
-                    considered include a Monorail printer, and a Cable driven printer. 
-                </p>
-                <center><img src="/images/projects5.jpg" alt=""></img></center>
-                <br></br>
                 <h3>FILAMENT RECYCLER DESIGN AND CONSTRUCTION</h3>
                 <p> To make 3D printing a more sustainable practice within the team and in the broader UBC community, 
                     our team is aiming to design and build a Filament Recycler. This innovative system transforms 
@@ -113,7 +102,7 @@ export default function Projects() {
                     have a future edge in leading teams or in jobs requiring fluency in 
                     CAD software.
                 </p>
-                <center><img src="/images/projects6.jpg" alt=""></img></center>
+                <center><img src="/images/pcbworkshop.jpg" alt=""></img></center>
             </div>
         </>
     );
