@@ -43,6 +43,8 @@ function Footer() {
                         <h3><Link to='/join-us' onClick={scrollToTop}>Join Us</Link></h3>
                     </div>
                 </div>
+
+                
             </div>
             <section className='social-media'>
                 <div className='social-media-wrap'>
@@ -81,6 +83,8 @@ function Footer() {
                     </div>
                 </div>
             </section>
+
+            
         </div>
     );
 }
