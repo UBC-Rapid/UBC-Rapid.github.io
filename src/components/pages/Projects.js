@@ -28,17 +28,6 @@ export default function Projects() {
                 </p>
                 <center><img src="/images/projects1.png" alt=""></img></center>
                 <br></br>
-                <h3>3D PRINTER DESIGN AND CONSTRUCTION</h3>
-                <p>We  enjoy experimenting and pushing the boundaries of what 3D printers can  
-                    do, optimizing them to work faster, smarter and add clever features.  
-                    So, we have launched one of our most ambitious project to date: 
-                    To build UBC Rapid's first original compact 3D printer with a foldable X-bed, ideal for engineering 
-                    students with limited space or hobbyists that would like to travel with their 
-                    printer! Some other Printer development ideas 
-                    considered include a Monorail printer, and a Cable driven printer. 
-                </p>
-                <center><img src="/images/projects5.jpg" alt=""></img></center>
-                <br></br>
                 <h3>FILAMENT RECYCLER DESIGN AND CONSTRUCTION</h3>
                 <p> To make 3D printing a more sustainable practice within the team and in the broader UBC community, 
                     our team is aiming to design and build a Filament Recycler. This innovative system transforms 
@@ -97,14 +86,16 @@ export default function Projects() {
                 <h3>WORKSHOPS</h3>
                 <p>UBC Rapid hosts workshops to teach new recruits about 3D design and printing. 
                     These workshops repeat every year after recruiting 
-                    new members. They are mandatory for all new recruits as 
-                    they include skills required to work safely and efficiently in the 
-                    workspace. Workshops include, but are not limited to:
+                    new members. The workshops include skills required to work safely and efficiently in the 
+                    workspace. There are also specialized workshops in areas like web-development and PCB design.
+                    Workshops include, but are not limited to:
                 </p>
                 <ul>
                     <li>How to use software required to operate UBC Rapid’s 3D printers</li>
                     <li>Operating and troubleshooting 3D printers</li>
                     <li>General 3D printer safety orientations</li>
+                    <li>PCB design, printing, and safety</li>
+                    <li>Website development and GitHub basics</li>
                 </ul>
                 <p>Workshops rotate between individual work and group work. By the end 
                     of the workshops, recruits may operate printers for the UBC Rapid Printing Service. 
@@ -113,7 +104,7 @@ export default function Projects() {
                     have a future edge in leading teams or in jobs requiring fluency in 
                     CAD software.
                 </p>
-                <center><img src="/images/projects6.jpg" alt=""></img></center>
+                <center><img src="/images/pcbworkshop.jpg" alt=""></img></center>
             </div>
         </>
     );

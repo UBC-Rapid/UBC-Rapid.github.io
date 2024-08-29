@@ -61,6 +61,27 @@ video, img {
 .fa-play-circle {
   margin-left: 4px;
 }
+
+.highlight-link {
+  text-decoration: none;
+  color: #ffffff!important;
+  position: relative;
+}
+
+.highlight-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transition: width 0.3s ease;
+}
+
+.highlight-link:hover::after {
+  width: 100%;
+}
   
 @media screen and (max-width: 960px) {
   .about > h1 {
