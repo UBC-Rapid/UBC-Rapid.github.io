@@ -4,6 +4,7 @@
 .about_block {
   font-family: Signika Negative, Arial, Helvetica, serif;
   font-size: 18px;
+  flex-wrap: wrap;
   }
 
   p {
@@ -67,6 +68,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .sponsors_wrapper > a {
@@ -103,5 +105,16 @@
     .cards_items {
 
       display: flex;
+    }
+  
+  }
+
+  @media only screen and (max-width: 600px){
+    .sponsors_wrapper{
+        max-width: 280px;
+
+    }
+    .footer-link-items{
+      max-width: 100px;
     }
   }
