@@ -9,7 +9,7 @@ export default function JoinUs() {
             <h1 className='join-us'>JOIN US</h1>
             <div className='joinus_wrapper'>
             <br /><br />
-                <h3>The applications open on August 28th 2024 and will close September 13th 2024 @ 11:59 PM.</h3>
+                <h3>The applications are now closed.</h3>
                 <br /><br />
                 <p>We are recruiting members to work in our sub-teams, as the demands for 
                     CAD Modelling, printer repair and 3D Printing orders have increased over the years. 
