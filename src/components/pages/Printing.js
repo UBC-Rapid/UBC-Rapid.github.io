@@ -133,7 +133,7 @@ export default function Printing() {
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'
                     newTab='true'
-                    link='https://forms.gle/hfnkkL21TheeSDhj6'
+                    link='https://docs.google.com/forms/d/e/1FAIpQLSeYc03kn4aUe_7UCrVjeSEBoLD091kGHs8x3LOZ-kpC1nqdoQ/viewform' // this is the link I am updating
                 >
                     Order Now
                 </Button>
