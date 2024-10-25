@@ -57,31 +57,31 @@ export default function Printing() {
                         <li><a href="https://reprap.org/wiki/ABS" 
                             nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
                             ABS</a></li>
-                        <li><a href="https://filaments.ca/pages/search-results-page?q=pett" 
+                        <li><a href="https://3dinsider.com/pett-filament/" 
                             nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
                             PETT</a></li>
                         <li><a href="https://reprap.org/wiki/Polycarbonate" 
                             nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
                             PolyCarbonate</a></li>
-                        <li><a href="https://filaments.ca/pages/search-results-page?q=copolyester" 
+                        <li><a href="https://www.a2kstore.com/3-reasons-to-use-copolyester-filaments" 
                             nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
                             Copolyester</a></li>
-                        <li><a href="https://filaments.ca/products/moldlay-filament-1-75mm" 
+                        <li><a href="https://3dprintingindustry.com/news/industrial-manufacturing-desktop-new-moldlay-3d-printing-filament-42481/" 
                             nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
                             Moldlay</a></li>
-                        <li><a href="https://filaments.ca/search?options%5Bunavailable_products%5D=show&options%5Bprefix%5D=last&q=rubber+tpu" 
+                        <li><a href="https://www.treatstock.com/material/tpu" 
                             nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
                             Rubber UglyFlex TPU</a></li>
-                        <li><a href="https://filaments.ca/search?options%5Bunavailable_products%5D=show&options%5Bprefix%5D=last&q=tpe" 
+                        <li><a href="https://all3dp.com/2/tpe-vs-tpu-flexible-filament-the-differences/" 
                             nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
                             TPE</a></li>
-                        <li><a href="https://filaments.ca/collections/1-75mm-3d-filaments/products/easywood-filament-birch-1-75mm" 
+                        <li><a href="https://www.3dprintersupplyco.com/products/copy-of-1-75mm-easywood-pine?srsltid=AfmBOopWWq6-kabxGYeNkuKGnIkusdJVFixxV_fi2qkg31vEr_egFniM" 
                             nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
                             Wood Filament - Birch</a></li>
-                        <li><a href="https://filaments.ca/products/easycork-cork-filament-2-85mm" 
+                        <li><a href="hhttps://filament2print.com/en/wood-stone-metal/1601-7656-pla-corkfill-cork.htmlm" 
                             nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
                             Wood Filament - Cork</a></li>
-                        <li><a href="https://filaments.ca/products/esun-esilk-pla-filament-silk-copper-1-75mm" 
+                        <li><a href="https://www.matterhackers.com/store/l/silky-copper-mh-build-series-pla-filament-175mm-1kg/sk/MDZ60S3G?srsltid=AfmBOorNSNKI5X4cZY5szvhbXDDYOIF1ogHmVfEQ1CO-3V39k9GHrQ8S" 
                             nclick="window.open(this.href); return false;" target="_blank" rel="noreferrer">
                             Wood Filament - Silk Copper</a></li>
                     </ul>
