@@ -90,6 +90,30 @@ li {
   margin-top: 10px;
 }
 
+.table {
+  margin-left: 0%;
+  font-family: Signika Negative, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.filamentLinks {
+  text-align: left; /* Align text to the left */
+  margin-left: 5%; /* May not apply to <td>, use padding instead */
+  padding-left: 5%; /* Use padding to shift content within the cell */
+  font-family: Signika Negative, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+td {
+  margin-left: 5%;
+  font-family: Signika Negative, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 
     
   /* .info-btns-printing .btn {
