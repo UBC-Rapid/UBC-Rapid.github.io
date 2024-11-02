@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# UBC RAPID Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the UBC RAPID website repository! [UBC RAPID](https://ubc-rapid.com/) is an engineering student team at the University of British Columbia specializing in rapid prototyping technologies, with a particular emphasis on 3D printing and CAD modeling. Our goal is to offer low-cost consulting and printing services to support various projects within the university community.
 
-## Available Scripts
+## Services
 
-In the project directory, you can run:
+- **CAD Modeling**: Assisting in the creation of detailed 3D models using computer-aided design software.
+- **3D Printing**: Producing physical prototypes from CAD models using various 3D printing technologies and materials.
+- **Consulting**: Offering expertise in design optimization for manufacturability and material selection to ensure functional and efficient prototypes.
 
-### `npm start`
+## Projects
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Filament Recycler**: Developing a system to recycle 3D printing waste into new filament for sustainability.
+- **Exotic Material Testing**: Expanding material options beyond PLA and ABS, including metals, carbon fiber, and flexible filaments.
+- **Printer Maintenance and Upgrades**: Ongoing upkeep and upgrades, including multi-material printing capabilities.
+- **Workshops**: Training in 3D printing, CAD, PCB design, and web development for hands-on skill-building.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Get Involved
 
-### `npm test`
+To engage with UBC RAPID:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Contact Us**: Reach out through our [contact page](https://ubc-rapid.com/contact) for inquiries or to request services.
+- **Join the Team**: Opportunities may be available for students interested in contributing to the team's mission and gaining hands-on experience in rapid prototyping.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Frontend**: HTML, CSS, JavaScript
+- **Frameworks**: React.js
