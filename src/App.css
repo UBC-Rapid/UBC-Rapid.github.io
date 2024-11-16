@@ -61,9 +61,9 @@
 }
 
 .consulting {
-    background-image: url('/public/images/gear_heart.JPG');
+    background-image: url('/images/projects1.png');
+    background-size: 60%;
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     font-family: Montserrat, Arial, Helvetica, serif;

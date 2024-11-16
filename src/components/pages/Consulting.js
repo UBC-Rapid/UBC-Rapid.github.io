@@ -27,7 +27,8 @@ export default function Consulting() {
                 </p>
                 <br /><br /> 
                 <div className='consulting_img_wrapper'>
-                    <center><img src="/images/consulting2.png" alt=""></img></center>  
+                    <center><img src="/images/projects2.png" alt=""></img></center>  
+                    <center><img src="/images/consulting1.png" alt=""></img></center>
                     <center><img src="/images/consulting1.png" alt=""></img></center>
                 </div>
                 <h3>1. SUBMIT FORM</h3>

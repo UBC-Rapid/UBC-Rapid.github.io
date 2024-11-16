@@ -54,6 +54,22 @@
     display: flex;
     justify-content: center;
   } */
+ 
+  .consulting_img_wrapper {
+    display: flex; /* Makes the images align horizontally */
+    justify-content: center; /* Centers the images */
+    align-items: center; /* Aligns images vertically (optional) */
+    gap: 20px; /* Adds spacing between images */
+    margin: 20px 70px; /* Matches the text's horizontal margin */
+}
+
+.consulting_img_wrapper img {
+    width: auto; /* Allows the image to scale naturally */
+    max-width: 30%; /* Ensures images take up equal space if needed */
+    height: auto;
+    object-fit: contain; /* Ensures the entire image is visible */
+    margin-bottom: 5px;
+}
 
   a:hover, a:visited, a:link, a:active {
     text-decoration: none;
