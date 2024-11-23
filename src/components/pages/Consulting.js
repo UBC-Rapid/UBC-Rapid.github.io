@@ -31,9 +31,22 @@ export default function Consulting() {
                     <center><img src="/images/Model2.png" alt=""></img></center>
                     <center><img src="/images/Model3.png" alt=""></img></center> */}
 
-                    <img src="/images/Model1.png" alt="Model 1" />
+                    {/* <img src="/images/Model1.png" alt="Model 1" />
                     <img src="/images/Model2.png" alt="Model 2" />
-                    <img src="/images/Model3.png" alt="Model 3" />
+                    <img src="/images/Model3.png" alt="Model 3" /> */}
+
+                    <figure>
+                        <img src="/images/Model1.png" alt="Model 1" />
+                        <figcaption>Model 1</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/images/Model2.png" alt="Model 2" />
+                        <figcaption>Model 2</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/images/Model3.png" alt="Model 3" />
+                        <figcaption>Model 3</figcaption>
+                    </figure>
                 </div>
                 <h3>1. SUBMIT FORM</h3>
                 <p>Fill out the form at the bottom of the page to give us the details 
