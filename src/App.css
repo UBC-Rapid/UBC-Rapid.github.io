@@ -62,7 +62,7 @@
 
 .consulting {
     background-image: url('/images/projects1.png');
-    background-size: 60%;
+    background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
@@ -91,4 +91,10 @@
     font-family: Montserrat, Arial, Helvetica, serif;
     font-size: 7vw;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+  .consulting {
+    background-size: 100%;
+  }
 }
