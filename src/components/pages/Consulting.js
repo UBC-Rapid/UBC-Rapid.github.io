@@ -31,8 +31,8 @@ export default function Consulting() {
                     <center><img src="/images/Model2.png" alt=""></img></center>
                     <center><img src="/images/Model3.png" alt=""></img></center> */}
 
-                    <img src="/images/Model1.png" alt="Model 1" />
-                    <img src="/images/Model2.png" alt="Model 2" />
+                    <img src="/images/Model 1.png" alt="Model 1" />
+                    <img src="/images/Model 2.png" alt="Model 2" />
                     <img src="/images/Model3.png" alt="Model 3" />
                 </div>
                 <h3>1. SUBMIT FORM</h3>
