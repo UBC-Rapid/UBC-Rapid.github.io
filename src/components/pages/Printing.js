@@ -54,7 +54,7 @@ export default function Printing() {
                             <th>Price (cents/gram)</th>
                         </tr>
                         {[
-                            { name: "PLA(Recommended)", price: "2-4\u00A2/g", link: "https://reprap.org/wiki/PLA" },
+                            { name: "PLA (Recommended)", price: "2-4\u00A2/g", link: "https://reprap.org/wiki/PLA" },
                             { name: "PETG", price: "2-4\u00A2/g", link: "https://reprap.org/wiki/PETG" },
                             { name: "ABS", price: "2-4\u00A2/g", link: "https://reprap.org/wiki/ABS" },
                             { name: "PETT", price: "2-6\u00A2/g", link: "https://3dinsider.com/pett-filament/" },
