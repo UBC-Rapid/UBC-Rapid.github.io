@@ -2,60 +2,98 @@
 
 
 .consulting_wrapper > p {
-    text-align: left;
+  text-align: left;
+  font-family: Signika Negative, Arial, Helvetica, serif;
+  font-size: 19px;
+  padding: 5px 5px;
+  font-weight: lighter;
+  margin-left: 70px;
+  margin-right: 70px;
+  line-height: 20px;
+  box-sizing:border-box;
+}
+  
+.consulting_wrapper > h3 {
+  text-align: left;
     font-family: Signika Negative, Arial, Helvetica, serif;
-    font-size: 19px;
-    padding: 5px 5px;
-    font-weight: lighter;
-    margin-left: 70px;
-    margin-right: 70px;
-    line-height: 20px;
-    box-sizing:border-box;
-  }
+  font-size: 20px;
+  font-weight: bold;
+  padding:0px 5px 5px;
+  margin-left: 70px;
+  margin-right: 70px;
+  display: inline-block;
+}
+
+.consulting_wrapper > h2 {
+  text-align: left;
+    font-family: Montserrat, Arial, Helvetica, serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding:0px 5px 5px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 45px;
+  display: inline-block;
+}
   
-  .consulting_wrapper > h3 {
-    text-align: left;
-      font-family: Signika Negative, Arial, Helvetica, serif;
-    font-size: 20px;
-    font-weight: bold;
-    padding:0px 5px 5px;
-    margin-left: 70px;
-    margin-right: 70px;
-    display: inline-block;
-  }
+img {
+  position: relative;
+  width: 70%;
+  height: auto;
+  margin-bottom: 5px;
+  object-fit: contain;
+}
+ 
+.consulting_img_wrapper {
+  display: flex; /* Makes the images align horizontally */
+  justify-content: center; 
+  align-items: center;
+  gap: 20px; /* Adds spacing between images */
+  margin: 20px auto; /* Matches the text's horizontal margin */
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
+  padding: 10px;
+}
 
-  .consulting_wrapper > h2 {
-    text-align: left;
-      font-family: Montserrat, Arial, Helvetica, serif;
-    font-size: 25px;
-    font-weight: bold;
-    padding:0px 5px 5px;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-top: 45px;
-    display: inline-block;
-  }
-  
-  img {
-    position: relative;
-    width: 70%;
-    height: auto;
-    margin-bottom: 5px;
-    object-fit: contain;
-  }
+.consulting_img_wrapper figure {
+  display: flex; /* Allows control of the layout within each figure */
+  flex-direction: column; /* Stacks image and caption vertically */
+  align-items: center; /* Centers the image and caption within the figure */
+  flex: 0 0 auto;
+  width: 70%;
+  max-width: 300px; /* Ensures all figures are uniformly sized */
+  margin: 0; /* Removes default figure margin */
+}
 
-  /* .info-btns-consulting .btn {
-    margin: 10px;
-    color: white;
-    background-color: #BF3B3B;
-    max-width: 150px;
-    align-items: center;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-  } */
+.consulting_img_wrapper img {
+  width: 100%; /* Ensures the image fills the figure's width */
+  height: auto; /* Maintains aspect ratio */
+  max-height: 400px;
+  object-fit: contain; /* Ensures the entire image is visible */
+  margin-bottom: 15px; /* Adds space between image and caption */
+}
 
-  a:hover, a:visited, a:link, a:active {
-    text-decoration: none;
+.consulting_img_wrapper figcaption {
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
+/* Settings for Mobile Devices */
+@media (max-width: 768px) {
+  .consulting_img_wrapper {
+    justify-content: flex-start;
+    overflow-x: auto;
+    white-space: nowrap;
+    flex-wrap: nowrap;
   }
+  .consulting_img_wrapper figure {
+    width: auto;
+    margin-right: 15px;
+  }
+}
 
