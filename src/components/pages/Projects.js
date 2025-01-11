@@ -19,7 +19,7 @@ export default function Projects() {
                 </p>
                 <center><img src="/images/octopus.jpg" alt=""></img></center>
                 <br></br>
-                <h3>CAD Modelling</h3>
+                <h3>CAD MODELLING</h3>
                 <p>Our Modelling team is providing the first CAD modelling and design 
                     support service at the UBC campus! Our members work with clients to design and prototype CAD 
                     models through multiple iterations so that they can achieve their desired design. 

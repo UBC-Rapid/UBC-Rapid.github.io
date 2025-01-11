@@ -63,25 +63,29 @@
     border-width: 3px;
   } */
 
+  /* Sponsor Images */
   .sponsors_wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap; /* Sponsor Images Stack */
 }
 
-.sponsors_wrapper > a {
-    margin: 0 5px; /* spacing between images */
-}
+  .sponsors_wrapper > a {
+      margin: 0 5px;
+  }
 
-.sponsors_wrapper > a > img {
-    width: 150px;
-    height: auto;
-    max-width: 100%;
-}
+  .sponsors_wrapper > a > img {
+      width: 150px;
+      height: auto;
+      max-width: 100%;
+      position: relative;
+  }
 
   .sponsorship_wrapper {
     position: relative;
     margin: 30px 5px 30px;
+    flex: 0 1 auto
   }
   
   .sponsorship_wrapper > h2 {

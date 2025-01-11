@@ -91,28 +91,45 @@ li {
 }
 
 .table {
-  margin-left: 0%;
+  width: 100%;       /* Default width */
+  max-width: 600px;
+  margin-right: 0;
   font-family: Signika Negative, Arial, Helvetica, sans-serif;
   font-size: 18px;
   margin-bottom: 0px;
-  margin-top: 0px;
+  margin-top: 30px;
+  word-wrap: break-word;
+  table-layout: auto;
+  border-collapse: collapse;
 }
 .filamentLinks {
   text-align: left; /* Align text to the left */
-  margin-left: 5%; /* May not apply to <td>, use padding instead */
-  padding-left: 5%; /* Use padding to shift content within the cell */
   font-family: Signika Negative, Arial, Helvetica, sans-serif;
   font-size: 18px;
   margin-bottom: 10px;
   margin-top: 10px;
 }
 td {
-  margin-left: 5%;
+  padding: 8px;
   font-family: Signika Negative, Arial, Helvetica, sans-serif;
   font-size: 18px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  margin: 0;
 }
+
+/* Adjustments for smaller screens */
+@media (max-width: 600px) {
+  .table {
+    font-size: 16px;
+  }
+
+  td {
+    padding: 4px;
+  }
+}
+
 
 
     
