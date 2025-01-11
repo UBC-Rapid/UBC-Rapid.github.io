@@ -35,10 +35,10 @@ export default function Projects() {
                     <li>Wood Fill</li>
                 </ul>
                 <div className='consulting_img_wrapper'>
-                    <img src="/images/exoticmaterials/exoticmaterials1.jpg" alt="1" />
-                    <img src="/images/exoticmaterials/exoticmaterials2.PNG" alt="2" />
-                    <img src="/images/exoticmaterials/exoticmaterials3.PNG" alt="3" />
-                    <img src="/images/exoticmaterials/exoticmaterials4.jpg" alt="4" />
+                    <img src="/images/exoticmaterials1.jpg" alt="1" />
+                    <img src="/images/exoticmaterials2.PNG" alt="2" />
+                    <img src="/images/exoticmaterials3.PNG" alt="3" />
+                    <img src="/images/exoticmaterials4.jpg" alt="4" />
                 </div>
                 <br></br>
                 <h3>MAINTENANCE</h3>
