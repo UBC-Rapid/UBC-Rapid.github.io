@@ -4,6 +4,8 @@ import CardItem from '../CardItem';
 import './About.css';
 import { Button } from '../Button';
 
+import React from "react";
+
 function About() {
     return (
         <>
@@ -17,6 +19,36 @@ function About() {
                             at the University of British Columbia. Our major interest is rapid prototyping technology, 
                             the most popular of which is 3D-printing. Rapid prototyping describes the technique of using computer 
                             aided design (CAD) to generate physical models from product ideas.</p>
+                    </div>
+                    <h1>Our Team Projects and Services</h1>
+                    <div className="about_wrapper">
+                    <ul className="cards_items">
+                        {/* CardItem components with links */}
+                        <CardItem 
+                        src="images/card-1.JPG"
+                        text="Modelling Service"
+                        subtext="Our free 3D Modelling Service pairs experienced CAD designers and engineering students with individuals to create high-quality, non-commercial 3D models for personal projects and unique inventions."
+                        link="http://localhost:3000/#/modelling"
+                        />
+                        <CardItem 
+                        src="images/card-2.jpg"
+                        text="Printing Service"
+                        subtext="We offer affordable 3D printing services with professional and fast service (UBC Affiliated Organizations Only)."
+                        link="http://localhost:3000/#/printing"
+                        />
+                        <CardItem 
+                        src="images/card-3.jpg"
+                        text="Filament Recycler"
+                        subtext="Our team is designing and building a Filament Recycler to promote sustainable 3D printing by converting waste, such as failed prints and supports, into reusable filament."
+                        link="http://localhost:3000/#/projects"
+                        />
+                        <CardItem 
+                        src="images/card-4.JPG"
+                        text="Exotic Materials Research"
+                        subtext="We are expanding our range of printable materials by researching the properties and feasibility of using innovative options like copper-infused filament, nylon, and many others."
+                        link="http://localhost:3000/#/projects"
+                        />
+                    </ul>
                     </div>
                     <h1>Our Printing and Modelling Services</h1>
                     <div className='about_wrapper'>
@@ -120,3 +152,4 @@ function About() {
 }
 
 export default About;
+
