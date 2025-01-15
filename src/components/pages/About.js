@@ -25,7 +25,7 @@ function About() {
                     <ul className="cards_items">
                         {/* CardItem components with links */}
                         <CardItem 
-                        src="images/card-1.JPG"
+                        src="images/model1.jpg"
                         text="Modelling Service"
                         subtext="Our free 3D Modelling Service pairs experienced CAD designers and engineering students with individuals to create high-quality, non-commercial 3D models for personal projects and unique inventions."
                         link="http://localhost:3000/#/modelling"
