@@ -50,3 +50,65 @@ img {
     padding-bottom: 10px;
     border-spacing: 40px 10px;
   }
+
+.consulting_img_wrapper {
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+}
+
+/* Style scrollbar for all screen sizes */
+.consulting_img_wrapper::-webkit-scrollbar {
+    display: block;
+    height: 4px;
+}
+
+.consulting_img_wrapper::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.consulting_img_wrapper::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.consulting_img_wrapper img {
+    min-width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.consulting_img_wrapper img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Desktop styles */
+@media screen and (min-width: 769px) {
+    .consulting_img_wrapper {
+        width: 100%;  /* Full width of parent */
+        max-width: 1200px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;    /* Reset margins */
+        margin-right: 0;
+        justify-content: flex-start;  /* Align items to the start */
+    }
+
+    .consulting_img_wrapper img {
+        flex-shrink: 0;  /* Prevent images from shrinking */
+        max-width: 300px;
+        height: 300px;
+    }
+}
