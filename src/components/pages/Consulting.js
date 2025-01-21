@@ -29,7 +29,7 @@ export default function Consulting() {
                 <div className='consulting_img_wrapper'>
                     <img src="/images/Model4_bg.png" alt="Model 4" />
                     <img src="/images/Model2_bg.png" alt="Model 2" />
-                    <img src="/images/Model3.png" alt="Model 3" />
+                    <img src="/images/Model5.png" alt="Model 5" />
                 </div>
                 <h3>1. SUBMIT FORM</h3>
                 <p>Fill out the form at the bottom of the page to give us the details 

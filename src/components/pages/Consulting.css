@@ -52,8 +52,8 @@ img {
   margin: 10px auto;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  padding: 10px;
-  max-width: 85%;
+  padding: 25px;
+  max-width: 80%;
   scroll-snap-type: x mandatory;
 }
 

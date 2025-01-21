@@ -50,3 +50,17 @@ img {
     padding-bottom: 10px;
     border-spacing: 40px 10px;
   }
+
+  .consulting_img_wrapper.project{
+    position: relative;
+    display: flex;
+    justify-content: start; 
+    align-items: center;
+    gap: 30px;
+    margin: 10px auto;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 25px;
+    max-width: 90%;
+    scroll-snap-type: x mandatory;
+  }

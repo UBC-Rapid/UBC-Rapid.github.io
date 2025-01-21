@@ -34,7 +34,7 @@ export default function Projects() {
                     <li>Stone Fill</li>
                     <li>Wood Fill</li>
                 </ul>
-                <div className='consulting_img_wrapper'>
+                <div className='consulting_img_wrapper project'>
                     <img src="/images/exoticmaterials1.jpg" alt="1" />
                     <img src="/images/exoticmaterials2.PNG" alt="2" />
                     <img src="/images/exoticmaterials3.PNG" alt="3" />
