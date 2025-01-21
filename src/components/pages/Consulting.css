@@ -44,6 +44,7 @@ img {
 }
  
 .consulting_img_wrapper {
+  position: relative;
   display: flex;
   justify-content: start; 
   align-items: center;
@@ -53,6 +54,7 @@ img {
   scroll-snap-type: x mandatory;
   padding: 10px;
   max-width: 85%;
+  scroll-snap-type: x mandatory;
 }
 
 .consulting_img_wrapper figure {
@@ -63,6 +65,7 @@ img {
   width: 70%;
   max-width: 300px;
   margin: 0;
+  scroll-snap-align: center;
 }
 
 .consulting_img_wrapper img {
@@ -84,13 +87,7 @@ a:hover, a:visited, a:link, a:active {
 }
 
 /* Settings for Mobile Devices */
-@media (max-width: 768px) {
-  .consulting_img_wrapper {
-    justify-content: flex-start;
-    overflow-x: auto;
-    white-space: nowrap;
-    flex-wrap: nowrap;
-  }
+@media (max-width: 768px) { 
   .consulting_img_wrapper figure {
     width: auto;
     margin-right: 15px;
