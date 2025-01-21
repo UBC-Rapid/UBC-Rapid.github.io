@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap');
 
-
 .consulting_wrapper > p {
   text-align: left;
   font-family: Signika Negative, Arial, Helvetica, serif;
@@ -15,7 +14,7 @@
   
 .consulting_wrapper > h3 {
   text-align: left;
-    font-family: Signika Negative, Arial, Helvetica, serif;
+  font-family: Signika Negative, Arial, Helvetica, serif;
   font-size: 20px;
   font-weight: bold;
   padding:0px 5px 5px;
@@ -45,32 +44,33 @@ img {
 }
  
 .consulting_img_wrapper {
-  display: flex; /* Makes the images align horizontally */
-  justify-content: center; 
+  display: flex;
+  justify-content: start; 
   align-items: center;
-  gap: 20px; /* Adds spacing between images */
-  margin: 20px auto; /* Matches the text's horizontal margin */
-  overflow-x: hidden;
+  gap: 30px;
+  margin: 10px auto;
+  overflow-x: auto;
   scroll-snap-type: x mandatory;
   padding: 10px;
+  max-width: 85%;
 }
 
 .consulting_img_wrapper figure {
-  display: flex; /* Allows control of the layout within each figure */
-  flex-direction: column; /* Stacks image and caption vertically */
-  align-items: center; /* Centers the image and caption within the figure */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   flex: 0 0 auto;
   width: 70%;
-  max-width: 300px; /* Ensures all figures are uniformly sized */
-  margin: 0; /* Removes default figure margin */
+  max-width: 300px;
+  margin: 0;
 }
 
 .consulting_img_wrapper img {
-  width: 100%; /* Ensures the image fills the figure's width */
-  height: auto; /* Maintains aspect ratio */
+  width: 100%;
+  height: auto;
   max-height: 400px;
-  object-fit: contain; /* Ensures the entire image is visible */
-  margin-bottom: 15px; /* Adds space between image and caption */
+  object-fit: contain;
+  margin-bottom: 15px;
 }
 
 .consulting_img_wrapper figcaption {
