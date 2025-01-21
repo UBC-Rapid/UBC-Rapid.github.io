@@ -80,7 +80,7 @@ function About() {
                         <Button
                             className='btns'
                             buttonStyle='btn--primary'
-                            buttSize='btn--large'
+                            buttSize='btn--medium'
                             newTab='true'
                             link='https://drive.google.com/file/d/1T509EAUtGzbmfX_KZrQIv5QqKSpH1fFi/view?usp=sharing'
                         >
@@ -95,7 +95,7 @@ function About() {
                         <Button
                             className='btns'
                             buttonStyle='btn--primary'
-                            buttSize='btn--large'
+                            buttSize='btn--medium'
                             newTab='true'
                             link='https://donate.give.ubc.ca/page/80953/donate/1?transaction.dirgift=UBC+Rapid%20G1273'
                         >

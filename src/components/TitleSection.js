@@ -15,7 +15,7 @@ function TitleSection() {
                 <Button 
                     className='btns' 
                     buttonStyle='btn--outline'
-                    buttSize='btn--large'
+                    buttSize='btn--medium'
                     newTab='false'
                     link='#/printing'
                 >
@@ -24,7 +24,7 @@ function TitleSection() {
                 <Button
                     className='btns'
                     buttonStyle='btn--outline'
-                    buttonSize='btn--large'
+                    buttonSize='btn--medium'
                     newTab='false'
                     link='#/modelling'
                 >
