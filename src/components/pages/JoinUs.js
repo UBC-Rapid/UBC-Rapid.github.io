@@ -27,9 +27,7 @@ export default function JoinUs() {
                     Regardless of experience level, we are looking for dedicated 
                     individuals willing to put in the time and effort to learn.
                 </p>
-                <br /><br />
-                
-                <p>Linked below is the application form for UBC Rapid. Please answer 
+                {/* <p>Linked below is the application form for UBC Rapid. Please answer 
                     all the required questions. If selected for an interview, you 
                     will receive an email during the application time frame to                             
                     book an interview. The interview is expected to take up to 
@@ -38,9 +36,10 @@ export default function JoinUs() {
                     3D printer at a basic level, as well as the process to 3D print 
                     a part. We care less about the correctness of the answers, and 
                     more about the effort and critical thinking of the responses.
+                    <br /><br />
                 </p>
                 <br /><br />
-                {/* UPDATE APPLICATION FORM LINK HERE! */}
+                UPDATE APPLICATION FORM LINK HERE!
                 <div className="info-btns-joinus">
                     <Button
                         className='btns'
@@ -58,7 +57,7 @@ export default function JoinUs() {
                     business/accounting skills. The most important thing we are 
                     looking for are dedicated people that will grow with the team.<br /><br />
                     We look forward to meeting you!
-                </p>
+                </p> */}
                 <br /><br />
             </div>
         </>
