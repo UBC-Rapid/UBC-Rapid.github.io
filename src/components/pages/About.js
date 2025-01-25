@@ -24,29 +24,31 @@ function About() {
                     <div className="about_wrapper">
                     <ul className="cards_items">
                         {/* CardItem components with links */}
-                        <CardItem 
-                        src="images/model1.jpg"
+
+                        <CardItem
+                        src="images/model5.png"
                         text="Modelling Service"
                         subtext="Our free 3D Modelling Service pairs experienced CAD designers and engineering students with individuals to create high-quality, non-commercial 3D models for personal projects and unique inventions."
-                        link="http://localhost:3000/#/modelling"
+                        path="/modelling"
                         />
-                        <CardItem 
+
+                        <CardItem
                         src="images/card-2.jpg"
                         text="Printing Service"
                         subtext="We offer affordable 3D printing services with professional and fast service (UBC Affiliated Organizations Only)."
-                        link="http://localhost:3000/#/printing"
+                        path="/printing"
                         />
-                        <CardItem 
+                        <CardItem
                         src="images/card-3.jpg"
                         text="Filament Recycler"
                         subtext="Our team is designing and building a Filament Recycler to promote sustainable 3D printing by converting waste, such as failed prints and supports, into reusable filament."
-                        link="http://localhost:3000/#/projects"
+                        path="/projects"
                         />
-                        <CardItem 
+                        <CardItem
                         src="images/card-4.JPG"
                         text="Exotic Materials Research"
                         subtext="We are expanding our range of printable materials by researching the properties and feasibility of using innovative options like copper-infused filament, nylon, and many others."
-                        link="http://localhost:3000/#/projects"
+                        path="/projects"
                         />
                     </ul>
                     </div>
