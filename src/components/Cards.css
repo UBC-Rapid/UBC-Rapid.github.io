@@ -31,7 +31,15 @@ h1 {
   display: flex;
   flex: 1;
   margin: 0 1rem;
-  border-radius: 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  scale: 98%;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+}
+
+.cards__item:hover{
+  scale: 101%;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.4);
 }
 
 
@@ -40,10 +48,8 @@ h1 {
   cursor: pointer;
   flex-flow: column;
   width: 100%;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  border-radius: 3px;
   overflow: hidden;
   text-decoration: none;
 }
