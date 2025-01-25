@@ -24,6 +24,13 @@
   font-size: 20px;
 }
 
+.btn--large {
+  padding: 16px 200px; /* Keep the button dimensions */
+  font-size: 30px; /* Text size */
+  font-weight: bold; /* Make text bold */
+  font-stretch: expanded; /* Widen the font (if supported by the font family) */
+}
+
 /* Use this button for any default red button */
 .btn--primary {
   margin: 10px;

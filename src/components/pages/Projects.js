@@ -7,27 +7,6 @@ export default function Projects() {
         <>
             <h1 className='projects'>PROJECTS</h1>
             <div className='projects_wrapper'>
-                <h3>3D PRINTING</h3>
-                <p>With our cost recovery system, our printing service is the most 
-                    affordable on  campus! Using our available printers, we provide low-cost, 
-                    high quality 3D printing services to  UBC-affiliated groups and organizations, 
-                    including research teams, design teams, clubs and other UBC-affiliated entities. 
-                    We assist with selecting materials, size of print, and other features for use 
-                    with FDM and Resin printers. This is one of the largest operations within our 
-                    team and we are staffed by students with many years of experience in 3D-printing 
-                    and offer quality prints.
-                </p>
-                <center><img src="/images/octopus.jpg" alt=""></img></center>
-                <br></br>
-                <h3>CAD MODELLING</h3>
-                <p>Our Modelling team is providing the first CAD modelling and design 
-                    support service at the UBC campus! Our members work with clients to design and prototype CAD 
-                    models through multiple iterations so that they can achieve their desired design. 
-                    The project timeline begins with needs and requirements assesment, followed by 
-                    multiple rounds of prototyping, then printing of the final product.
-                </p>
-                <center><img src="/images/projects1.png" alt=""></img></center>
-                <br></br>
                 <h3>FILAMENT RECYCLER DESIGN AND CONSTRUCTION</h3>
                 <p> To make 3D printing a more sustainable practice within the team and in the broader UBC community, 
                     our team is aiming to design and build a Filament Recycler. This innovative system transforms 
@@ -50,19 +29,17 @@ export default function Projects() {
                     student/faculty use. Filaments to be tested include:
                 </p>
                 <ul> 
-                    <li>Metal (Aluminum, Brass, Bronze, Stainless Steel)</li>
-                    <li>Carbon fiber</li>
-                    <li>Flexible (TPU, TPE)</li>
-                    <li>Polycarbonate</li>
-                    <li>PTFE (Nylon)</li>
-                    <li>Resin</li>
-                    <li>Water soluble</li>
-                    <li>PETG</li>
-                    <li>Conductive</li>
-                    <li>Magnetic</li>
-                    <li>Wax and many more!</li>
+                    <li>TPU</li>
+                    <li>Carbon Fiber</li>
+                    <li>Stone Fill</li>
+                    <li>Wood Fill</li>
                 </ul>
-                <center><img src="/images/projects3.JPG" alt=""></img></center>
+                <div className='consulting_img_wrapper project'>
+                    <img src="/images/exoticmaterials1.jpg" alt="1" />
+                    <img src="/images/exoticmaterials2.PNG" alt="2" />
+                    <img src="/images/exoticmaterials3.PNG" alt="3" />
+                    <img src="/images/exoticmaterials4.jpg" alt="4" />
+                </div>
                 <br></br>
                 <h3>MAINTENANCE</h3>
                 <p>Working and well-calibrated 3D printers are the core of UBC Rapid’s 
