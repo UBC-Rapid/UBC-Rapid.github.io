@@ -32,11 +32,12 @@ h1 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
-  pointer-events: none;
 }
 
+
 .cards__item__link {
-  display: flex;
+  display: block;
+  cursor: pointer;
   flex-flow: column;
   width: 100%;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
