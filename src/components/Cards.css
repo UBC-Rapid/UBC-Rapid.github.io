@@ -48,6 +48,7 @@ h1 {
   cursor: pointer;
   flex-flow: column;
   width: 100%;
+  border-radius: 5px;
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   overflow: hidden;

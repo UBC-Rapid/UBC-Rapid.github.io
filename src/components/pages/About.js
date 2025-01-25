@@ -4,9 +4,22 @@ import CardItem from '../CardItem';
 import './About.css';
 import { Button } from '../Button';
 
-import React from "react";
+import React, {useState} from "react";
+import CubeItem from "./CubeItem";
 
 function About() {
+
+    const [angle, setAngle] = useState(0);
+
+    const rotateLeft = () => {
+        setAngle(prev => prev - 90);
+    };
+
+    const rotateRight = () => {
+        setAngle(prev => prev + 90);
+    };
+
+
     return (
         <>
             <TitleSection />
@@ -52,37 +65,62 @@ function About() {
                         />
                     </ul>
                     </div>
-                    <h1>Our Printing and Modelling Services</h1>
+                    <h1>Our Values and Benefits</h1>
                     <div className='about_wrapper'>
-                        <ul className='cards_items'>
-                            {/* media src in react js link from within src or using /public as root */}
-                            <CardItem 
-                                src='images/card-1.JPG'
-                                text='Affordability'
-                                subtext='Charging only for the filament itself, our 3D printing service is one of the most affordable on campus.'
-                            />
-                            <CardItem 
-                                src='images/card-2.jpg'
-                                text='Speed'
-                                subtext='Our 7 operational printers means we offer the fastest turnaround time on campus.'
-                            />
-                            <CardItem 
-                                src='images/card-3.jpg'
-                                text='Quality'
-                                subtext='With multiple resolution and infill settings, we offer a large range of quality prints for different purposes and price points.'
-                            />
-                            <CardItem 
-                                src='images/card-4.JPG'
-                                text='Support'
-                                subtext='We offer free CAD modelling assistance to anyone who needs to clean up or fix their model files for a better print.'
-                            />
-                        </ul>
+                        <div className='cube'>
+                            <button className="cube-button-left" onClick={rotateRight}>
+                                {"<"}
+                            </button>
+                            <button className="cube-button-right" onClick={rotateLeft}>
+                                {">"}
+                            </button>
+                            <ul
+                                className="cube_items"
+                                style={{
+                                    transform: `translateZ(-300px) rotateY(${angle}deg)`,
+                                    transformStyle: "preserve-3d",
+                                    transition: "transform 1s ease"
+                                }}
+                            >
+
+
+                                {/* media src in react js link from within src or using /public as root */}
+                                <div className="cube__face cube__face--front">
+                                    <CubeItem
+                                        src='images/card-1.JPG'
+                                        text='Affordability'
+                                        subtext='Charging only for the filament itself, our 3D printing service is one of the most affordable on campus.'
+                                    />
+                                </div>
+                                <div className="cube__face cube__face--back">
+                                    <CubeItem
+                                        src='images/cloned_printer.JPG'
+                                        text='Speed'
+                                        subtext='Our 7 operational printers means we offer the fastest turnaround time on campus.'
+                                    />
+                                </div>
+                                <div className="cube__face cube__face--right">
+                                    <CubeItem
+                                        src='images/octopus.jpg'
+                                        text='Quality'
+                                        subtext='With multiple resolution and infill settings, we offer a large range of quality prints for different purposes and price points.'
+                                    />
+                                </div>
+                                <div className="cube__face cube__face--left">
+                                    <CubeItem
+                                        src='images/gear_heart.JPG'
+                                        text='Support'
+                                        subtext='We offer free CAD modelling assistance to anyone who needs to clean up or fix their model files for a better print.'
+                                    />
+                                </div>
+                            </ul>
+                        </div>
                     </div>
                     <div className='about_wrapper'>
                         <h2>Don't know what to print or where to begin? We can help.</h2>
                         <br></br>
                         <h1>Our Team</h1>
-                        <img src="images/teamphoto2024.jpg" alt="" ></img>
+                        <img src="images/teamphoto2024.jpg" alt=""></img>
                     </div>
                     <div className="info-btns-about-us">
                         <Button
