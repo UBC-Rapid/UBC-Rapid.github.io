@@ -124,7 +124,6 @@ function About() {
                     </div>
                     <div className='about_wrapper'>
                         <h2>Don't know what to print or where to begin? We can help.</h2>
-                        <br></br>
                         <h1>Our Team</h1>
                         <img src="images/teamphoto2024.jpg" alt=""></img>
                     </div>
