@@ -2,6 +2,7 @@ import '../../App.css';
 import TitleSection from '../TitleSection';
 import CardItem from '../CardItem';
 import './About.css';
+import '../Cards.css'
 import { Button } from '../Button';
 
 import React, {useState} from "react";
@@ -35,37 +36,42 @@ function About() {
                     </div>
                     <h1>Our Team Projects and Services</h1>
                     <div className="about_wrapper">
-                    <ul className="cards_items">
+                    <ul className="cards__items">
                         {/* CardItem components with links */}
 
                         <CardItem
-                        src="images/model5.png"
+                        images={["/images/model4_bg.png", "/images/model2_bg.png", "/images/model3.png"]}
                         text="Modelling Service"
                         subtext="Our free 3D Modelling Service pairs experienced CAD designers and engineering students with individuals to create high-quality, non-commercial 3D models for personal projects and unique inventions."
                         path="/modelling"
                         />
 
                         <CardItem
+                        images={["/images/octopus.jpg", "/images/printing2.jpg", "/images/printing3.png"]}
                         src="images/card-2.jpg"
                         text="Printing Service"
                         subtext="We offer affordable 3D printing services with professional and fast service (UBC Affiliated Organizations Only)."
                         path="/printing"
                         />
                         <CardItem
+                        images={["/images/model5.png", "/images/model6.png", "/images/model7.png"]}
                         src="images/card-3.jpg"
                         text="Filament Recycler"
                         subtext="Our team is designing and building a Filament Recycler to promote sustainable 3D printing by converting waste, such as failed prints and supports, into reusable filament."
                         path="/projects"
+                        scrollPos={window.innerHeight * 0.75}
                         />
                         <CardItem
+                        images={["/images/exoticmaterials1.jpg", "/images/exoticmaterials4.jpg", "/images/exoticmaterials3.png"]}
                         src="images/card-4.JPG"
                         text="Exotic Materials Research"
                         subtext="We are expanding our range of printable materials by researching the properties and feasibility of using innovative options like copper-infused filament, nylon, and many others."
                         path="/projects"
+                        scrollPos={window.innerHeight * 1.4}
                         />
                     </ul>
                     </div>
-                    <h1>Our Values and Benefits</h1>
+                    <h1 className="cube__title">Our Values and Benefits</h1>
                     <div className='about_wrapper'>
                         <div className='cube'>
                             <button className="cube-button-left" onClick={rotateRight}>

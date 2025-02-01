@@ -33,18 +33,13 @@ function Navbar() {
         <>
             <nav className='navbar'>
                 <div className='navbar-container'>
-                    <Link to='/' className='nav-logo'>
+                    <Link to='/' className='nav-logo' onClick={() => { scrollToTop(); closeMobileMenu(); }}>
                         <img src='/images/rapid_logo.png' className='rapid-logo' alt=""/>
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                        <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={() => { scrollToTop(); closeMobileMenu(); }}>
-                                ABOUT
-                            </Link>
-                        </li>
                         <li className='nav-item'>
                             <Link to='/printing' className='nav-links' onClick={() => { scrollToTop(); closeMobileMenu(); }} >
                                 PRINTING SERVICE

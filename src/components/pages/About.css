@@ -38,11 +38,6 @@
     margin-bottom: 24px;
   }
 
-
-  .cards_items {
-    margin-bottom: 0px;
-  }
-
   .cube {
     width: 600px;
     height: 340px;
@@ -170,9 +165,14 @@
     justify-content: center;
   }
 
-  @media only screen and (min-width: 1024px) {
-    .cards_items {
-
-      display: flex;
+  @media only screen and (max-width: 768px) {
+    .cube {
+      display: none;
     }
-  }
+
+    .cube__title {
+      display: none;
+    }
+}
+
+  
