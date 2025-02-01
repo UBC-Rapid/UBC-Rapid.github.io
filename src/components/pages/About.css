@@ -28,6 +28,73 @@ h2 {
   margin: 0 auto;
 }
 
+  .cube {
+    width: 600px;
+    height: 340px;
+    perspective: 600px;
+    margin-bottom: 20px;
+  }
+
+/*.cube_items {*/
+/*  position: relative;*/
+/*  transform: translateZ(-300px);*/
+/*  transform-style: preserve-3d;*/
+/*  transition: transform 1s ease;*/
+
+/*}*/
+
+.cube__face {
+  position: absolute;
+  box-shadow: 0 0px 25px rgba(83, 56, 255, 0.27);
+}
+
+.cube-button-left,
+.cube-button-right {
+  position: absolute;
+  top: 160px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background-color: #ffffff;   /* pick a color you like */
+  width: 50px;
+  height: 50px;
+  border: solid lightgrey 3px;
+  font-size: 22px;
+  color: lightgrey;
+  cursor: pointer;
+  user-select: none;
+  font-family: 'Signika Negatif', Arial, serif;
+  font-weight: bold;
+  display: flex;       /* center arrow inside */
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+.cube-button-right:hover,
+.cube-button-left:hover{
+  background-color: lightgrey;
+  color: white;
+}
+
+
+.cube-button-left {
+  left: -25%;   /* shift to the left outside the cube container */
+}
+.cube-button-right {
+  right: -25%;  /* shift to the right outside the cube container */
+}
+.cube__face--front  { transform: rotateY(  0deg) translateZ(300px); }
+.cube__face--right  { transform: rotateY( 90deg) translateZ(300px); }
+.cube__face--back   { transform: rotateY(180deg) translateZ(300px); }
+.cube__face--left   { transform: rotateY(-90deg) translateZ(300px); }
+
+.cube_items.turn-right {
+  transform: translateZ(-300px) rotateY(-90deg);
+}
+.cube_items.turn-left {
+  transform: translateZ(-300px) rotateY(90deg);
+}
+
 .about_wrapper {
   display: flex;
   flex-direction: column;
@@ -35,6 +102,14 @@ h2 {
   align-items: center;
   margin: 20px 5px;
   position: relative;
+}
+
+.about_wrapper > img {
+  position: relative;
+  width: 800px;
+  height: auto;
+  max-width: 100%;
+  display: visible; 
 }
 
 .about_wrapper img {
@@ -68,17 +143,12 @@ h2 {
   font-size: 18px;
 }
 
-.sponsorship-btns-about-us .btn {
-  margin: 10px;
-  font-weight: bold;
-  border-width: 3px;
-  max-width: 300px;
-  display: inline-block;
-  justify-content: center;
-}
+  @media only screen and (max-width: 768px) {
+    .cube {
+      display: none;
+    }
 
-@media only screen and (min-width: 1024px) {
-  .cards_items {
-    display: flex;
-  }
+    .cube__title {
+      display: none;
+    }
 }
