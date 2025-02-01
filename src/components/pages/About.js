@@ -54,7 +54,7 @@ function About() {
                         path="/printing"
                         />
                         <CardItem
-                        images={["/images/model5.png", "/images/model6.png", "/images/model7.png"]}
+                        images={["/images/projects7.jpg", "/images/projects7.jpg", "/images/projects7.jpg"]}
                         src="images/card-3.jpg"
                         text="Filament Recycler"
                         subtext="Our team is designing and building a Filament Recycler to promote sustainable 3D printing by converting waste, such as failed prints and supports, into reusable filament."
