@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap');
 
-
 .footer-container {
     background-color: #F8F8F8;
     padding: 1rem 0 1rem 0;
@@ -118,7 +117,19 @@
     width: 90%;
     max-width: 1000px;
     margin: 10px auto 0 auto;
-    padding: 0px;
+    flex-wrap: wrap;
+    padding: 10px;
+    position: relative;
+  }
+
+  .footer-logo {
+    z-index: 1;
+    display: flex;
+    padding: 4px;
+    width: 130px;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-start;
   }
   
   .social-icons {
@@ -128,30 +139,14 @@
     width: 240px;
   }
   
-  .social-logo {
-    color: #fff;
-    justify-self: start;
-    margin-left: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-    margin-bottom: 16px;
-  }
-
-  .footer-logo {
-    z-index: 1;
-    display: flex;
-    padding: 4px;
-    width: 130px; /* Not the cleanest fix sorry but it works as long as we don't resize the logo*/
-    height: 50px;
-  }
-  
   .website-rights {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);  /* This centers it horizontally */
     color: rgb(40, 40, 40);
-    margin-bottom: 16px;
-    margin-top: 8px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
   }
   
   @media screen and (max-width: 820px) {
@@ -173,6 +168,31 @@
   
     .social-media-wrap {
       flex-direction: column;
+    }
+
+    .social-media-wrap {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .social-icons {
+      margin-top: 10px;
+      justify-content: center;
+      width: auto; 
+    }
+
+    .social-icons a {
+      margin: 0 20px;  /* Increased margin for more space between the icons */
+    }
+  
+    .footer-logo {
+      margin-bottom: 10px;
+    }
+  
+    .website-rights {
+      margin-top: 10px;
+      position: relative;
+      width: 100%;
     }
   }
   

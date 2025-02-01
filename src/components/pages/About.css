@@ -112,17 +112,21 @@ h2 {
   display: visible; 
 }
 
-.about_wrapper img {
-  width: 800px;
-  height: auto;
-  max-width: 100%;
-}
-
-.sponsors_wrapper, .sponsorship-btns-about-us .btn {
+.sponsors_wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.sponsorship-btns-about-us .btn {
+  margin: 10px;
+  font-weight: bold;
+  border-width: 3px;
+  max-width: 300px;
+  align-items: center;
+  display: inline-block;
+  justify-content: center;
 }
 
 .sponsors_wrapper > a {

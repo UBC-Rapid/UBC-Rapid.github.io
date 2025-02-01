@@ -51,7 +51,6 @@ function Footer() {
                 
                     <Link to='/' onClick={scrollToTop} className='footer-logo'>
                         <img src='/images/rapid_logo.png' className='rapid-logo' alt="" />
-                        {/* UBC RAPID <i className='fab fa-typo3' /> */}
                     </Link>
                    
                     <small className='website-rights'>UBC RAPID © 2025</small>
