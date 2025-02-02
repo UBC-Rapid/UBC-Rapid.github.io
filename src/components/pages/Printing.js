@@ -29,7 +29,7 @@ export default function Printing() {
                 </h4>
                 <br /><br />
                 <h3>1. CONFIGURE YOUR PRINT SIZE</h3>
-                <h4>UBC Rapid’s printers can print objects that can be contained within
+                <h4>UBC Rapid's printers can print objects that can be contained within
                     a 250mm x 210mm x 200mm box (LxWxH) (with some exceptions).
                     If multiple individual objects fit on the single 200mm x 200mm print bed,
                     it will be considered a single print. Objects larger than this size will
@@ -39,7 +39,9 @@ export default function Printing() {
                 <h3>2. CHOOSE A PRINT RESOLUTION</h3>
                 <h4>Higher resolution means higher surface quality and details, but longer print time.
                 </h4>
-                <center><img src="/images/print-resolution.jpg" alt=""></img></center>
+                <div className="mobile-buffer">
+                    <center><img src="/images/print-resolution.jpg" alt=""></img></center>
+                </div>
                 <h3>3. CHOOSE A FILAMENT</h3>
                 <h4>
                     We recommend PLA because it is low cost and easy to work with.
@@ -85,7 +87,9 @@ export default function Printing() {
                 <h4>We have a limited amount of colours available. Please contact us if you would
                     like a specific colour and we will accommodate depending on our availability of materials.
                 </h4>
-                <center><img src="/images/print-colours.jpg" alt=""></img></center>
+                <div className="mobile-buffer">
+                    <center><img src="/images/print-colours.jpg" alt=""></img></center>
+                </div>
                 <h3>6. SPECIFY REQUIREMENTS</h3>
                 <h4>If you have any special requests such as surface smoothing,
                     post-print processing, support removal, please contact us at the
