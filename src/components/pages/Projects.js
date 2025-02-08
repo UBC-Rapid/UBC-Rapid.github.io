@@ -16,7 +16,11 @@ export default function Projects() {
                     winds the filament back into rolls. Recent progress includes completing the preliminary design of our 
                     shredder and extruder, as well as procuring some parts to be used towards the build phase. 
                 </p>
-                <center><img src="/images/projects7.jpg" alt=""></img></center>
+                <div className='consulting_img_wrapper project'>
+                    <img src="/images/filament_recycler1.jpg" alt="1" />
+                    <img src="/images/filament_recycler2.jpg" alt="2" />
+                    <img src="/images/filament_recycler3.jpg" alt="3" />
+                </div>
                 <br></br>
                 <h3>EXOTIC MATERIAL TESTING</h3>
                 <p>UBC Rapid will be expanding the variety of materials available for 

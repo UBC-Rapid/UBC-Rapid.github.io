@@ -130,6 +130,12 @@ td {
   }
 }
 
+.mobile-buffer {
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 
     
