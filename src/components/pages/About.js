@@ -40,7 +40,7 @@ function About() {
                         {/* CardItem components with links */}
 
                         <CardItem
-                        images={["/images/model4_bg.png", "/images/model2_bg.png", "/images/model5.png"]}
+                        images={["/images/Model4_bg.png", "/images/Model2_bg.png", "/images/model5.png"]}
                         text="Modelling Service"
                         subtext="Our free 3D Modelling Service pairs experienced CAD designers and engineering students with individuals to create high-quality, non-commercial 3D models for personal projects and unique inventions."
                         path="/modelling"

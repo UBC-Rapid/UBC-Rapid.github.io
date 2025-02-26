@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.855d862a.css",
-    "main.js": "/static/js/main.ef8e8f5b.js",
+    "main.js": "/static/js/main.a70e19bf.js",
     "static/media/cloned_printer.JPG": "/static/media/cloned_printer.9788341f9f0939987f05.JPG",
     "static/media/openhouse2223.jpg": "/static/media/openhouse2223.c96b5d8a0cb729461486.jpg",
     "static/media/multiple_printers.jpg": "/static/media/multiple_printers.fdc6c3b0cccb9efe1cc6.jpg",
@@ -9,10 +9,10 @@
     "static/media/mini_cairns.jpg": "/static/media/mini_cairns.f928bf4397a82957520e.jpg",
     "index.html": "/index.html",
     "main.855d862a.css.map": "/static/css/main.855d862a.css.map",
-    "main.ef8e8f5b.js.map": "/static/js/main.ef8e8f5b.js.map"
+    "main.a70e19bf.js.map": "/static/js/main.a70e19bf.js.map"
   },
   "entrypoints": [
     "static/css/main.855d862a.css",
-    "static/js/main.ef8e8f5b.js"
+    "static/js/main.a70e19bf.js"
   ]
 }
