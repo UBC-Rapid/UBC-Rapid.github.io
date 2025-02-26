@@ -45,7 +45,6 @@ function About() {
                         subtext="Our free 3D Modelling Service pairs experienced CAD designers and engineering students with individuals to create high-quality, non-commercial 3D models for personal projects and unique inventions."
                         path="/modelling"
                         />
-
                         <CardItem
                         images={["/images/octo_cropped.png"]}
                         src="images/card-2.jpg"
