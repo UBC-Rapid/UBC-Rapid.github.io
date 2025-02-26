@@ -10,8 +10,10 @@ export default function Printing() {
             <h1 className='printing'>PRINTING</h1>
             <div className='printing_wrapper'>
                 <br /><br />
-                <p><strong>Cost:</strong> Filament Costs Only (Specified Below)</p>
+                {/* <p><strong>Cost:</strong> Filament Costs Only (Specified Below)</p> */}
+                <p><strong>Cost:</strong> Bring your own filament! (Specified Below)</p>
                 <p><strong>Who can use this service:</strong> UBC Affiliated Teams, Students and Staff</p>
+                <p><strong>2025 Term 2 Update:</strong> We are currently only accepting printing requests where customers bring their own filament</p>
                 <h2> HOW TO ORDER A PRINT </h2>
                 <h4>*This service is exclusively available to groups and organizations
                     affiliated with the University of British Columbia. If you fall
@@ -47,7 +49,8 @@ export default function Printing() {
                     We recommend PLA because it is low cost and easy to work with.
                     More exotic materials, like PETT, are only available by special request.
                     Below is the list of available filaments and each one's estimated cost.
-                    The price for a specific print will be disclosed in our response to your request.
+                    {/* The price for a specific print will be disclosed in our response to your request. */}
+                    Currently we are only accepting print requests where customers bring their own filament!
                     <br /><br />
                     <strong>Thermoplastics</strong>
                     <table className='table'>
@@ -83,20 +86,20 @@ export default function Printing() {
                 <h4>Higher density means more material and higher cost.
                 </h4>
                 <br /><br />
-                <h3>5. CHOOSE A COLOUR</h3>
+                {/* <h3>5. CHOOSE A COLOUR</h3>
                 <h4>We have a limited amount of colours available. Please contact us if you would
                     like a specific colour and we will accommodate depending on our availability of materials.
-                </h4>
+                </h4> */}
                 <div className="mobile-buffer">
                     <center><img src="/images/print-colours.jpg" alt=""></img></center>
                 </div>
-                <h3>6. SPECIFY REQUIREMENTS</h3>
+                <h3>5. SPECIFY REQUIREMENTS</h3>
                 <h4>If you have any special requests such as surface smoothing,
                     post-print processing, support removal, please contact us at the
                     link below for more details.
                 </h4>
                 <br /><br />
-                <h3>7. FILL OUT OUR ORDER FORM</h3>
+                <h3>6. FILL OUT OUR ORDER FORM</h3>
                 <h4>The preferred file format for 3D models is .STL, although we can
                     accommodate other CAD file types if necessary. If you have an .STL file available
                     and ready, please fill out our order form.
@@ -104,7 +107,7 @@ export default function Printing() {
                     fill out a modelling form. Our team will be there to guide you.
                 </h4>
                 <br /><br />
-                <h3>8. CONFIRMATION AND PAYMENT</h3>
+                <h3>7. CONFIRMATION AND PAYMENT</h3>
                 <h4>You should receive a quote for your print within 48 hours after
                     filling out an order. Our pricing model is designed for cost recuperation only
                     and is based on the amount of material used, as well as the type.
@@ -114,7 +117,7 @@ export default function Printing() {
                     we will accept payment through the UBC system.
                 </h4>
                 <br /><br />
-                <h3>9. PICK UP</h3>
+                <h3>8. PICK UP</h3>
                 <h4>Once we have your payment, your print should be ready for
                     pick up within 1~2 business weeks. More complex prints may
                     take more time. One of our Rapid members will contact

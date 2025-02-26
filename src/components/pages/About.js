@@ -40,14 +40,14 @@ function About() {
                         {/* CardItem components with links */}
 
                         <CardItem
-                        images={["/images/model4_bg.png", "/images/model2_bg.png", "/images/model3.png"]}
+                        images={["/images/model4_bg.png", "/images/model2_bg.png", "/images/model5.png"]}
                         text="Modelling Service"
                         subtext="Our free 3D Modelling Service pairs experienced CAD designers and engineering students with individuals to create high-quality, non-commercial 3D models for personal projects and unique inventions."
                         path="/modelling"
                         />
 
                         <CardItem
-                        images={["/images/octopus.jpg", "/images/printing2.jpg", "/images/printing3.png"]}
+                        images={["/images/octo_cropped.png"]}
                         src="images/card-2.jpg"
                         text="Printing Service"
                         subtext="We offer affordable 3D printing services with professional and fast service (UBC Affiliated Organizations Only)."
@@ -62,7 +62,7 @@ function About() {
                         scrollPos={window.innerHeight * 0.75}
                         />
                         <CardItem
-                        images={["/images/exoticmaterials1.jpg", "/images/exoticmaterials4.jpg", "/images/exoticmaterials3.png"]}
+                        images={["/images/exoticmaterials1.jpg", "/images/exotic_cropped.png"]}
                         src="images/card-4.JPG"
                         text="Exotic Materials Research"
                         subtext="We are expanding our range of printable materials by researching the properties and feasibility of using innovative options like copper-infused filament, nylon, and many others."
