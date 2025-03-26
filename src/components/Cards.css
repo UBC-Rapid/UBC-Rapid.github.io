@@ -14,6 +14,8 @@ h1 {
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
+  transition: fade 0.5s;
+
 }
 
 .cards__wrapper {
@@ -41,6 +43,7 @@ h1 {
 .cards__item:hover {
   scale: 101%;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.4);
+  transition: all 0.3s ease;
 }
 
 .cards__item__link {
@@ -50,6 +53,7 @@ h1 {
   border-radius: 5px;
   text-decoration: none;
   overflow: hidden;
+  transition: 0.3s ease;
 }
 
 .cards__item__pic-wrap {
@@ -60,6 +64,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: fade 0.5s;
 }
 
 .cards__item__pic-wrap::after {
@@ -72,6 +77,8 @@ h1 {
   font-weight: 700;
   color: #fff;
   box-sizing: border-box;
+  transition: fade 0.5s;
+
 }
 
 .cards__item__img {
@@ -82,13 +89,15 @@ h1 {
   height: 100%;
   max-width: 100%;
   max-height: 100%;
-  object-fit: fill;
+  /*object-fit: fill;*/
   object-position: center;
-  transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
+  transition: fade 0.5s;
+  object-fit: cover;
 }
 
 .cards__item__img:hover {
   transform: scale(1.1);
+
 }
 
 .cards__item__info {

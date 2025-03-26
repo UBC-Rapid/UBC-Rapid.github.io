@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import {fade} from 'react-slideshow-image';
 import './Cards.css';
 
 function CardItem(props) {
