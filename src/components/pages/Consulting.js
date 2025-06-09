@@ -48,7 +48,7 @@ export default function Consulting() {
                     satisfied with the final product!
                 </p>
                 <br /><br />   
-                <div className="info-btns-consulting">
+                {/* <div className="info-btns-consulting">
                     <Button
                         className='btns'
                         buttonStyle='btn--primary'
@@ -58,7 +58,8 @@ export default function Consulting() {
                     >
                         Order Now
                     </Button>
-                </div>
+                </div> */}
+                <h3>SERVICE CURRENTLY PAUSED DURING THE SUMMER</h3>
                 <br /><br />
             </div>
         </>

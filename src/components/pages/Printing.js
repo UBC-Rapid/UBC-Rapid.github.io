@@ -124,7 +124,7 @@ export default function Printing() {
                     you when your print is ready to arrange a time and place.
                 </h4>
                 <br /><br />
-                <div className="info-btns-printing">
+                {/* <div className="info-btns-printing">
                     <Button
                         className='btns'
                         buttonStyle='btn--primary'
@@ -134,8 +134,9 @@ export default function Printing() {
                     >
                         Order Now
                     </Button>
-                    <br /><br />
-                </div>
+                </div> */}
+                <h3>SERVICE CURRENTLY PAUSED DURING THE SUMMER</h3>
+                <br /><br />
             </div>
         </>
     );
