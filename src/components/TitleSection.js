@@ -17,9 +17,9 @@ function TitleSection() {
                     buttonStyle='btn--outline'
                     buttSize='btn--medium'
                     newTab='false'
-                    link='#/printing'
+                    link='#/projects'
                 >
-                    3D Printing Service
+                    Our Projects
                 </Button>
                 <Button
                     className='btns'

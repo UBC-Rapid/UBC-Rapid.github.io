@@ -54,7 +54,7 @@ export default function Consulting() {
                         buttonStyle='btn--primary'
                         buttonSize='btn--large'
                         newTab='true'
-                        link='https://forms.gle/MJu7KgkTge59sSiy5'
+                        link='https://forms.gle/X3vZeczA8fpBVzAt6'
                     >
                         Order Now
                     </Button>

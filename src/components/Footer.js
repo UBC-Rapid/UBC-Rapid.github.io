@@ -25,26 +25,17 @@ function Footer() {
             <div className='footer-links'>
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
-                        <h3><Link to='/' onClick={scrollToTop}>About Us</Link></h3>
-
-                        {/*<Link to='/join-us'>How it works</Link> *** Extra smaller links below if needed
-                        <Link to='/printing'>Printing Service</Link>
-                        <Link to='/consulting'>Consulting Service</Link>*/}
-                    </div>
-                    <div className='footer-link-items'>
-                        <h3><Link to='/printing' onClick={scrollToTop}>Printing</Link></h3>
+                        <h3><Link to='/projects' onClick={scrollToTop}>Projects</Link></h3>
                     </div>
                 </div>
                 <div className='footer-link-wrapper'>
-                <div className='footer-link-items'>
+                    <div className='footer-link-items'>
                         <h3><Link to='/modelling' onClick={scrollToTop}>Modelling</Link></h3>
                     </div>
                     <div className='footer-link-items'>
                         <h3><Link to='/join-us' onClick={scrollToTop}>Join Us</Link></h3>
                     </div>
-                </div>
-
-                
+                </div>  
             </div>
             <section className='social-media'>
                 <div className='social-media-wrap'>

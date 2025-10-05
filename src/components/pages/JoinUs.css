@@ -28,7 +28,7 @@
   max-width: 300px;
   align-items: center;
   margin: auto;
-  /* display: none; */
+  display: none;
   justify-content: center;
 }
 
