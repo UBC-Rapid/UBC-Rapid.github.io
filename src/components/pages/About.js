@@ -46,13 +46,6 @@ function About() {
                         path="/modelling"
                         />
                         <CardItem
-                        images={["/images/octo_cropped.png"]}
-                        src="images/card-2.jpg"
-                        text="Printing Service"
-                        subtext="We offer affordable 3D printing services with professional and fast service (UBC Affiliated Organizations Only)."
-                        path="/printing"
-                        />
-                        <CardItem
                         images={["/images/projects7.jpg", "/images/projects7.jpg", "/images/projects7.jpg"]}
                         src="images/card-3.jpg"
                         text="Filament Recycler"
@@ -70,61 +63,10 @@ function About() {
                         />
                     </ul>
                     </div>
-                    <h1 className="cube__title">Our Values and Benefits</h1>
+                    
                     <div className='about_wrapper'>
-                        <div className='cube'>
-                            <button className="cube-button-left" onClick={rotateRight}>
-                                {"<"}
-                            </button>
-                            <button className="cube-button-right" onClick={rotateLeft}>
-                                {">"}
-                            </button>
-                            <ul
-                                className="cube_items"
-                                style={{
-                                    transform: `translateZ(-300px) rotateY(${angle}deg)`,
-                                    transformStyle: "preserve-3d",
-                                    transition: "transform 1s ease"
-                                }}
-                            >
-
-
-                                {/* media src in react js link from within src or using /public as root */}
-                                <div className="cube__face cube__face--front">
-                                    <CubeItem
-                                        src='images/card-1.JPG'
-                                        text='Affordability'
-                                        subtext='Charging only for the filament itself, our 3D printing service is one of the most affordable on campus.'
-                                    />
-                                </div>
-                                <div className="cube__face cube__face--back">
-                                    <CubeItem
-                                        src='images/cloned_printer.JPG'
-                                        text='Speed'
-                                        subtext='Our 7 operational printers means we offer the fastest turnaround time on campus.'
-                                    />
-                                </div>
-                                <div className="cube__face cube__face--right">
-                                    <CubeItem
-                                        src='images/octopus.jpg'
-                                        text='Quality'
-                                        subtext='With multiple resolution and infill settings, we offer a large range of quality prints for different purposes and price points.'
-                                    />
-                                </div>
-                                <div className="cube__face cube__face--left">
-                                    <CubeItem
-                                        src='images/gear_heart.JPG'
-                                        text='Support'
-                                        subtext='We offer free CAD modelling assistance to anyone who needs to clean up or fix their model files for a better print.'
-                                    />
-                                </div>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className='about_wrapper'>
-                        <h2>Don't know what to print or where to begin? We can help.</h2>
                         <h1>Our Team</h1>
-                        <img src="images/teamphoto2024.jpg" alt=""></img>
+                        <img src="images/teamphoto2025.jpg" alt=""></img>
                     </div>
                     <div className="info-btns-about-us">
                         <Button

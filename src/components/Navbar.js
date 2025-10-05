@@ -41,11 +41,6 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/printing' className='nav-links' onClick={() => { scrollToTop(); closeMobileMenu(); }} >
-                                PRINTING SERVICE
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
                             <Link to='/modelling' className='nav-links' onClick={() => { scrollToTop(); closeMobileMenu(); }}>
                                 MODELLING SERVICE
                             </Link>
