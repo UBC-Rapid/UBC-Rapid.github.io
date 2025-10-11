@@ -7,6 +7,7 @@ import Printing from'./components/pages/Printing';
 import Consulting from'./components/pages/Consulting';
 import JoinUs from'./components/pages/JoinUs';
 import Projects from'./components/pages/Projects';
+import ExoticMaterials from './components/pages/ExoticMaterials'
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                     <Route path='/' exact component={About}/>
                     <Route path='/printing' exact component={Printing}/>
                     <Route path='/modelling' exact component={Consulting}/>
+                    <Route path='/exotic_materials' exact component={ExoticMaterials}/>
                     <Route path='/projects' exact component={Projects}/>
                     <Route path='/join-us' exact component={JoinUs}/>
                 </Switch>

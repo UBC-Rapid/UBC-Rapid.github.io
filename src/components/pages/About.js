@@ -58,8 +58,7 @@ function About() {
                         src="images/card-4.JPG"
                         text="Exotic Materials Research"
                         subtext="We are expanding our range of printable materials by researching the properties and feasibility of using innovative options like copper-infused filament, nylon, and many others."
-                        path="/projects"
-                        scrollPos={window.innerHeight * 1.4}
+                        path="/exotic_materials"
                         />
                     </ul>
                     </div>

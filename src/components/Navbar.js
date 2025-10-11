@@ -46,6 +46,11 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
+                            <Link to='/exotic_materials' className='nav-links' onClick={() => { scrollToTop(); closeMobileMenu(); }}>
+                                EXOTIC MATERIALS
+                            </Link>
+                        </li>
+                        <li className='nav-item'>
                             <Link to='/projects' className='nav-links' onClick={() => { scrollToTop(); closeMobileMenu(); }}>
                                 PROJECTS
                             </Link>

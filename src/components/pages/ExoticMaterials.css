@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap');
+
+.consulting_wrapper > p {
+  text-align: left;
+  font-family: Signika Negative, Arial, Helvetica, serif;
+  font-size: 19px;
+  padding: 5px 5px;
+  font-weight: lighter;
+  margin-left: 70px;
+  margin-right: 70px;
+  line-height: 20px;
+  box-sizing:border-box;
+}
+  
+.consulting_wrapper > h3 {
+  text-align: left;
+  font-family: Signika Negative, Arial, Helvetica, serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding:0px 5px 5px;
+  margin-left: 70px;
+  margin-right: 70px;
+  display: inline-block;
+}
+
+.consulting_wrapper > h2 {
+  text-align: left;
+    font-family: Montserrat, Arial, Helvetica, serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding:0px 5px 5px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 45px;
+  display: inline-block;
+}
+  
+img {
+  position: relative;
+  width: 70%;
+  height: auto;
+  margin-bottom: 5px;
+  object-fit: contain;
+}
+ 
+.consulting_img_wrapper {
+  position: relative;
+  display: flex;
+  justify-content: start; 
+  align-items: center;
+  gap: 30px;
+  margin: 10px auto;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 25px;
+  max-width: 80%;
+  scroll-snap-type: x mandatory;
+}
+
+.consulting_img_wrapper figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 auto;
+  width: 70%;
+  max-width: 300px;
+  margin: 0;
+  scroll-snap-align: center;
+}
+
+.consulting_img_wrapper img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.consulting_img_wrapper figcaption {
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
+/* Settings for Mobile Devices */
+@media (max-width: 768px) { 
+  .consulting_img_wrapper figure {
+    width: auto;
+    margin-right: 15px;
+  }
+}
+
