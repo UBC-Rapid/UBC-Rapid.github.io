@@ -86,6 +86,11 @@ a:hover, a:visited, a:link, a:active {
   text-decoration: none;
 }
 
+ul {
+  margin-left: 40px; /* adds space from the left edge */
+  margin-right: 40px; /* optional */
+}
+
 /* Settings for Mobile Devices */
 @media (max-width: 768px) { 
   .consulting_img_wrapper figure {

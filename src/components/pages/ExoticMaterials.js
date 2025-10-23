@@ -3,62 +3,44 @@ import '../../App.css';
 import './ExoticMaterials.css';
 import { Button } from '../Button';
 
-export default function Consulting() {
+export default function ExoticMaterials() {
     return (
         <>
-            <h1 className='consulting'>EXOTIC MATERIALS</h1>
+            <h1 className='exotic_materials'>EXOTIC MATERIALS</h1>
             <div className='consulting_wrapper'>
-                <h2> HOW TO USE OUR SERVICE </h2>
-                <br /><br /> 
-                <p><strong>Cost:</strong> FREE</p>
-                <p><strong>Who can use this service:</strong> UBC Affiliated Teams, Students and Staff</p>
-                <h3>OUR OBJECTIVE</h3>
-                <p>Welcome to our free 3D Modelling Service! Our goal is to help transform your 
-                    creative ideas into reality by pairing you with experienced CAD designers and 
-                    enthusiastic engineering students. Whether you have a personal project, a hobby, 
-                    or a unique invention you have always wanted to visualize in 3D, our service is 
-                    designed to provide you with high-quality CAD modelling at no cost. 
+                <h2>EXOTIC MATERIAL TESTING</h2>
+                <br /><br />
+                <p>
+                    UBC Rapid will be expanding the variety of materials available for 
+                    student and faculty rapid prototyping projects. Currently, most printers 
+                    available to UBC undergraduate students are limited to either ABS and PLA. 
+                    While both materials are useful in prototyping, they severely limit the 
+                    types of parts students can produce. This project aims to fill in the gaps of knowledge by 
+                    developing resources for using non-standard materials on 3D printers, 
+                    and ultimately make other materials (such as composites) available for 
+                    student/faculty use. Filaments to be tested include:
                 </p>
-                <p>We believe in fostering a spirit of collaboration and learning, which is why we do 
-                    not engage in designing models for commercial, profitable, or non-personal purposes.
-                    We have worked with clients from the general public to various industries and 
-                    fields of academia. Not sure if our service is for you? Fill out our inquiry 
-                    form and we will look at your project to see if we can help!
-                </p>
-                <br /><br /> 
-                <div className='consulting_img_wrapper'>
-                    <img src="/images/Model4_bg.png" alt="Model 4" />
-                    <img src="/images/Model2_bg.png" alt="Model 2" />
-                    <img src="/images/model5.png" alt="Model 5" />
+                <ul> 
+                    <li>TPU</li>
+                    <li>Carbon Fiber</li>
+                    <li>Stone Fill</li>
+                    <li>Wood Fill</li>
+                </ul>
+                <div className='consulting_img_wrapper project'>
+                    <img src="/images/exoticmaterials1.jpg" alt="TPU sample" />
+                    <img src="/images/exoticmaterials2.PNG" alt="Carbon fiber test" />
+                    <img src="/images/exoticmaterials3.PNG" alt="Stone fill prototype" />
+                    <img src="/images/exoticmaterials4.jpg" alt="Wood fill print" />
                 </div>
-                <h3>1. SUBMIT FORM</h3>
-                <p>Fill out the form at the bottom of the page to give us the details 
-                    about who you are, your project and how we can help you.
+
+                <h3>OBJECTIVE</h3>
+                <p>
+                    Our goal is to expand the material capabilities of UBC’s 3D printing ecosystem. 
+                    By testing and documenting new materials, we aim to make advanced filaments 
+                    accessible to UBC students, staff, and research teams for rapid prototyping and 
+                    experimental applications.
                 </p>
-                <br /><br />   
-                <h3>2. WAIT FOR OUR RESPONSE</h3>
-                <p>We will get back to you within 2 - 4 days to discuss the feasibility and 
-                    specific details of your project.
-                </p>
-                <br /><br />  
-                <h3>3. PRODUCT DEVELOPMENT</h3>
-                <p>After the initial consultation to discuss the needs and design 
-                    specifications for your project, we will begin prototyping. This process may 
-                    undergo multiple iterations based on your feedback until you are 
-                    satisfied with the final product!
-                </p>
-                <br /><br />   
-                <div className="info-btns-consulting">
-                    <Button
-                        className='btns'
-                        buttonStyle='btn--primary'
-                        buttonSize='btn--large'
-                        newTab='true'
-                        link='https://forms.gle/X3vZeczA8fpBVzAt6'
-                    >
-                        Order Now
-                    </Button>
-                </div>
+
                 <br /><br />
             </div>
         </>
