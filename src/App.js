@@ -8,6 +8,7 @@ import Consulting from'./components/pages/Consulting';
 import JoinUs from'./components/pages/JoinUs';
 import Projects from'./components/pages/Projects';
 import ExoticMaterials from './components/pages/ExoticMaterials'
+import FilamentRecycler from './components/pages/FilamentRecycler'
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                     <Route path='/printing' exact component={Printing}/>
                     <Route path='/modelling' exact component={Consulting}/>
                     <Route path='/exotic_materials' exact component={ExoticMaterials}/>
+                    <Route path='/filament_recycler' exact component={FilamentRecycler}/>
                     <Route path='/projects' exact component={Projects}/>
                     <Route path='/join-us' exact component={JoinUs}/>
                 </Switch>

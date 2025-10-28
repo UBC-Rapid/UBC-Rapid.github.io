@@ -35,6 +35,15 @@ function TitleSection() {
                     buttonStyle='btn--outline'
                     buttSize='btn--medium'
                     newTab='false'
+                    link='#/filament_recycler'
+                >
+                    Filament Recycler
+                </Button>
+                <Button 
+                    className='btns' 
+                    buttonStyle='btn--outline'
+                    buttSize='btn--medium'
+                    newTab='false'
                     link='#/projects'
                 >
                     Our Projects

@@ -31,6 +31,9 @@ function Footer() {
                         <h3><Link to='/exotic_materials' onClick={scrollToTop}>Exotic Materials</Link></h3>
                     </div>
                     <div className='footer-link-items'>
+                        <h3><Link to='/filament_recycler' onClick={scrollToTop}>Filament Recycler</Link></h3>
+                    </div>
+                    <div className='footer-link-items'>
                         <h3><Link to='/projects' onClick={scrollToTop}>Projects</Link></h3>
                     </div>
                     <div className='footer-link-items'>
