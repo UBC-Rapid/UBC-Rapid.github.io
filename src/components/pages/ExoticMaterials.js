@@ -38,7 +38,7 @@ export default function ExoticMaterials() {
                     Our goal is to expand the material capabilities of UBC’s 3D printing ecosystem. 
                     By testing and documenting new materials, we aim to make advanced filaments 
                     accessible to UBC students, staff, and research teams for rapid prototyping and 
-                    experimental applications.
+                    experimental applications. We will provide our findings on each materials below.
                 </p>
 
                 <br /><br />
