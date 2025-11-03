@@ -25,12 +25,13 @@ function Footer() {
             <div className='footer-links'>
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
-                        <h3><Link to='/projects' onClick={scrollToTop}>Projects</Link></h3>
-                    </div>
-                </div>
-                <div className='footer-link-wrapper'>
-                    <div className='footer-link-items'>
                         <h3><Link to='/modelling' onClick={scrollToTop}>Modelling</Link></h3>
+                    </div>
+                    <div className='footer-link-items'>
+                        <h3><Link to='/exotic_materials' onClick={scrollToTop}>Exotic Materials</Link></h3>
+                    </div>
+                    <div className='footer-link-items'>
+                        <h3><Link to='/projects' onClick={scrollToTop}>Projects</Link></h3>
                     </div>
                     <div className='footer-link-items'>
                         <h3><Link to='/join-us' onClick={scrollToTop}>Join Us</Link></h3>

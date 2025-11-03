@@ -12,6 +12,7 @@
   .printing,
   .consulting,
   .projects,
+  .exotic_materials,
   .join-us {
     display: flex;
     height: 90vh;
@@ -27,6 +28,9 @@
     .printing,
     .consulting,
     .projects,
+    .exotic_materials {
+      height: 30vh;
+    }
     .join-us {
         height: 80vh;
         background-attachment: unset;
@@ -63,6 +67,17 @@
 .consulting {
     background-image: url('/images/projects22.png');
     background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: Montserrat, Arial, Helvetica, serif;
+    font-size: 7vw;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+.exotic_materials {
+    background-image: url('/images/exotic_materials_main.png');
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;

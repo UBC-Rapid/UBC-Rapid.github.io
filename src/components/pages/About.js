@@ -29,7 +29,7 @@ function About() {
                     <br></br>
                     <h1>About Us</h1>
                     <div className='about_wrapper'>
-                        <p> UBC Rapid is an Engineering Student Team offering CAD Modelling and 3D Printing Services
+                        <p> UBC Rapid is an Engineering Student Team offering CAD Modelling Services
                             at the University of British Columbia. Our major interest is rapid prototyping technology, 
                             the most popular of which is 3D-printing. Rapid prototyping describes the technique of using computer 
                             aided design (CAD) to generate physical models from product ideas.</p>
@@ -37,8 +37,6 @@ function About() {
                     <h1>Our Team Projects and Services</h1>
                     <div className="about_wrapper">
                     <ul className="cards__items">
-                        {/* CardItem components with links */}
-
                         <CardItem
                         images={["/images/Model4_bg.png", "/images/Model2_bg.png", "/images/model5.png"]}
                         text="Modelling Service"
@@ -58,8 +56,7 @@ function About() {
                         src="images/card-4.JPG"
                         text="Exotic Materials Research"
                         subtext="We are expanding our range of printable materials by researching the properties and feasibility of using innovative options like copper-infused filament, nylon, and many others."
-                        path="/projects"
-                        scrollPos={window.innerHeight * 1.4}
+                        path="/exotic_materials"
                         />
                     </ul>
                     </div>
@@ -100,7 +97,7 @@ function About() {
                             buttonStyle='btn--primary'
                             buttSize='btn--medium'
                             newTab='true'
-                            link='https://drive.google.com/file/d/1T509EAUtGzbmfX_KZrQIv5QqKSpH1fFi/view?usp=sharing'
+                            link='https://drive.google.com/file/d/1hXsTKhBoHx6_ZGMuVTxlAbnuue84qb-A/view?usp=sharing'
                         >
                             Sponsorship Package
                         </Button>

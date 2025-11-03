@@ -22,29 +22,6 @@ export default function Projects() {
                     <img src="/images/filament_recycler3.jpg" alt="3" />
                 </div>
                 <br></br>
-                <h3>EXOTIC MATERIAL TESTING</h3>
-                <p>UBC Rapid will be expanding the variety of materials available for 
-                    student and faculty rapid prototyping projects. Currently, most printers 
-                    available to UBC undergraduate students are limited to either ABS and PLA. 
-                    While both materials are useful in prototyping, they severely limit the 
-                    types of parts students can produce. This project aims to fill in the gaps of knowledge by 
-                    developing resources for using non-standard materials on 3D printers, 
-                    and ultimately make other materials (such as composites) available for 
-                    student/faculty use. Filaments to be tested include:
-                </p>
-                <ul> 
-                    <li>TPU</li>
-                    <li>Carbon Fiber</li>
-                    <li>Stone Fill</li>
-                    <li>Wood Fill</li>
-                </ul>
-                <div className='consulting_img_wrapper project'>
-                    <img src="/images/exoticmaterials1.jpg" alt="1" />
-                    <img src="/images/exoticmaterials2.PNG" alt="2" />
-                    <img src="/images/exoticmaterials3.PNG" alt="3" />
-                    <img src="/images/exoticmaterials4.jpg" alt="4" />
-                </div>
-                <br></br>
                 <h3>MAINTENANCE</h3>
                 <p>Working and well-calibrated 3D printers are the core of UBC Rapid’s 
                     operations. Currently, UBC Rapid has 7 working printers and 4 more 
