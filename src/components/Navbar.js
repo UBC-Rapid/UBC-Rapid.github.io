@@ -51,6 +51,11 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
+                            <Link to='/filament_recycler' className='nav-links' onClick={() => { scrollToTop(); closeMobileMenu(); }}>
+                                FILAMENT RECYCLER
+                            </Link>
+                        </li>
+                        <li className='nav-item'>
                             <Link to='/projects' className='nav-links' onClick={() => { scrollToTop(); closeMobileMenu(); }}>
                                 PROJECTS
                             </Link>
