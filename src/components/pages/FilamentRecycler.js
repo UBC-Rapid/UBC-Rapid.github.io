@@ -1,36 +1,88 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../App.css';
 import './FilamentRecycler.css';
 import { Button } from '../Button';
 
 export default function FilamentRecycler() {
+
+    // State for dropdowns (To be implemented later)
+    const [open, setOpen] = useState({
+        shredder: false,
+        extruder: false,
+        spooler: false,
+    });
+
+    const toggle = (key) => {
+        setOpen(prev => ({ ...prev, [key]: !prev[key] }));
+    };
+
+
+    // Main render
     return (
         <>
             <h1 className='filament_recycler'>FILAMENT RECYCLER</h1>
-            <div className='consulting_wrapper'>
-                <h2>FILAMENT RECYCLER</h2>
+
+            <div className='recycler_wrapper'>
+                <h2>FILAMENT RECYCLING</h2>
                 <br /><br />
                 
-                <p>
-                    UBC Rapid will be expanding the variety of materials available for 
-                    student and faculty rapid prototyping projects. Currently, most printers 
-                    available to UBC undergraduate students are limited to either ABS and PLA. 
-                    While both materials are useful in prototyping, they severely limit the 
-                    types of parts students can produce. This project aims to fill in the gaps of knowledge by 
-                    developing resources for using non-standard materials on 3D printers, 
-                    and ultimately make other materials (such as composites) available for 
-                    student/faculty use. Filaments to be tested include:
-                </p>
-                <ul> 
-                    <li>TPU</li>
-                    <li>Carbon Fiber</li>
-                    <li>Stone Fill</li>
-                    <li>Wood Fill</li>
-                </ul>
 
-                <div className='consulting_img_wrapper project'>
-                    {/* Placeholder for images related to Filament Recycler project */}
+                {/* Introduction to the project */}
+                <p>
+                    To make 3D printing a more sustainable practice within 
+                    the team and in the broader UBC community, our team is 
+                    aiming to design and build a Filament Recycler. This 
+                    innovative system transforms 3D printing waste, including
+                    failed prints and supports, into fresh filament rolls.
+                    <br /><br />
+                    The entire system consists of three key machines:
+                </p>
+                
+                {/* List of machines in dropdown menu*/}
+                {/* ========= Shredder ========= */}
+                <div className="recycler_dropdown">
+                    <div className="recycler_dropdown_header" onClick={() => toggle("shredder")}>
+                        <h3>SHREDDER</h3>
+                        <span>{open.shredder ? "▲" : "▼"}</span>
+                    </div>
+
+                    {open.shredder && (
+                        <div className="recycler_dropdown_content">
+                            <p>Short description about the shredder goes here.</p>
+                            {/* <img src= " Shredder Image " alt = "Shredder concept / prototype" /> */}
+                        </div>
+                    )}
                 </div>
+
+                {/* ========= Extruder ========= */}
+                <div className="recycler_dropdown">
+                    <div className="recycler_dropdown_header" onClick={() => toggle("extruder")}>
+                        <h3>EXTRUDER</h3>
+                        <span>{open.extruder ? "▲" : "▼"}</span>
+                    </div>
+
+                    {open.extruder && (
+                        <div className="recycler_dropdown_content">
+                            <p>Short description about the extruder goes here.</p>
+                            {/* <img src= " Extruder Image " alt = "Extruder concept / prototype" /> */}
+                        </div>
+                    )}
+                </div>
+
+                {/* ========= Spooler ========= */}
+                <div className="recycler_dropdown">
+                    <div className="recycler_dropdown_header" onClick={() => toggle("spooler")}>
+                        <h3>SPOOLER</h3>
+                        <span>{open.spooler ? "▲" : "▼"}</span>
+                    </div>
+
+                    {open.spooler && (
+                        <div className="recycler_dropdown_content">
+                            <p>Short description about the spooler goes here.</p>
+                            {/* <img src= " Spooler Image " alt = "Spooler concept / prototype" /> */}
+                        </div>
+                    )}
+                </div>    
             </div>
         </>
     );
