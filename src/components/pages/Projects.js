@@ -8,7 +8,6 @@ export default function Projects() {
             <h1 className='projects'>PROJECTS</h1>
             <div className='projects_wrapper'>
                
-             
                 <br></br>
                 <h3> PRINTER MAINTENANCE</h3>
                 <p>Working and well-calibrated 3D printers are the core of UBC Rapid’s 
@@ -49,8 +48,17 @@ export default function Projects() {
                     printers, students who successfully complete the workshops will 
                     have a future edge in leading teams or in jobs requiring fluency in 
                     CAD software.
+                    <center><img src="/images/pcbworkshop.jpg" alt=""></img></center>
                 </p>
-                <center><img src="/images/pcbworkshop.jpg" alt=""></img></center>
+                <br></br>
+                <h3>NUS Workshop</h3>
+                <p> info about the workshop
+                </p>
+                <center><img src="/images/NUS Workshop Exotic Materials.jpg" alt=""></img></center>
+                <center><img src="/images/NUS Worshop img 1.jpg" alt=""></img></center>
+            
+
+                
             </div>
         </>
     );
