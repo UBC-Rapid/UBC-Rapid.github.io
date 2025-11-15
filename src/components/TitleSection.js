@@ -12,15 +12,6 @@ function TitleSection() {
             <h2>A Rapid Prototyping Engineering Design Team</h2>
             <br></br>
             <center><div className="info-btns">
-                <Button 
-                    className='btns' 
-                    buttonStyle='btn--outline'
-                    buttSize='btn--medium'
-                    newTab='false'
-                    link='#/printing'
-                >
-                    3D Printing Service
-                </Button>
                 <Button
                     className='btns'
                     buttonStyle='btn--outline'
@@ -29,6 +20,33 @@ function TitleSection() {
                     link='#/modelling'
                 >
                     CAD Modelling Service
+                </Button>
+                <Button 
+                    className='btns' 
+                    buttonStyle='btn--outline'
+                    buttSize='btn--medium'
+                    newTab='false'
+                    link='#/exotic_materials'
+                >
+                    Exotic Materials
+                </Button>
+                <Button 
+                    className='btns' 
+                    buttonStyle='btn--outline'
+                    buttSize='btn--medium'
+                    newTab='false'
+                    link='#/filament_recycler'
+                >
+                    Filament Recycler
+                </Button>
+                <Button 
+                    className='btns' 
+                    buttonStyle='btn--outline'
+                    buttSize='btn--medium'
+                    newTab='false'
+                    link='#/projects'
+                >
+                    Our Projects
                 </Button>
             </div></center>
 

@@ -7,9 +7,22 @@ export default function Projects() {
         <>
             <h1 className='projects'>PROJECTS</h1>
             <div className='projects_wrapper'>
-               
+                <h3>FILAMENT RECYCLER DESIGN AND CONSTRUCTION</h3>
+                <p> To make 3D printing a more sustainable practice within the team and in the broader UBC community, 
+                    our team is aiming to design and build a Filament Recycler. This innovative system transforms 
+                    3D printing waste, including failed prints and supports, into fresh filament rolls. The entire system 
+                    consists of three key machines: a shredder that reduces the plastic into granules, an extruder that 
+                    then melts the shredded plastic and shapes it into the correct filament size, and a spooler that 
+                    winds the filament back into rolls. Recent progress includes completing the preliminary design of our 
+                    shredder and extruder, as well as procuring some parts to be used towards the build phase. 
+                </p>
+                <div className='consulting_img_wrapper project'>
+                    <img src="/images/filament_recycler1.jpg" alt="1" />
+                    <img src="/images/filament_recycler2.jpg" alt="2" />
+                    <img src="/images/filament_recycler3.jpg" alt="3" />
+                </div>
                 <br></br>
-                <h3> PRINTER MAINTENANCE</h3>
+                <h3>MAINTENANCE</h3>
                 <p>Working and well-calibrated 3D printers are the core of UBC Rapid’s 
                     operations. Currently, UBC Rapid has 7 working printers and 4 more 
                     printers preparing for service. Most of these printers are set aside 

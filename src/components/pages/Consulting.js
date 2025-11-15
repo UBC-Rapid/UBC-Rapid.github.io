@@ -27,6 +27,7 @@ export default function Consulting() {
                 </p>
                 <br /><br /> 
                 <div className='consulting_img_wrapper'>
+<<<<<<< HEAD
                     <figure>
                          <img src="/images/Model4_bg.png" alt="Model 4" />
                          <figcaption>Camera Holder</figcaption>
@@ -42,6 +43,11 @@ export default function Consulting() {
                         <figcaption>Threaded connector</figcaption>
                     </figure>
     
+=======
+                    <img src="/images/Model4_bg.png" alt="Model 4" />
+                    <img src="/images/Model2_bg.png" alt="Model 2" />
+                    <img src="/images/model5.png" alt="Model 5" />
+>>>>>>> 15f59f80ebad387d8ffb248980fac36931656851
                 </div>
                 <h3>1. SUBMIT FORM</h3>
                 <p>Fill out the form at the bottom of the page to give us the details 
@@ -66,7 +72,7 @@ export default function Consulting() {
                         buttonStyle='btn--primary'
                         buttonSize='btn--large'
                         newTab='true'
-                        link='https://forms.gle/MJu7KgkTge59sSiy5'
+                        link='https://forms.gle/X3vZeczA8fpBVzAt6'
                     >
                         Order Now
                     </Button>

@@ -2,9 +2,25 @@ import '../../App.css';
 import TitleSection from '../TitleSection';
 import CardItem from '../CardItem';
 import './About.css';
+import '../Cards.css'
 import { Button } from '../Button';
 
+import React, {useState} from "react";
+import CubeItem from "./CubeItem";
+
 function About() {
+
+    const [angle, setAngle] = useState(0);
+
+    const rotateLeft = () => {
+        setAngle(prev => prev - 90);
+    };
+
+    const rotateRight = () => {
+        setAngle(prev => prev + 90);
+    };
+
+
     return (
         <>
             <TitleSection />
@@ -13,42 +29,41 @@ function About() {
                     <br></br>
                     <h1>About Us</h1>
                     <div className='about_wrapper'>
-                        <p> UBC Rapid is an Engineering Student Team offering CAD Modelling and 3D Printing Services
+                        <p> UBC Rapid is an Engineering Student Team offering CAD Modelling Services
                             at the University of British Columbia. Our major interest is rapid prototyping technology, 
                             the most popular of which is 3D-printing. Rapid prototyping describes the technique of using computer 
                             aided design (CAD) to generate physical models from product ideas.</p>
                     </div>
-                    <h1>Our Printing and Modelling Services</h1>
-                    <div className='about_wrapper'>
-                        <ul className='cards_items'>
-                            {/* media src in react js link from within src or using /public as root */}
-                            <CardItem 
-                                src='images/card-1.JPG'
-                                text='Affordability'
-                                subtext='Charging only for the filament itself, our 3D printing service is one of the most affordable on campus.'
-                            />
-                            <CardItem 
-                                src='images/card-2.jpg'
-                                text='Speed'
-                                subtext='Our 7 operational printers means we offer the fastest turnaround time on campus.'
-                            />
-                            <CardItem 
-                                src='images/card-3.jpg'
-                                text='Quality'
-                                subtext='With multiple resolution and infill settings, we offer a large range of quality prints for different purposes and price points.'
-                            />
-                            <CardItem 
-                                src='images/card-4.JPG'
-                                text='Support'
-                                subtext='We offer free CAD modelling assistance to anyone who needs to clean up or fix their model files for a better print.'
-                            />
-                        </ul>
+                    <h1>Our Team Projects and Services</h1>
+                    <div className="about_wrapper">
+                    <ul className="cards__items">
+                        <CardItem
+                        images={["/images/Model4_bg.png", "/images/Model2_bg.png", "/images/model5.png"]}
+                        text="Modelling Service"
+                        subtext="Our free 3D Modelling Service pairs experienced CAD designers and engineering students with individuals to create high-quality, non-commercial 3D models for personal projects and unique inventions."
+                        path="/modelling"
+                        />
+                        <CardItem
+                        images={["/images/projects7.jpg", "/images/projects7.jpg", "/images/projects7.jpg"]}
+                        src="images/card-3.jpg"
+                        text="Filament Recycler"
+                        subtext="Our team is designing and building a Filament Recycler to promote sustainable 3D printing by converting waste, such as failed prints and supports, into reusable filament."
+                        path="/projects"
+                        scrollPos={window.innerHeight * 0.75}
+                        />
+                        <CardItem
+                        images={["/images/exoticmaterials1.jpg", "/images/exotic_cropped.png"]}
+                        src="images/card-4.JPG"
+                        text="Exotic Materials Research"
+                        subtext="We are expanding our range of printable materials by researching the properties and feasibility of using innovative options like copper-infused filament, nylon, and many others."
+                        path="/exotic_materials"
+                        />
+                    </ul>
                     </div>
+                    
                     <div className='about_wrapper'>
-                        <h2>Don't know what to print or where to begin? We can help.</h2>
-                        <br></br>
                         <h1>Our Team</h1>
-                        <img src="images/teamphoto2024.jpg" alt="" ></img>
+                        <img src="images/teamphoto2025.jpg" alt=""></img>
                     </div>
                     <div className="info-btns-about-us">
                         <Button
@@ -82,7 +97,7 @@ function About() {
                             buttonStyle='btn--primary'
                             buttSize='btn--medium'
                             newTab='true'
-                            link='https://drive.google.com/file/d/1T509EAUtGzbmfX_KZrQIv5QqKSpH1fFi/view?usp=sharing'
+                            link='https://drive.google.com/file/d/1hXsTKhBoHx6_ZGMuVTxlAbnuue84qb-A/view?usp=sharing'
                         >
                             Sponsorship Package
                         </Button>
@@ -120,3 +135,4 @@ function About() {
 }
 
 export default About;
+

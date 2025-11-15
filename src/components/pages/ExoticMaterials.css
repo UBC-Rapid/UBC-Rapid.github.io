@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap');
+
+/* ====== PAGE WRAPPER ====== */
+.exotic_wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* ====== HEADERS & PARAGRAPHS (keep your theme) ====== */
+
+.exotic_wrapper > p {
+  text-align: left;
+  font-family: Signika Negative, Arial, Helvetica, serif;
+  font-size: 19px;
+  padding: 5px 5px;
+  font-weight: lighter;
+  margin-left: 70px;
+  margin-right: 70px;
+  line-height: 20px;
+  box-sizing: border-box;
+}
+
+.exotic_wrapper > h3 {
+  text-align: left;
+  font-family: Signika Negative, Arial, Helvetica, serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px 5px 5px;
+  margin-left: 70px;
+  margin-right: 70px;
+  display: inline-block;
+}
+
+.exotic_wrapper > h2 {
+  text-align: left;
+  font-family: Montserrat, Arial, Helvetica, serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0px 5px 5px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 45px;
+  display: inline-block;
+}
+
+/* ====== GENERIC IMAGE SETTINGS ====== */
+.exotic_img {
+  width: 70%;
+  height: auto;
+  margin-bottom: 5px;
+  object-fit: contain;
+}
+
+/* ====== LIST SPACING ====== */
+ul {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* ====== DROPDOWN SECTIONS ====== */
+
+.exotic_dropdown {
+  background: #ffffff;
+  margin: 20px 70px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.exotic_dropdown_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 20px;
+  cursor: pointer;
+  background: #f5f5f5;
+  font-family: Montserrat, Arial, Helvetica, serif;
+}
+
+.exotic_dropdown_header:hover {
+  background: #e0e0e0;
+}
+
+.exotic_dropdown_header h3 {
+  margin: 0;
+  font-size: 20px;
+  font-family: Signika Negative, Arial, Helvetica, serif;
+}
+
+.exotic_dropdown_header span {
+  font-size: 1.2rem;
+  user-select: none;
+}
+
+.exotic_dropdown_content {
+  padding: 20px;
+}
+
+.exotic_dropdown_content p {
+  font-family: Signika Negative, Arial, Helvetica, serif;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 12px;
+}
+
+/* Dropdown images inside content */
+.exotic_dropdown_content img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+  display: block;
+  margin: 10px auto;
+}
+
+/* ====== MOBILE ====== */
+@media (max-width: 768px) {
+  .exotic_wrapper > p,
+  .exotic_wrapper > h2,
+  .exotic_wrapper > h3 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .exotic_dropdown {
+    margin: 20px;
+  }
+}
