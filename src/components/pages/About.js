@@ -34,6 +34,12 @@ function About() {
                             the most popular of which is 3D-printing. Rapid prototyping describes the technique of using computer 
                             aided design (CAD) to generate physical models from product ideas.</p>
                     </div>
+
+
+
+
+
+                    
                     <h1>Our Team Projects and Services</h1>
                     <div className="about_wrapper">
                     <ul className="cards__items">
