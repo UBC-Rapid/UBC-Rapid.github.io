@@ -27,9 +27,27 @@ export default function Consulting() {
                 </p>
                 <br /><br /> 
                 <div className='consulting_img_wrapper'>
+<<<<<<< HEAD
+                    <figure>
+                         <img src="/images/Model4_bg.png" alt="Model 4" />
+                         <figcaption>Camera Holder</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="/images/Model2_bg.png" alt="Model 2" />
+                        <figcaption>Construction Adapter</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="\images\model5.png" alt="Model 5"/>
+                        <figcaption>Threaded connector</figcaption>
+                    </figure>
+    
+=======
                     <img src="/images/Model4_bg.png" alt="Model 4" />
                     <img src="/images/Model2_bg.png" alt="Model 2" />
                     <img src="/images/model5.png" alt="Model 5" />
+>>>>>>> 15f59f80ebad387d8ffb248980fac36931656851
                 </div>
                 <h3>1. SUBMIT FORM</h3>
                 <p>Fill out the form at the bottom of the page to give us the details 
