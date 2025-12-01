@@ -94,7 +94,7 @@ a:hover {
   display: none;
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 768px) {
   .NavbarItems {
     position: relative;
   }
@@ -105,14 +105,14 @@ a:hover {
     width: 100%;
     position: absolute;
     top: 80px;
-    left: -100%;
+    left: -110%;
     opacity: 1;
     transition: all 0.5s ease;
   }
 
   .nav-menu.active {
     background: #ececec;
-    left: 0;
+    left: -6.5%;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
@@ -120,7 +120,7 @@ a:hover {
 
   .nav-links {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
     display: table;
   }

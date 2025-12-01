@@ -116,14 +116,18 @@ ul {
 
 /* ====== MOBILE ====== */
 @media (max-width: 768px) {
+  .exotic_wrapper {
+    margin: 20px;
+  }
   .exotic_wrapper > p,
   .exotic_wrapper > h2,
   .exotic_wrapper > h3 {
     margin-left: 20px;
     margin-right: 20px;
+    padding: 15px;
   }
 
   .exotic_dropdown {
-    margin: 20px;
+    margin: 25px;
   }
 }

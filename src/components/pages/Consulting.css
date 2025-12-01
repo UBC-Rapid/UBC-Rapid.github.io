@@ -90,7 +90,17 @@ a:hover, a:visited, a:link, a:active {
 @media (max-width: 768px) { 
   .consulting_img_wrapper figure {
     width: auto;
-    margin-right: 15px;
+    margin: 20px;
+  }
+
+  .consulting_wrapper {
+    margin: 20px;
+  }
+  .consulting_wrapper > p,
+  .consulting_wrapper > h2,
+  .consulting_wrapper > h3{
+    margin: 20px;
+    margin-bottom: 10px;
   }
 }
 

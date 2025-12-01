@@ -129,13 +129,19 @@ ul {
 
 /* ====== MOBILE ====== */
 @media (max-width: 768px) {
+
+  .recycler_wrapper {
+    margin: 20px;
+  }
   .recycler_wrapper > p,
   .recycler_wrapper > h2,
   .recycler_wrapper > h3 {
     margin-left: 20px;
     margin-right: 20px;
   }
-
+  .image_grid {
+    margin: 20px;
+  }
   .recycler_dropdown {
     margin: 20px;
   }
