@@ -23,7 +23,7 @@
     background-attachment: unset;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     .home,
     .printing,
     .consulting,
@@ -113,3 +113,29 @@
     background-size: 100%;
   }
 }
+
+@media (max-width: 768px) {
+    .home,
+    .printing,
+    .consulting,
+    .projects,
+    .exotic_materials,
+    .filament_recycler,
+    .join-us {
+        font-size: 10vw;  /* OR: clamp(1.5rem, 8vw, 3rem) */
+    }
+}
+
+
+@media (max-width: 768px) {
+    .home,
+    .printing,
+    .consulting,
+    .projects,
+    .exotic_materials{
+        /*padding: 25px;     !* prevents text touching edges *!*/
+        margin: 20px;
+        text-align: center;
+    }
+}
+

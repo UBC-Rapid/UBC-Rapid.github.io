@@ -109,7 +109,7 @@ h2 {
   width: 800px;
   height: auto;
   max-width: 100%;
-  display: visible; 
+  /*display: visible;*/
 }
 
 .sponsors_wrapper {
@@ -125,7 +125,7 @@ h2 {
   border-width: 3px;
   max-width: 300px;
   align-items: center;
-  display: inline-block;
+  /*display: inline-block;*/
   justify-content: center;
 }
 
@@ -150,6 +150,15 @@ h2 {
   @media only screen and (max-width: 768px) {
     .cube {
       display: none;
+    }
+
+    .about_wrapper {
+      margin: 20px;
+    }
+    .sponsors_wrapper,
+    .sponsorship-btns-about-us{
+      margin: 20px;
+      align-content: center;
     }
 
     .cube__title {

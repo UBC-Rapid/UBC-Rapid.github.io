@@ -60,16 +60,23 @@ img {
 }
 
 /* Responsive spacing */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .projects_wrapper {
+    margin: 20px;
     padding: 15px;
   }
   
   .projects_wrapper h3 {
+    margin: 20px;
     font-size: 22px;
   }
 
+  .image_center {
+    margin: 20px;
+  }
+
   .projects_wrapper p {
+    margin: 20px;
     font-size: 16px;
   }
 }
