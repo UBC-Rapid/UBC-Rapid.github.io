@@ -74,7 +74,6 @@ ul {
 /* ====== DROPDOWN SECTIONS ====== */
 
 .recycler_dropdown {
-  background: #ffffff;
   margin: 20px 70px;
   border-radius: 10px;
   overflow: hidden;
@@ -118,14 +117,6 @@ ul {
   margin-bottom: 12px;
 }
 
-/* Dropdown images inside content */
-.recycler_dropdown_content img {
-  width: 100%;
-  max-width: 350px;
-  border-radius: 10px;
-  display: block;
-  margin: 10px auto;
-}
 
 /* ====== MOBILE ====== */
 @media (max-width: 768px) {

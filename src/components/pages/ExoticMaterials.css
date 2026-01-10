@@ -1,68 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap');
 
-/* ====== PAGE WRAPPER ====== */
+/* ====== VARIABLES (Optional, for easy theming) ====== */
+:root {
+  --font-header: 'Montserrat', Arial, Helvetica, serif;
+  --font-body: 'Signika Negative', Arial, Helvetica, serif;
+  --color-bg-header: #f5f5f5;
+  --color-bg-hover: #e0e0e0;
+}
+
+/* ====== LAYOUT ====== */
+.exotic_title {
+  /* Assumes h1 styling from App.css, add specific overrides here if needed */
+  text-align: center;
+  margin-top: 20px;
+}
+
 .exotic_wrapper {
   max-width: 900px;
   margin: 0 auto;
-  padding: 20px;
+  /* Instead of putting margins on every child, put padding on the wrapper */
+  padding: 20px 90px; 
 }
 
-/* ====== HEADERS & PARAGRAPHS (keep your theme) ====== */
-
-.exotic_wrapper > p {
+/* ====== TEXT STYLES ====== */
+.intro_text {
   text-align: left;
-  font-family: Signika Negative, Arial, Helvetica, serif;
+  font-family: var(--font-body);
   font-size: 19px;
-  padding: 5px 5px;
   font-weight: lighter;
-  margin-left: 70px;
-  margin-right: 70px;
   line-height: 20px;
-  box-sizing: border-box;
+  margin-bottom: 30px;
 }
 
-.exotic_wrapper > h3 {
+.section_title {
   text-align: left;
-  font-family: Signika Negative, Arial, Helvetica, serif;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 0px 5px 5px;
-  margin-left: 70px;
-  margin-right: 70px;
-  display: inline-block;
-}
-
-.exotic_wrapper > h2 {
-  text-align: left;
-  font-family: Montserrat, Arial, Helvetica, serif;
+  font-family: var(--font-header);
   font-size: 25px;
   font-weight: bold;
-  padding: 0px 5px 5px;
-  margin-left: 70px;
-  margin-right: 70px;
-  margin-top: 45px;
-  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 25px;
 }
 
-/* ====== GENERIC IMAGE SETTINGS ====== */
-.exotic_img {
-  width: 70%;
-  height: auto;
-  margin-bottom: 5px;
-  object-fit: contain;
-}
-
-/* ====== LIST SPACING ====== */
-ul {
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-/* ====== DROPDOWN SECTIONS ====== */
-
+/* ====== DROPDOWNS ====== */
 .exotic_dropdown {
-  background: #ffffff;
-  margin: 20px 70px;
+  margin-bottom: 20px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 3px 8px rgba(0,0,0,0.1);
@@ -75,18 +56,19 @@ ul {
   align-items: center;
   padding: 18px 20px;
   cursor: pointer;
-  background: #f5f5f5;
-  font-family: Montserrat, Arial, Helvetica, serif;
+  background: var(--color-bg-header);
+  transition: background 0.2s;
 }
 
 .exotic_dropdown_header:hover {
-  background: #e0e0e0;
+  background: var(--color-bg-hover);
 }
 
 .exotic_dropdown_header h3 {
   margin: 0;
   font-size: 20px;
-  font-family: Signika Negative, Arial, Helvetica, serif;
+  font-family: var(--font-body);
+  font-weight: bold;
 }
 
 .exotic_dropdown_header span {
@@ -99,31 +81,28 @@ ul {
 }
 
 .exotic_dropdown_content p {
-  font-family: Signika Negative, Arial, Helvetica, serif;
+  font-family: var(--font-body);
   font-size: 18px;
-  line-height: 22px;
-  margin-bottom: 12px;
+  line-height: 1.4; /* Slightly better readability than fixed px */
+  margin-bottom: 15px;
 }
 
-/* Dropdown images inside content */
-.exotic_dropdown_content img {
-  width: 100%;
-  max-width: 350px;
-  border-radius: 10px;
-  display: block;
-  margin: 10px auto;
+/* ====== IMAGES ====== */
+.exotic_img {
+  width: 70%;
+  height: auto;
+  display: block; /* Centers the image if margin auto is used */
+  margin: 10px auto; 
+  object-fit: contain;
 }
 
 /* ====== MOBILE ====== */
 @media (max-width: 768px) {
-  .exotic_wrapper > p,
-  .exotic_wrapper > h2,
-  .exotic_wrapper > h3 {
-    margin-left: 20px;
-    margin-right: 20px;
+  .exotic_wrapper {
+    padding: 20px 20px; /* Reduces side padding on mobile */
   }
-
-  .exotic_dropdown {
-    margin: 20px;
+  
+  .exotic_img {
+    width: 100%;
   }
 }
