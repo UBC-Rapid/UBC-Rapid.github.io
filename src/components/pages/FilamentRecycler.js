@@ -64,7 +64,6 @@ export default function FilamentRecycler() {
                                 of creating housing for the electrical components 
                                 and connecting the motor to the shredding blades.
                             </p>
-                            {/* <img src= " Shredder Image " alt = "Shredder concept / prototype" /> */}
                         </div>
                     )}
                 </div>
