@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ab78e230.css",
-    "main.js": "/static/js/main.c37d00a1.js",
+    "main.js": "/static/js/main.adfecf28.js",
     "static/media/exotic_materials_main.png": "/static/media/exotic_materials_main.3aab68465cf89ded2185.png",
     "static/media/cloned_printer.JPG": "/static/media/cloned_printer.9788341f9f0939987f05.JPG",
     "static/media/openhouse2223.jpg": "/static/media/openhouse2223.c96b5d8a0cb729461486.jpg",
@@ -10,10 +10,10 @@
     "static/media/mini_cairns.jpg": "/static/media/mini_cairns.f928bf4397a82957520e.jpg",
     "index.html": "/index.html",
     "main.ab78e230.css.map": "/static/css/main.ab78e230.css.map",
-    "main.c37d00a1.js.map": "/static/js/main.c37d00a1.js.map"
+    "main.adfecf28.js.map": "/static/js/main.adfecf28.js.map"
   },
   "entrypoints": [
     "static/css/main.ab78e230.css",
-    "static/js/main.c37d00a1.js"
+    "static/js/main.adfecf28.js"
   ]
 }
