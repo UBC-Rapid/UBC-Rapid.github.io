@@ -76,7 +76,7 @@
 }
 
 .exotic_materials {
-    background-image: url('/images/exotic_materials_main.png');
+    /* background-image: url('/images/exotic_materials_main.png');*/
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
