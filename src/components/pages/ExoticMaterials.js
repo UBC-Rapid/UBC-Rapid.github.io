@@ -38,7 +38,7 @@ const materials = [
 ];
 
 export default function ExoticMaterials() {
-  // Simple object to track which IDs are open
+
   const [openItems, setOpenItems] = useState({});
 
   const toggle = (id) => {
@@ -47,7 +47,7 @@ export default function ExoticMaterials() {
 
   return (
     <>
-      <h1 className='exotic_title'>EXOTIC MATERIALS</h1>
+      <h1 className='exotic_materials'>EXOTIC MATERIALS</h1>
 
       <div className='exotic_wrapper'>
         <h2 className='section_title'>EXOTIC MATERIAL TESTING</h2>
