@@ -29,7 +29,7 @@ export default function Projects() {
 
         {/* --- MAINTENANCE --- */}
         <section className="project_section">
-          <h3>Maintenance</h3>
+          <h3>Printer Maintenance</h3>
           <p>
             UBC Rapid currently operates 7 working 3D printers with 4 more being prepared for service.
             These printers are essential for our 3D printing service, allowing members to gain hands-on
