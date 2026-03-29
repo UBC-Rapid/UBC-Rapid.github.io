@@ -1,108 +1,156 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap");
 
-/* ====== VARIABLES (Optional, for easy theming) ====== */
-:root {
-  --font-header: 'Montserrat', Arial, Helvetica, serif;
-  --font-body: 'Signika Negative', Arial, Helvetica, serif;
-  --color-bg-header: #f5f5f5;
-  --color-bg-hover: #e0e0e0;
-}
-
-/* ====== LAYOUT ====== */
-.exotic_title {
-  /* Assumes h1 styling from App.css, add specific overrides here if needed */
-  text-align: center;
-  margin-top: 20px;
-}
-
+/* ====== PAGE WRAPPER: wider like Filament Recycler ====== */
 .exotic_wrapper {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
-  /* Instead of putting margins on every child, put padding on the wrapper */
-  padding: 20px 90px; 
+  padding: 32px 32px;
 }
 
-/* ====== TEXT STYLES ====== */
+/* ====== HEADERS & PARAGRAPHS ====== */
+.exotic_wrapper > h2 {
+  text-align: left;
+  font-family: Montserrat, Arial, Helvetica, serif;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 40px 0 14px 0;
+  display: block;
+}
+
 .intro_text {
   text-align: left;
-  font-family: var(--font-body);
-  font-size: 19px;
-  font-weight: lighter;
-  line-height: 20px;
-  margin-bottom: 30px;
-}
-
-.section_title {
-  text-align: left;
-  font-family: var(--font-header);
-  font-size: 25px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  margin-top: 25px;
-}
-
-/* ====== DROPDOWNS ====== */
-.exotic_dropdown {
-  margin-bottom: 20px;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-  transition: 0.3s;
-}
-
-.exotic_dropdown_header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 18px 20px;
-  cursor: pointer;
-  background: var(--color-bg-header);
-  transition: background 0.2s;
-}
-
-.exotic_dropdown_header:hover {
-  background: var(--color-bg-hover);
-}
-
-.exotic_dropdown_header h3 {
-  margin: 0;
+  font-family: "Signika Negative", Arial, Helvetica, serif;
   font-size: 20px;
-  font-family: var(--font-body);
-  font-weight: bold;
+  font-weight: lighter;
+  line-height: 1.45;
+  margin: 14px 0 24px 0;
+  max-width: 900px;
 }
 
-.exotic_dropdown_header span {
-  font-size: 1.2rem;
-  user-select: none;
+/* ====== GRID: 3 cards in one row on desktop ====== */
+.material_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+  margin-top: 22px;
+  align-items: start;
 }
 
-.exotic_dropdown_content {
-  padding: 20px;
+/* ====== ITEM ====== */
+.material_item {
+  display: flex;
+  flex-direction: column;
 }
 
-.exotic_dropdown_content p {
-  font-family: var(--font-body);
-  font-size: 18px;
-  line-height: 1.4; /* Slightly better readability than fixed px */
-  margin-bottom: 15px;
+/* ====== CARD ====== */
+.material_card {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  height: 380px;
+  cursor: pointer;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+
+  transform: translateY(0);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* ====== IMAGES ====== */
-.exotic_img {
-  width: 70%;
-  height: auto;
-  display: block; /* Centers the image if margin auto is used */
-  margin: 10px auto; 
-  object-fit: contain;
+.material_card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 28px rgba(0, 0, 0, 0.18);
+}
+
+/* IMAGE */
+.material_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* DARK TINT */
+.material_tint {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  transition: 0.25s ease;
+}
+
+/* When open: make image clearer */
+.material_card.open .material_tint {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+/* ====== CENTERED TITLE ====== */
+.material_title_center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
+
+.material_title_center h3 {
+  font-family: "Signika Negative", Arial, Helvetica, serif;
+  font-size: 28px;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+/* ====== DESCRIPTION BELOW ====== */
+.material_below {
+  margin-top: 14px;
+  padding: 0 2px;
+
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: max-height 0.35s ease, opacity 0.25s ease, transform 0.25s ease;
+}
+
+.material_below.open {
+  max-height: 900px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.material_below p {
+  margin: 0 0 14px 0;
+  font-family: "Signika Negative", Arial, Helvetica, serif;
+  font-size: 20px;
+  line-height: 1.45;
+  font-weight: lighter;
 }
 
 /* ====== MOBILE ====== */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .exotic_wrapper {
-    padding: 20px 20px; /* Reduces side padding on mobile */
+    padding: 20px;
   }
-  
-  .exotic_img {
-    width: 100%;
+
+  .material_grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .material_card {
+    height: 280px;
+  }
+
+  .intro_text {
+    max-width: 100%;
+  }
+
+  .material_title_center h3 {
+    font-size: 24px;
+  }
+
+  .material_below p {
+    font-size: 18px;
   }
 }

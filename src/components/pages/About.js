@@ -89,7 +89,7 @@ function About() {
                     </div>
                     <div className='sponsorship_wrapper'>
                         <h2>Want to learn more about sponsorships? 
-                            Check our our Sponsorship Package below.</h2>
+                            Check out our Sponsorship Package below.</h2>
                     </div>
                     <div className="info-btns-about-us">
                         <Button

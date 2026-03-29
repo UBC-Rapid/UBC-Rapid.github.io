@@ -56,7 +56,7 @@ export default function Consulting() {
                         newTab='true'
                         link='https://forms.gle/X3vZeczA8fpBVzAt6'
                     >
-                        Order Now
+                        Request Now
                     </Button>
                 </div>
                 <br /><br />

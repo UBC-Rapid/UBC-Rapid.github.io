@@ -57,7 +57,7 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link to='/projects' className='nav-links' onClick={() => { scrollToTop(); closeMobileMenu(); }}>
-                                PROJECTS
+                               ADVANCEMENTS
                             </Link>
                         </li>
                         <li className='nav-item'>

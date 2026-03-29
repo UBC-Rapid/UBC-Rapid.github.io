@@ -46,7 +46,7 @@ function TitleSection() {
                     newTab='false'
                     link='#/projects'
                 >
-                    Our Projects
+                    Advancements
                 </Button>
             </div></center>
 
