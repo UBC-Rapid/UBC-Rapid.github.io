@@ -34,7 +34,7 @@ function Footer() {
                         <h3><Link to='/filament_recycler' onClick={scrollToTop}>Filament Recycler</Link></h3>
                     </div>
                     <div className='footer-link-items'>
-                        <h3><Link to='/projects' onClick={scrollToTop}>Projects</Link></h3>
+                        <h3><Link to='/projects' onClick={scrollToTop}>Advancements</Link></h3>
                     </div>
                     <div className='footer-link-items'>
                         <h3><Link to='/join-us' onClick={scrollToTop}>Join Us</Link></h3>
@@ -48,7 +48,7 @@ function Footer() {
                         <img src='/images/rapid_logo.png' className='rapid-logo' alt="" />
                     </Link>
                    
-                    <small className='website-rights'>UBC RAPID © 2025</small>
+                    <small className='website-rights'>UBC RAPID © 2026</small>
                     <div className='social-icons'>
                         <a className='social-icon-link facebook'
                             target="_blank"

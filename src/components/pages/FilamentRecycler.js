@@ -77,7 +77,7 @@ export default function FilamentRecycler() {
             >
               <img
                 className="machine_img"
-                src="/images/filament_recycler2.jpg"
+                src="/images/filament_recycler2.png"
                 alt="Extruder"
               />
               <div className="machine_tint"></div>
@@ -112,7 +112,7 @@ export default function FilamentRecycler() {
             >
               <img
                 className="machine_img"
-                src="/images/filament_recycler3.jpg"
+                src="/images/filament_recycler4.png"
                 alt="Spooler"
               />
               <div className="machine_tint"></div>

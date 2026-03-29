@@ -5,27 +5,9 @@ import './Projects.css';
 export default function Projects() {
   return (
     <>
-      <h1 className="projects">PROJECTS</h1>
+      <h1 className="projects">ADVANCEMENTS</h1>
 
       <div className="projects_wrapper">
-
-        {/* --- FILAMENT RECYCLER --- */}
-        <section className="project_section">
-          <h3>Filament Recycler – Design & Construction</h3>
-          <p>
-            To make 3D printing a more sustainable practice within UBC Rapid and the broader community,
-            our team is designing and building a filament recycler. This system transforms failed prints
-            and 3D-printing waste into fresh filament. It consists of a shredder, an extruder, and a spooler.
-            Recent progress includes completing the preliminary shredder and extruder designs and procuring
-            parts for the build phase.
-          </p>
-
-          <div className="image_grid">
-            <img src="/images/filament_recycler1.jpg" alt="Filament Recycler 1" />
-            <img src="/images/filament_recycler2.jpg" alt="Filament Recycler 2" />
-            <img src="/images/filament_recycler3.jpg" alt="Filament Recycler 3" />
-          </div>
-        </section>
 
         {/* --- MAINTENANCE --- */}
         <section className="project_section">

@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap");
 
-/* ====== PAGE WRAPPER: wider so less side whitespace ====== */
 .recycler_wrapper {
-  max-width: 1200px;       /* wider than before */
+  max-width: 1200px;
   margin: 0 auto;
   padding: 32px 32px;
 }
@@ -11,7 +10,7 @@
 .recycler_wrapper > h2 {
   text-align: left;
   font-family: Montserrat, Arial, Helvetica, serif;
-  font-size: 30px;         /* bigger */
+  font-size: 30px;
   font-weight: 800;
   margin: 40px 0 14px 0;
   display: block;
