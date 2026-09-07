@@ -9,7 +9,7 @@ export default function JoinUs() {
             <h1 className='join-us'>JOIN US</h1>
             <div className='joinus_wrapper'>
             <br /><br />
-                <h3>The applications for 2025/26 are now closed</h3>
+                <h3>Applications for 2026/27 are now open!</h3>
                 <br /><br />
                 <p>We are recruiting members to work in our sub-teams, as the demands for 
                     CAD Modelling, printer repair and 3D Printing orders have increased over the years. 
@@ -44,7 +44,7 @@ export default function JoinUs() {
                         buttonStyle='btn--primary'
                         buttonSize='btn--large'
                         newTab='true'
-                        link='https://forms.gle/rLQVo1o8oWQrb2Fw6'
+                        link='https://forms.gle/oxCytpJEqkYugr327'
                     >
                         Application Form
                     </Button>
