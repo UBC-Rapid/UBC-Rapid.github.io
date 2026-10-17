@@ -1,0 +1,72 @@
+name: Bug report
+description: Something on the website is broken or looks wrong
+title: "[Bug]: "
+type: Bug
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Check the Kanban board first to make sure this isn't already an issue.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What's wrong?
+      description: A clear, short description of the problem.
+      placeholder: The navbar overlaps the logo on small screens.
+    validations:
+      required: true
+
+  - type: input
+    id: page
+    attributes:
+      label: Page / URL
+      description: Where does this happen?
+      placeholder: https://ubc-rapid.github.io/ or on the modelling page
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the Team page
+        2. Resize the window to phone width
+        3. Look at the top of the page
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Fixed behaviour
+      placeholder: The logo and menu button sit side by side without overlapping.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: Where did you see it?
+      multiple: true
+      options:
+        - Desktop
+        - Mobile (real phone)
+        - Mobile (browser dev tools)
+        - Local dev server (npm start)
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag images here. Annotated or before/after screenshots help a lot.
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Anything else that might help (browser, related issues, ideas for a fix, links). Optional.
