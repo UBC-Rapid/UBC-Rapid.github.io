@@ -102,9 +102,12 @@ a:hover {
   .nav-menu {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     width: 100%;
-    position: absolute;
+    overflow-y: auto;
+    position: fixed;
     top: 80px;
+    bottom: 0;
     left: 0;
     background: #ececec;
     z-index: 1;
@@ -116,6 +119,14 @@ a:hover {
   .nav-menu.active {
     opacity: 1;
     visibility: visible;
+  }
+
+  .nav-item:first-child {
+    margin-top: auto;
+  }
+
+  .nav-item:last-child {
+    margin-bottom: auto;
   }
 
   .nav-links {
@@ -177,12 +188,4 @@ a:hover {
   .nav-logo {
     margin-right: 0px;
   }
-}
-
-
-
-@media screen and (max-width: 500px) {
-    .nav-menu {
-        height: 90vh;
-    }
 }
