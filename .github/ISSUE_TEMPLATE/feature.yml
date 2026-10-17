@@ -1,0 +1,20 @@
+name: Feature or content request
+description: Suggest a new feature, page, or content update
+title: "[Feature]: "
+type: Feature
+labels: []
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: What should be added or changed? Link mockups, Figma, or reference sites if you have them.
+      placeholder: Add a Sponsors section with tier cards (Gold / Silver / Bronze) and logos.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Anything else worth knowing (alternatives considered, open questions, related issues, links). Optional.
