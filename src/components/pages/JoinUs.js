@@ -9,7 +9,8 @@ export default function JoinUs() {
             <h1 className='join-us'>JOIN US</h1>
             <div className='joinus_wrapper'>
             <br /><br />
-                <h3>Applications for 2026/27 are now open!</h3>
+                {/* <h3>Applications for 2026/27 are now open!</h3> */}
+                <h3>Applications for 2026/27 have closed</h3>
                 <br /><br />
                 <p>We are recruiting members to work in our sub-teams, as the demands for 
                     CAD Modelling, printer repair and 3D Printing orders have increased over the years. 
@@ -26,7 +27,7 @@ export default function JoinUs() {
                     Regardless of experience level, we are looking for dedicated 
                     individuals willing to put in the time and effort to learn.
                 </p>
-                <p>Linked below is the application form for UBC Rapid. Please answer 
+                {/* <p>Linked below is the application form for UBC Rapid. Please answer 
                     all the required questions. If selected for an interview, you 
                     will receive an email during the application time frame to                             
                     book an interview. The interview is expected to take up to 
@@ -55,8 +56,8 @@ export default function JoinUs() {
                     business/accounting skills. The most important thing we are 
                     looking for are dedicated people that will grow with the team.<br /><br />
                     We look forward to meeting you!
-                </p>
-                <br /><br />
+                </p> */}
+                <br /><br /> 
             </div>
         </>
     );
