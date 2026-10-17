@@ -105,17 +105,17 @@ a:hover {
     width: 100%;
     position: absolute;
     top: 80px;
-    left: -100%;
-    opacity: 1;
-    transition: all 0.5s ease;
+    left: 0;
+    background: #ececec;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
   }
 
   .nav-menu.active {
-    background: #ececec;
-    left: 0;
     opacity: 1;
-    transition: all 0.5s ease;
-    z-index: 1;
+    visibility: visible;
   }
 
   .nav-links {
