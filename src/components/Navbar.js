@@ -17,13 +17,30 @@ function Navbar() {
     useEffect(() => {
         const handleResize = () => {
             // Close mobile menu on desktop resize
-            if (window.innerWidth > 960) {
+            // 880 must match the mobile breakpoint in Navbar.css
+            if (window.innerWidth > 880) {
                 setClick(false);
             }
         };
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
     }, []);
+
+    // Lock page scroll while the mobile menu is open
+    useEffect(() => {
+        if (click) {
+            const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+            document.body.style.overflow = 'hidden';
+            document.body.style.paddingRight = scrollbarWidth + 'px';
+        } else {
+            document.body.style.overflow = '';
+            document.body.style.paddingRight = '';
+        }
+        return () => {
+            document.body.style.overflow = '';
+            document.body.style.paddingRight = '';
+        };
+    }, [click]);
 
     return (
         <>
