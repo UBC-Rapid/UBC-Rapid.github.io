@@ -36,7 +36,7 @@ function About() {
                             parts, and our team works on projects that push what student-led prototyping can do. 
                             Rapid gives members a hands-on, collaborative space to build practical skills in design, 
                             manufacturing and problem solving, whether you are modelling your first part or leading 
-                            a project!</p>
+                            a project.</p>
                     </div>
                     <h1>Our Team Projects and Services</h1>
                     <div className="about_wrapper">
