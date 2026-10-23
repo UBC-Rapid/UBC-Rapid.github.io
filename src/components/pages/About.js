@@ -5,21 +5,9 @@ import './About.css';
 import '../Cards.css'
 import { Button } from '../Button';
 
-import React, {useState} from "react";
-import CubeItem from "./CubeItem";
+import React from "react";
 
 function About() {
-
-    const [angle, setAngle] = useState(0);
-
-    const rotateLeft = () => {
-        setAngle(prev => prev - 90);
-    };
-
-    const rotateRight = () => {
-        setAngle(prev => prev + 90);
-    };
-
 
     return (
         <>
