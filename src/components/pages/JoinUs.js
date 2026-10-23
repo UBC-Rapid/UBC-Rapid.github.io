@@ -1,6 +1,8 @@
 import React from 'react';
 import '../../App.css';
 import './JoinUs.css';
+// Used by the application form button below, which is commented out while applications are closed
+// eslint-disable-next-line no-unused-vars
 import { Button } from '../Button';
 
 export default function JoinUs() {
