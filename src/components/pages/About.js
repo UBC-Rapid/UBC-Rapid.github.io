@@ -19,8 +19,8 @@ function About() {
                     <div className='about_wrapper'>
                         <p> UBC Rapid is an Engineering Student Team offering CAD Modelling Services
                             at the University of British Columbia. Our major interest is rapid prototyping technology, 
-                            the most popular of which is 3D-printing. Rapid prototyping describes the technique of using computer 
-                            aided design (CAD) to generate physical models from product idea.</p>
+                            the most popular of which is 3D printing. Rapid prototyping describes the technique of using computer
+                            aided design (CAD) to generate physical models from product ideas.</p>
                     </div>
                     <h1>Our Team Projects and Services</h1>
                     <div className="about_wrapper">
@@ -35,7 +35,7 @@ function About() {
                         images={["/images/projects7.jpg", "/images/projects7.jpg", "/images/projects7.jpg"]}
                         src="images/card-3.jpg"
                         text="Filament Recycler"
-                        subtext="Our team is designing and building a Filament Recycler to promote sustainable 3D printing by converting waste, such as failed prints and supports, into reusable filament."
+                        subtext="Our team is designing and building a Filament Recycler that turns 3D printing waste, such as failed prints and supports, back into reusable filament."
                         path="/projects"
                         scrollPos={window.innerHeight * 0.75}
                         />
