@@ -39,9 +39,8 @@ function About() {
                         images={["/images/projects7.jpg", "/images/projects7.jpg", "/images/projects7.jpg"]}
                         src="images/card-3.jpg"
                         text="Filament Recycler"
-                        subtext="Our team is designing and building a Filament Recycler that turns 3D printing waste, such as failed prints and supports, back into reusable filament."
-                        path="/projects"
-                        scrollPos={window.innerHeight * 0.75}
+                        subtext="Our team is designing and building a Filament Recycler to promote sustainable 3D printing by converting waste, such as failed prints and supports, into reusable filament."
+                        path="/filament_recycler"
                         />
                         <CardItem
                         images={["/images/exoticmaterials1.jpg", "/images/exotic_cropped.png"]}
