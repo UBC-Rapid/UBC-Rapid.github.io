@@ -19,8 +19,8 @@ function About() {
                     <div className='about_wrapper'>
                         <p> UBC Rapid is an Engineering Student Team offering CAD Modelling Services
                             at the University of British Columbia. Our major interest is rapid prototyping technology, 
-                            the most popular of which is 3D-printing. Rapid prototyping describes the technique of using computer 
-                            aided design (CAD) to generate physical models from product idea.</p>
+                            the most popular of which is 3D printing. Rapid prototyping describes the technique of using computer
+                            aided design (CAD) to generate physical models from product ideas.</p>
                     </div>
                     <h1>Our Team Projects and Services</h1>
                     <div className="about_wrapper">
