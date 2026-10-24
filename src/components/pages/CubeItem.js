@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './CubeItem.css';
 
 function CubeItem(props) {

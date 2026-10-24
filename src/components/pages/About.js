@@ -5,21 +5,9 @@ import './About.css';
 import '../Cards.css'
 import { Button } from '../Button';
 
-import React, {useState} from "react";
-import CubeItem from "./CubeItem";
+import React from "react";
 
 function About() {
-
-    const [angle, setAngle] = useState(0);
-
-    const rotateLeft = () => {
-        setAngle(prev => prev - 90);
-    };
-
-    const rotateRight = () => {
-        setAngle(prev => prev + 90);
-    };
-
 
     return (
         <>
@@ -51,7 +39,7 @@ function About() {
                         images={["/images/projects7.jpg", "/images/projects7.jpg", "/images/projects7.jpg"]}
                         src="images/card-3.jpg"
                         text="Filament Recycler"
-                        subtext="Our team is designing and building a Filament Recycler to promote sustainable 3D printing by converting waste, such as failed prints and supports, into reusable filament."
+                        subtext="Our team is designing and building a Filament Recycler that turns 3D printing waste, such as failed prints and supports, back into reusable filament."
                         path="/projects"
                         scrollPos={window.innerHeight * 0.75}
                         />
