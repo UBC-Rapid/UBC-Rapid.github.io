@@ -106,8 +106,9 @@ export default function ExoticMaterials() {
         <h2>EXOTIC MATERIAL TESTING</h2>
 
         <p className="intro_text">
-          UBC Rapid will be expanding the variety of materials available for
-          student and faculty rapid prototyping projects...
+          We are expanding our range of printable materials by researching the 
+          properties and feasibility of using innovative options like copper-infused 
+          filament, nylon, and many others. Explore our recent projects below.
         </p>
 
         <div className="material_grid">
