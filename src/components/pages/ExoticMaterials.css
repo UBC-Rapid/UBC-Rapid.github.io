@@ -77,9 +77,9 @@
 }
 
 /* When open: make image clearer */
-.material_card.open .material_tint {
+/* .material_card.open .material_tint {
   background: rgba(0, 0, 0, 0.15);
-}
+} */
 
 /* ====== CENTERED TITLE ====== */
 .material_title_center {
@@ -102,7 +102,7 @@
 }
 
 /* ====== DESCRIPTION BELOW ====== */
-.material_below {
+/* .material_below {
   margin-top: 14px;
   padding: 0 2px;
 
@@ -125,32 +125,89 @@
   font-size: 20px;
   line-height: 1.45;
   font-weight: lighter;
+} */
+
+
+/* NEW MOBILE */
+/* ====== POP-UP ====== */
+.material_modal_overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 1000;
 }
 
-/* ====== MOBILE ====== */
-@media (max-width: 1000px) {
-  .exotic_wrapper {
-    padding: 20px;
-  }
+.material_modal {
+  position: relative;
+  background: white;
+  border-radius: 14px;
+  max-width: 700px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
 
-  .material_grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
+.material_modal_img {
+  position: static; /* overrides a site-wide img rule that would hide this photo */
+  z-index: auto;
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+}
 
-  .material_card {
-    height: 280px;
-  }
+.material_modal_img {
+  position: static;
+  z-index: auto;
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: 260px;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+}
 
-  .intro_text {
-    max-width: 100%;
-  }
+.material_modal_body {
+  padding: 24px 28px 10px 28px;
+}
 
-  .material_title_center h3 {
-    font-size: 24px;
-  }
+.material_modal_body h3 {
+  font-family: Montserrat, Arial, Helvetica, serif;
+  font-size: 26px;
+  font-weight: 800;
+  margin: 0 0 14px 0;
+}
 
-  .material_below p {
-    font-size: 18px;
-  }
+.material_modal_body p {
+  margin: 0 0 14px 0;
+  font-family: "Signika Negative", Arial, Helvetica, serif;
+  font-size: 20px;
+  line-height: 1.45;
+  font-weight: lighter;
+}
+
+.material_modal_close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.material_modal_close:hover {
+  background: rgba(0, 0, 0, 0.85);
 }

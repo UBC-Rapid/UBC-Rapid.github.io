@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../../App.css";
 import "./ExoticMaterials.css";
 
@@ -77,24 +77,34 @@ const materials = [
   // }
 ];
 
+
 export default function ExoticMaterials() {
-  const [openItems, setOpenItems] = useState({
-    tpu: false,
-    carbon: false,
-    stone: false
-  });
+  // which material's pop-up is open (null = none open)
+  const [selected, setSelected] = useState(null);
 
-  const toggle = (id) => {
-    setOpenItems((prev) => ({
-      ...prev,
-      [id]: !prev[id]
-    }));
-  };
+  const closePopup = () => setSelected(null);
 
-  const handleKeyDown = (e, id) => {
+  // while a pop-up is open: close it with escape, and stop the page behind it from scrolling
+  useEffect(() => {
+    if (!selected) return;
+
+    const handleEscape = (e) => {
+      if (e.key === "Escape") closePopup();
+    };
+
+    document.addEventListener("keydown", handleEscape);
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.removeEventListener("keydown", handleEscape);
+      document.body.style.overflow = "";
+    };
+  }, [selected]);
+
+  const handleKeyDown = (e, mat) => {
     if (e.key === "Enter" || e.key === " ") {
       e.preventDefault();
-      toggle(id);
+      setSelected(mat);
     }
   };
 
@@ -114,9 +124,9 @@ export default function ExoticMaterials() {
           {materials.map((mat) => (
             <div className="material_item" key={mat.id}>
               <div
-                className={`material_card ${openItems[mat.id] ? "open" : ""}`}
-                onClick={() => toggle(mat.id)}
-                onKeyDown={(e) => handleKeyDown(e, mat.id)}
+                className="material_card"
+                onClick={() => setSelected(mat)}
+                onKeyDown={(e) => handleKeyDown(e, mat)}
                 role="button"
                 tabIndex={0}
               >
@@ -131,22 +141,48 @@ export default function ExoticMaterials() {
                 />
                 <div className="material_tint"></div>
 
-                {!openItems[mat.id] && (
-                  <div className="material_title_center">
-                    <h3>{mat.title}</h3>
-                  </div>
-                )}
-              </div>
-
-              <div className={`material_below ${openItems[mat.id] ? "open" : ""}`}>
-                {mat.text.map((paragraph, index) => (
-                  <p key={index}>{paragraph}</p>
-                ))}
+                <div className="material_title_center">
+                  <h3>{mat.title}</h3>
+                </div>
               </div>
             </div>
           ))}
         </div>
       </div>
+
+      {/* ====== POP-UP (only shows when a material is selected) ====== */}
+      {selected && (
+        <div className="material_modal_overlay" onClick={closePopup}>
+          <div
+            className="material_modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="material_modal_title"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              className="material_modal_close"
+              onClick={closePopup}
+              aria-label="Close"
+            >
+              &times;
+            </button>
+
+            <img
+              className="material_modal_img"
+              src={selected.img}
+              alt={selected.title}
+            />
+
+            <div className="material_modal_body">
+              <h3 id="material_modal_title">{selected.title}</h3>
+              {selected.text.map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 }
