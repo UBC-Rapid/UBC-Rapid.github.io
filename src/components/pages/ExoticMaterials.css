@@ -76,10 +76,6 @@
   transition: 0.25s ease;
 }
 
-/* When open: make image clearer */
-/* .material_card.open .material_tint {
-  background: rgba(0, 0, 0, 0.15);
-} */
 
 /* ====== CENTERED TITLE ====== */
 .material_title_center {
@@ -100,32 +96,6 @@
   margin: 0;
   letter-spacing: 1px;
 }
-
-/* ====== DESCRIPTION BELOW ====== */
-/* .material_below {
-  margin-top: 14px;
-  padding: 0 2px;
-
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transform: translateY(-8px);
-  transition: max-height 0.35s ease, opacity 0.25s ease, transform 0.25s ease;
-}
-
-.material_below.open {
-  max-height: 900px;
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.material_below p {
-  margin: 0 0 14px 0;
-  font-family: "Signika Negative", Arial, Helvetica, serif;
-  font-size: 20px;
-  line-height: 1.45;
-  font-weight: lighter;
-} */
 
 
 /* NEW MOBILE */
@@ -150,15 +120,6 @@
   max-height: 90vh;
   overflow-y: auto;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-}
-
-.material_modal_img {
-  position: static; /* overrides a site-wide img rule that would hide this photo */
-  z-index: auto;
-  width: 100%;
-  height: 260px;
-  object-fit: cover;
-  display: block;
 }
 
 .material_modal_img {
@@ -210,4 +171,40 @@
 
 .material_modal_close:hover {
   background: rgba(0, 0, 0, 0.85);
+}
+
+/* ====== MOBILE ====== */
+@media (max-width: 1000px) {
+  .exotic_wrapper {
+    padding: 20px;
+  }
+
+  .material_grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .material_card {
+    height: 280px;
+  }
+
+  .intro_text {
+    max-width: 100%;
+  }
+
+  .material_title_center h3 {
+    font-size: 24px;
+  }
+
+  .material_modal_img {
+    height: 180px;
+  }
+
+  .material_modal_body {
+    padding: 20px;
+  }
+
+  .material_modal_body p {
+    font-size: 18px;
+  }
 }
