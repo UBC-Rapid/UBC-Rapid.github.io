@@ -114,3 +114,19 @@ video, img {
     width: 100%;
   }
 }
+
+
+
+/*show background image fix on iphone*/
+
+@media screen and (max-width: 960px) {
+  .about {
+    background-attachment: scroll;
+  }
+}
+
+@supports (-webkit-touch-callout: none) {
+  .about {
+    background-attachment: scroll;
+  }
+}
