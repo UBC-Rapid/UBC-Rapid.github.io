@@ -9,7 +9,8 @@ const materials = [
     img: "/images/ExoticMaterialsPhotos/TPU.jpg",
     zoom: 1.5,
     x: 15,
-    y: 10,
+    y: 12,
+    popupY: "48%",
     text: [
       "TPU (Thermoplastic Polyurethane) is a flexible thermoplastic elastomer that combines rubber-like elasticity with plastic durability. It can be molded and 3D printed at elevated temperatures while retaining its ability to recover shape when cooled.",
       "Although TPU is highly versatile, it has limitations. Its lower stiffness and yield strength compared to rigid filaments like PLA or ABS make it unsuitable for structural parts under heavy loads.",
@@ -23,6 +24,7 @@ const materials = [
     zoom: 1.7,
     x: 0,
     y: 25,
+    popupY: "45%",
     text: [
       "Carbon fiber-reinforced nylon is a strong, lightweight filament designed for demanding applications. It combines the toughness of nylon with the stiffness of carbon fibers.",
       "While the material offers excellent performance, it requires careful handling. Carbon fiber nylon is abrasive, so a hardened steel nozzle is essential.",
@@ -36,6 +38,7 @@ const materials = [
     zoom: 1.5,
     x: 0,
     y: 30,
+    popupY: "43%",
     text: [
       "Stonefill PLA is a specialty filament that combines standard PLA with powdered stone, creating prints that look and feel like real stone.",
       "The addition of stone powder makes the filament heavier and more abrasive. It excels when the goal is a realistic stone texture.",
@@ -172,6 +175,7 @@ export default function ExoticMaterials() {
               className="material_modal_img"
               src={selected.img}
               alt={selected.title}
+              style={{ objectPosition: `center ${selected.popupY || "50%"}` }}
             />
 
             <div className="material_modal_body">

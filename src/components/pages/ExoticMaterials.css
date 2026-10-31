@@ -132,6 +132,7 @@
   margin: 0;
   padding: 0;
   object-fit: cover;
+  object-position: center 45%;
 }
 
 .material_modal_body {
