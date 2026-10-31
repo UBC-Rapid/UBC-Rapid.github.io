@@ -76,10 +76,6 @@
   transition: 0.25s ease;
 }
 
-/* When open: make image clearer */
-.material_card.open .material_tint {
-  background: rgba(0, 0, 0, 0.15);
-}
 
 /* ====== CENTERED TITLE ====== */
 .material_title_center {
@@ -101,30 +97,81 @@
   letter-spacing: 1px;
 }
 
-/* ====== DESCRIPTION BELOW ====== */
-.material_below {
-  margin-top: 14px;
-  padding: 0 2px;
 
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transform: translateY(-8px);
-  transition: max-height 0.35s ease, opacity 0.25s ease, transform 0.25s ease;
+/* NEW MOBILE */
+/* ====== POP-UP ====== */
+.material_modal_overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 1000;
 }
 
-.material_below.open {
-  max-height: 900px;
-  opacity: 1;
-  transform: translateY(0);
+.material_modal {
+  position: relative;
+  background: white;
+  border-radius: 14px;
+  max-width: 700px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
-.material_below p {
+.material_modal_img {
+  position: static;
+  z-index: auto;
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: 260px;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  object-position: center 45%;
+}
+
+.material_modal_body {
+  padding: 24px 28px 10px 28px;
+}
+
+.material_modal_body h3 {
+  font-family: Montserrat, Arial, Helvetica, serif;
+  font-size: 26px;
+  font-weight: 800;
+  margin: 0 0 14px 0;
+}
+
+.material_modal_body p {
   margin: 0 0 14px 0;
   font-family: "Signika Negative", Arial, Helvetica, serif;
   font-size: 20px;
   line-height: 1.45;
   font-weight: lighter;
+}
+
+.material_modal_close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.material_modal_close:hover {
+  background: rgba(0, 0, 0, 0.85);
 }
 
 /* ====== MOBILE ====== */
@@ -150,7 +197,15 @@
     font-size: 24px;
   }
 
-  .material_below p {
+  .material_modal_img {
+    height: 180px;
+  }
+
+  .material_modal_body {
+    padding: 20px;
+  }
+
+  .material_modal_body p {
     font-size: 18px;
   }
 }
