@@ -32,6 +32,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .not-found-graphic {
+    width: 80%;
+  }
+
   .not-found h1 {
     font-size: 26px;
   }
