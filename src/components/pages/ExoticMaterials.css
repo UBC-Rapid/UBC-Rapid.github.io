@@ -154,6 +154,42 @@
   font-weight: lighter;
 }
 
+/* pop-up table  */
+.material_table {
+width: 100%;
+border-collapse: collapse;
+text-align: left;
+margin: 0 0 18px 0;
+font-family: "Signika Negative", Arial, Helvetica, serif;
+font-size: 18px;
+line-height: 1.45;
+}
+
+.material_table th,
+.material_table td {
+padding: 10px 12px;
+vertical-align: top;
+border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.material_table tr:last-child th,
+.material_table tr:last-child td {
+border-bottom: none;
+}
+
+.material_table th {
+width: 32%;
+font-family: Montserrat, Arial, Helvetica, serif;
+font-size: 16px;
+font-weight: 700;
+padding-left: 0;
+}
+
+.material_table td {
+font-weight: lighter;
+}
+
+
 .material_modal_close {
   position: absolute;
   top: 12px;
@@ -207,5 +243,41 @@
 
   .material_modal_body p {
     font-size: 18px;
+  }
+}
+
+
+/* for small phone: stack table rows */
+@media (max-width: 600px) {
+.material_table,
+.material_table tbody,
+.material_table tr,
+.material_table th,
+.material_table td {
+display: block;
+width: 100%;
+  }
+
+.material_table tr {
+padding: 10px 0;
+border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+.material_table tr:last-child {
+border-bottom: none;
+  }
+
+.material_table th,
+.material_table td {
+padding: 0;
+border-bottom: none;
+  }
+
+.material_table th {
+margin-bottom: 4px;
+  }
+
+.material_table td {
+font-size: 17px;
   }
 }
