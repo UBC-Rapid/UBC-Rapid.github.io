@@ -9,6 +9,7 @@ import JoinUs from'./components/pages/JoinUs';
 import Projects from'./components/pages/Projects';
 import ExoticMaterials from './components/pages/ExoticMaterials'
 import FilamentRecycler from './components/pages/FilamentRecycler'
+import NotFound from './components/pages/NotFound'
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
                     <Route path='/filament_recycler' exact component={FilamentRecycler}/>
                     <Route path='/projects' exact component={Projects}/>
                     <Route path='/join-us' exact component={JoinUs}/>
+                    <Route component={NotFound}/>
                 </Switch>
                 <Footer />
             </HashRouter>
