@@ -2,6 +2,7 @@ import React from 'react';
 import '../../App.css';
 import './Consulting.css';
 import { Button } from '../Button';
+import siteConfig from '../../siteConfig.json';
 
 export default function Consulting() {
     return (
@@ -54,7 +55,7 @@ export default function Consulting() {
                         buttonStyle='btn--primary'
                         buttonSize='btn--large'
                         newTab='true'
-                        link='https://forms.gle/X3vZeczA8fpBVzAt6'
+                        link={siteConfig.links.modellingForm}
                     >
                         Request Now
                     </Button>
