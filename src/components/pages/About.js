@@ -4,6 +4,7 @@ import CardItem from '../CardItem';
 import './About.css';
 import '../Cards.css'
 import { Button } from '../Button';
+import siteConfig from '../../siteConfig.json';
 
 import React from "react";
 
@@ -62,7 +63,7 @@ function About() {
                             buttonStyle='btn--primary'
                             buttSize='btn--large'
                             newTab='true'
-                            link='https://linktr.ee/ubcrapid'
+                            link={siteConfig.links.linktree}
                         >
                             Contact Us
                         </Button>
@@ -88,7 +89,7 @@ function About() {
                             buttonStyle='btn--primary'
                             buttSize='btn--medium'
                             newTab='true'
-                            link='https://drive.google.com/file/d/1hXsTKhBoHx6_ZGMuVTxlAbnuue84qb-A/view?usp=sharing'
+                            link={siteConfig.links.sponsorshipPackage}
                         >
                             Sponsorship Package
                         </Button>
@@ -103,7 +104,7 @@ function About() {
                             buttonStyle='btn--primary'
                             buttSize='btn--medium'
                             newTab='true'
-                            link='https://donate.give.ubc.ca/page/80953/donate/1?transaction.dirgift=UBC+Rapid%20G1273'
+                            link={siteConfig.links.donateOrganizations}
                         >
                             Donation Link for Organizations
                         </Button>
@@ -112,7 +113,7 @@ function About() {
                             buttonStyle='btn--primary'
                             buttSize='btn--large'
                             newTab='true'
-                            link='https://give.ubc.ca/'
+                            link={siteConfig.links.donateIndividuals}
                         >
                             Donation Link for Individuals
                         </Button>
