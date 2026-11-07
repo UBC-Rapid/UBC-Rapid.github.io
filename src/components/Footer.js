@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css'
+import siteConfig from '../siteConfig.json';
 
 function Footer() {
 
@@ -48,11 +49,11 @@ function Footer() {
                         <img src='/images/rapid_logo.png' className='rapid-logo' alt="" />
                     </Link>
                    
-                    <small className='website-rights'>UBC RAPID © 2026</small>
+                    <small className='website-rights'>UBC RAPID © {new Date().getFullYear()}</small>
                     <div className='social-icons'>
                         <a className='social-icon-link facebook'
                             target="_blank"
-                            href="https://www.facebook.com/ubc.rapid/"
+                            href={siteConfig.links.facebook}
                             aria-label='Facebook'
                             rel="noreferrer"
                         >
@@ -60,7 +61,7 @@ function Footer() {
                         </a>
                         <a className='social-icon-link instagram'
                             target="_blank"
-                            href="https://www.instagram.com/ubc_rapid/?hl=en"
+                            href={siteConfig.links.instagram}
                             aria-label='Instagram'
                             rel="noreferrer"
                         >
@@ -68,7 +69,7 @@ function Footer() {
                         </a>
                         <a className='social-icon-link linkedin'
                             target="_blank"
-                            href='https://www.linkedin.com/company/ubc-rapid/'
+                            href={siteConfig.links.linkedin}
                             aria-label='Linkedin'
                             rel="noreferrer"
                         >
