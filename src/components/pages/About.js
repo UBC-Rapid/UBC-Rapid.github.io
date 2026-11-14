@@ -54,7 +54,7 @@ function About() {
                     
                     <div className='about_wrapper'>
                         <h1>Our Team</h1>
-                        <img src="images/teamphoto2025.jpg" alt=""></img>
+                        <img src="images/teamphoto2026.jpg" alt="UBC Rapid team photo, 2026"></img>
                     </div>
                     <div className="info-btns-about-us">
                         <Button
