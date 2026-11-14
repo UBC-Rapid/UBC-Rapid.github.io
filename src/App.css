@@ -52,7 +52,7 @@
 }
 
 .consulting {
-    background-image: url('/images/projects22.png');
+    background-image: url('/public/images/projects22.png');
     background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;
@@ -63,7 +63,7 @@
 }
 
 .exotic_materials {
-    background-image: url('/images/ExoticMaterialsPhotos/group1.jpg');
+    background-image: url('/public/images/ExoticMaterialsPhotos/group1.jpg');
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -74,7 +74,7 @@
 }
 
 .filament_recycler {
-    background-image: url('/images/filament_header.png');
+    background-image: url('/public/images/filament_header.png');
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
