@@ -2,6 +2,16 @@ import React, { useState, useEffect } from "react";
 import "../../App.css";
 import "./ExoticMaterials.css";
 
+
+// rows in every material pop-up
+const DETAIL_ROWS = [
+  { key: "material", label: "Material" },
+  { key: "properties", label: "General Properties" },
+  { key: "applicability", label: "Applicability" },
+  { key: "printing", label: "3D Printing" },
+];
+
+
 const materials = [
   {
     id: "tpu",
@@ -11,11 +21,12 @@ const materials = [
     x: 15,
     y: 12,
     popupY: "48%",
-    text: [
-      "TPU (Thermoplastic Polyurethane) is a flexible thermoplastic elastomer that combines rubber-like elasticity with plastic durability. It can be molded and 3D printed at elevated temperatures while retaining its ability to recover shape when cooled.",
-      "Although TPU is highly versatile, it has limitations. Its lower stiffness and yield strength compared to rigid filaments like PLA or ABS make it unsuitable for structural parts under heavy loads.",
-      "To print TPU successfully, use a nozzle temperature around 200°C and a bed temperature near 50°C. Keep print speed slow and cooling low."
-    ]
+    details: {
+      material: "Thermoplastic Polyurethane (TPU)",
+      properties: "Flexible thermoplastic elastomer that combines rubber-like elasticity with plastic durability. Recovers its shape after being stretched or compressed.",
+      applicability: "Highly versatile mater, however, limitations like its lower stiffness and yield strength compared to rigid filaments like PLA or ABS make it unsuitable for structural parts under heavy loads.",
+      printing: "Nozzle around 200°C, bed near 50°C. Keep print speed slow and cooling low."
+    }
   },
   {
     id: "carbon",
@@ -25,11 +36,12 @@ const materials = [
     x: 0,
     y: 25,
     popupY: "45%",
-    text: [
-      "Carbon fiber-reinforced nylon is a strong, lightweight filament designed for demanding applications. It combines the toughness of nylon with the stiffness of carbon fibers.",
-      "While the material offers excellent performance, it requires careful handling. Carbon fiber nylon is abrasive, so a hardened steel nozzle is essential.",
-      "For best results, print at a high nozzle temperature (around 260°C) and use a heated bed near 80°C to reduce warping."
-    ]
+    details: {
+      material: "Nylon reinforced with carbon fibers",
+      properties: "Strong and lightweight. Combines the toughness of nylon with the stiffness of carbon fibers.",
+      applicability: "Designed for demanding applications that need high strength and stiffness at low weight.",
+      printing: "Abrasive, so a hardened steel nozzle is essential. Nozzle around 260°C, heated bed near 80°C to reduce warping."
+    }
   },
   {
     id: "stone",
@@ -39,11 +51,12 @@ const materials = [
     x: 0,
     y: 30,
     popupY: "43%",
-    text: [
-      "Stonefill PLA is a specialty filament that combines standard PLA with powdered stone, creating prints that look and feel like real stone.",
-      "The addition of stone powder makes the filament heavier and more abrasive. It excels when the goal is a realistic stone texture.",
-      "To print Stonefil successfully, use a hardened steel nozzle. Printing at around 210 to 220°C with a bed temperature near 55°C works well."
-    ]
+    details: {
+      material: "PLA blended with powdered stone",
+      properties: "Prints look and feel like real stone. The stone powder makes the filament heavier and more abrasive than standard PLA.",
+      applicability: "Excels when the goal is a realistic stone texture.",
+      printing: "Use a hardened steel nozzle. Nozzle around 210–220°C, bed near 55°C."
+    }
   },
   // {
   //   id: "pla",
@@ -52,9 +65,12 @@ const materials = [
   //   zoom: 1.5,
   //   x: 10,
   //   y: 30,
-  //   text: [
-  //     "TODO"
-  //   ]
+  //   details: {
+  //     material: "TODO",
+  //     properties: "TODO",
+  //     applicability: "TODO",
+  //     printing: "TODO"
+  //   }
   // },
   // {
   //   id: "copper",
@@ -63,9 +79,12 @@ const materials = [
   //   zoom: 1.5,
   //   x: 0,
   //   y: 20,
-  //   text: [
-  //     "TODO",
-  //   ]
+  //   details: {
+  //     material: "TODO",
+  //     properties: "TODO",
+  //     applicability: "TODO",
+  //     printing: "TODO"
+  //   }
   // },
   // {
   //   id: "sla",
@@ -74,12 +93,14 @@ const materials = [
   //   zoom: 1.5,
   //   x: 0,
   //   y: 10,
-  //   text: [
-  //     "TODO"
-  //   ]
+  //   details: {
+  //     material: "TODO",
+  //     properties: "TODO",
+  //     applicability: "TODO",
+  //     printing: "TODO"
+  //   }
   // }
 ];
-
 
 export default function ExoticMaterials() {
   // which material's pop-up is open (null = none open)
@@ -181,9 +202,18 @@ export default function ExoticMaterials() {
 
             <div className="material_modal_body">
               <h3 id="material_modal_title">{selected.title}</h3>
-              {selected.text.map((paragraph, index) => (
-                <p key={index}>{paragraph}</p>
-              ))}
+              <table className="material_table">
+                <tbody>
+                  {DETAIL_ROWS.map(({ key, label }) =>
+                    selected.details?.[key] && (
+                      <tr key={key}>
+                        <th scope="row">{label}</th>
+                        <td>{selected.details[key]}</td>
+                      </tr>
+                    )
+                  )}
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
