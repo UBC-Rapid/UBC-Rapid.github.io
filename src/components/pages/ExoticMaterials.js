@@ -44,7 +44,8 @@ const materials = [
       properties: "Strong and lightweight. Combines the toughness of nylon with the stiffness of carbon fibers.",
       applicability: "Designed for demanding applications that need high strength and stiffness at low weight.",
       printing: "Abrasive, so a hardened steel nozzle is essential. Nozzle around 260°C, heated bed near 80°C to reduce warping.",
-      author: "Stella Ormandy"
+      author: "Stella Ormandy",
+      date: "December 4th, 2024"
     }
   },
   {
