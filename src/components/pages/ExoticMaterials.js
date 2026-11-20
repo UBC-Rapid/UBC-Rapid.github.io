@@ -9,8 +9,9 @@ const DETAIL_ROWS = [
   { key: "properties", label: "General Properties" },
   { key: "applicability", label: "Applicability" },
   { key: "printing", label: "3D Printing" },
+  { key: "author", label: "Author" },
+  { key: "date", label: "Date Completed" },
 ];
-
 
 const materials = [
   {
@@ -25,7 +26,9 @@ const materials = [
       material: "Thermoplastic Polyurethane (TPU)",
       properties: "Flexible thermoplastic elastomer that combines rubber-like elasticity with plastic durability. Recovers its shape after being stretched or compressed.",
       applicability: "Highly versatile mater, however, limitations like its lower stiffness and yield strength compared to rigid filaments like PLA or ABS make it unsuitable for structural parts under heavy loads.",
-      printing: "Nozzle around 200°C, bed near 50°C. Keep print speed slow and cooling low."
+      printing: "Nozzle around 200°C, bed near 50°C. Keep print speed slow and cooling low.",
+      author: "Samuel Lau, Joyce Ting, Stella Ormandy, Jun Ishihara, Angel Shen, Pete Taranamai, Raymond Zhang, Jordan Huang",
+      date: "November 10th, 2024"
     }
   },
   {
@@ -40,7 +43,9 @@ const materials = [
       material: "Nylon reinforced with carbon fibers",
       properties: "Strong and lightweight. Combines the toughness of nylon with the stiffness of carbon fibers.",
       applicability: "Designed for demanding applications that need high strength and stiffness at low weight.",
-      printing: "Abrasive, so a hardened steel nozzle is essential. Nozzle around 260°C, heated bed near 80°C to reduce warping."
+      printing: "Abrasive, so a hardened steel nozzle is essential. Nozzle around 260°C, heated bed near 80°C to reduce warping.",
+      author: "Stella Ormandy",
+      date: "December 4th, 2024"
     }
   },
   {
@@ -55,7 +60,10 @@ const materials = [
       material: "PLA blended with powdered stone",
       properties: "Prints look and feel like real stone. The stone powder makes the filament heavier and more abrasive than standard PLA.",
       applicability: "Excels when the goal is a realistic stone texture.",
-      printing: "Use a hardened steel nozzle. Nozzle around 210–220°C, bed near 55°C."
+      printing: "Use a hardened steel nozzle. Nozzle around 210–220°C, bed near 55°C.",
+      author: " Samuel Lau",
+      date: "December 4th, 2024"
+
     }
   },
   // {
