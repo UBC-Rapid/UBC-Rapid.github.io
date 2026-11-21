@@ -16,32 +16,32 @@ export default function JoinUs() {
                     <h3>Applications for {siteConfig.applicationYear} have closed</h3>
                 )}
                 <br /><br />
-                <p>We are recruiting members to work in our sub-teams, as the demands for
-                    CAD Modelling, printer repair and 3D Printing orders have increased over the years.
-                    New members will be attending our
-                    workshops to learn prototyping and 3d printing basics. Once they gain adequate
-                    experience, they will be welcome to contribute to our service or project sub-teams.
-                    In the service sub-teams they will be paired with a mentor to help with orders
-                    and gain real professional experience with stakeholders. Or they can join our
-                    project sub-teams and partake in the construction of original
-                    UBC Rapid projects!
+                <p>At UBC Rapid, members gain hands-on experience with prototyping and 3D printing.
+                    New members start with workshops on the basics. After that, you can join a
+                    service sub-team, where you're paired with a mentor to help with client orders,
+                    or a project sub-team to help build original UBC Rapid projects. You'll also
+                    have the chance to build and repair 3D printers and experiment with exotic materials.
                     <br /><br />
-                    By joining UBC Rapid, you will also get the chance to build and repair 3D
-                    printers, and gain experience printing with exotic materials.
-                    Regardless of experience level, we are looking for dedicated
-                    individuals willing to put in the time and effort to learn.
+                    No experience is needed! We welcome students from every major and skill set.
+                    Most of all, we're looking for dedicated people who want to learn and grow
+                    with the team.
                 </p>
+                <br />
+                {!siteConfig.applicationsOpen && (
+                    <p>Follow us on{' '}
+                        <a href={siteConfig.links.instagram} target="_blank" rel="noreferrer">Instagram</a>
+                        {' '}to stay updated on future applications!
+                    </p>
+                )}
                 {siteConfig.applicationsOpen && (
                     <>
-                        <p>Linked below is the application form for UBC Rapid. Please answer
-                            all the required questions. If selected for an interview, you
-                            will receive an email during the application time frame to
-                            book an interview. The interview is expected to take up to
-                            30 minutes. Interviews will be on a rolling basis. You
-                            will likely be asked to describe the functioning of an FDM
-                            3D printer at a basic level, as well as the process to 3D print
-                            a part. We care less about the correctness of the answers, and
-                            more about the effort and critical thinking of the responses.
+                        <p>To apply, fill out the application form below and answer all the required
+                            questions. If you're selected for an interview, we'll email you to book a
+                            time. Interviews take up to 30 minutes and are held on a rolling basis.
+                            <br /><br />
+                            We'll likely ask you to explain how an FDM 3D printer works and how to
+                            3D print a part. Don't worry about getting everything right. We care more
+                            about your effort and how you think through the questions.
                             <br /><br />
                         </p>
                         <br /><br />
@@ -57,12 +57,7 @@ export default function JoinUs() {
                             </Button>
                         </div>
                         <br /><br />
-                        <p>We are considering a wide array of skill sets, such as
-                            people from various majors with artistic skill or
-                            business/accounting skills. The most important thing we are
-                            looking for are dedicated people that will grow with the team.<br /><br />
-                            We look forward to meeting you!
-                        </p>
+                        <p>We look forward to meeting you!</p>
                     </>
                 )}
                 <br /><br />
