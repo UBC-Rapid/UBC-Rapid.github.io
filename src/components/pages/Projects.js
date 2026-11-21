@@ -7,7 +7,7 @@ export default function Projects() {
     <>
       <h1 className="projects">ADVANCEMENTS</h1>
 
-      <div className="projects_wrapper">
+      <div className="projects_wrapper page-content">
 
         {/* --- MAINTENANCE --- */}
         <section className="project_section">

@@ -8,7 +8,7 @@ export default function JoinUs() {
     return (
         <>
             <h1 className='join-us'>JOIN US</h1>
-            <div className='joinus_wrapper'>
+            <div className='joinus_wrapper page-content'>
             <br /><br />
                 {siteConfig.applicationsOpen ? (
                     <h3>Applications for {siteConfig.applicationYear} are now open!</h3>

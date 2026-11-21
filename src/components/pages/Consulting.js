@@ -8,7 +8,7 @@ export default function Consulting() {
     return (
         <>
             <h1 className='consulting'>MODELLING</h1>
-            <div className='consulting_wrapper'>
+            <div className='consulting_wrapper page-content'>
                 <h2> HOW TO USE OUR SERVICE </h2>
                 <br /><br /> 
                 <p><strong>Cost:</strong> FREE</p>

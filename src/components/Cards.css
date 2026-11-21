@@ -29,7 +29,8 @@ h1 {
 
 .cards__item {
   display: flex;
-  flex: 1;
+  flex: 1 1 220px; /* share the row equally, but drop to the next row
+                      rather than get narrower than ~220px */
   margin: 0 1rem;
   border-radius: 5px;
   transition: all 0.3s ease;

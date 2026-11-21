@@ -144,7 +144,7 @@ export default function ExoticMaterials() {
     <>
       <h1 className='exotic_materials'>EXOTIC MATERIALS</h1>
 
-      <div className="exotic_wrapper">
+      <div className="exotic_wrapper page-content">
         <h2>EXOTIC MATERIAL TESTING</h2>
 
         <p className="intro_text">

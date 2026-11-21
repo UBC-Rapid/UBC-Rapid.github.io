@@ -14,7 +14,7 @@ function About() {
         <>
             <TitleSection />
             <div className='about_block'>
-                <div className='about_container'>
+                <div className='about_container page-content'>
                     <br></br>
                     <h1>About Us</h1>
                     <div className='about_wrapper'>
