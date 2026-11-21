@@ -7,8 +7,6 @@
   font-size: 18px;
   padding: 5px 5px;
   font-weight: lighter;
-  margin-left: 70px;
-  margin-right: 70px;
   line-height: 20px;
   box-sizing:border-box;
 }
@@ -19,8 +17,6 @@
   font-weight: bold;
   font-size: 25px;
   padding:0px 5px 5px;
-  margin-left: 70px;
-  margin-right: 70px;
   display: inline-block;
 }
 

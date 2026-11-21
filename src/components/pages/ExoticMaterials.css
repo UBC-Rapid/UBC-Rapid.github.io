@@ -2,9 +2,9 @@
 
 /* ====== PAGE WRAPPER: wider like Filament Recycler ====== */
 .exotic_wrapper {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 32px 32px;
+  padding-top: 32px;     /* sides come from .page-content */
+  padding-bottom: 32px;
 }
 
 /* ====== HEADERS & PARAGRAPHS ====== */
@@ -213,7 +213,8 @@ font-weight: lighter;
 /* ====== MOBILE ====== */
 @media (max-width: 1000px) {
   .exotic_wrapper {
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .material_grid {

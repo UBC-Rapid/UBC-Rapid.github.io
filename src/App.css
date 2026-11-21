@@ -10,16 +10,23 @@
 
 /* ---- Shared page layout ----
    --page-gutter is the space between page content and the screen edge.
-   It scales with screen width: 16px on small phones, up to 70px on desktop. */
+   30px on phones and tablets (up to ~875px wide), then grows with the
+   screen, reaching 70px on desktops (~1375px and wider). */
 :root {
-  --page-gutter: clamp(16px, 5vw, 70px);
+  --page-gutter: clamp(30px, 8vw - 40px, 70px);
 }
 
 /* Add to a page's main wrapper (below the header image). */
 .page-content {
+  max-width: 1280px;   /* same content column on every page */
+  margin-left: auto;
+  margin-right: auto;
   padding-left: var(--page-gutter);
   padding-right: var(--page-gutter);
-  overflow-wrap: anywhere; /* long words/emails/URLs wrap instead of widening the page */
+  /* Only breaks a word (e.g. a long email/URL) if it can't fit on a line by
+     itself. Unlike "anywhere", it doesn't let cards or buttons shrink to
+     one-letter-wide columns. */
+  overflow-wrap: break-word;
 }
 
   .home,

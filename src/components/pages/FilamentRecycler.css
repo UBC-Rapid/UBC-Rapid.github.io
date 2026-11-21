@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap");
 
 .recycler_wrapper {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 32px 32px;
+  padding-top: 32px;     /* sides come from .page-content */
+  padding-bottom: 32px;
 }
 
 /* ====== HEADERS & PARAGRAPHS ====== */
@@ -134,7 +134,8 @@
 /* ====== RESPONSIVE ====== */
 @media (max-width: 1000px) {
   .recycler_wrapper {
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .machine_grid {

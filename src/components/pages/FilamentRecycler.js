@@ -17,7 +17,7 @@ export default function FilamentRecycler() {
     <>
       <h1 className="filament_recycler">FILAMENT RECYCLER</h1>
 
-      <div className="recycler_wrapper">
+      <div className="recycler_wrapper page-content">
         <h2>FILAMENT RECYCLING</h2>
 
         <p>
