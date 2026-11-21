@@ -6,8 +6,6 @@
     font-size: 16px;
     padding: 5px 5px;
     font-weight: lighter;
-    margin-left: 70px;
-    margin-right: 70px;
     line-height: 20px;
     box-sizing:border-box;
   }
@@ -18,8 +16,6 @@
    font-size: 18px;
    padding: 5px 5px;
    font-weight: lighter;
-   margin-left: 70px;
-   margin-right: 70px;
    line-height: 20px;
    box-sizing:border-box;
    /* to replace the 'p' in printing.js */
@@ -32,8 +28,6 @@
     font-size: 20px;
     font-weight: bold;
     padding:0px 5px 5px;
-    margin-left: 70px;
-    margin-right: 70px;
     display: inline-block;
   }
 
@@ -43,8 +37,6 @@
     font-size: 25px;
     font-weight: bold;
     padding:0px 5px 5px;
-    margin-left: 70px;
-    margin-right: 70px;
     margin-top: 45px;
     display: inline-block;
   }
@@ -55,8 +47,6 @@
   font-size: 25px;
   font-weight: bold;
   padding:0px 5px 5px;
-  margin-left: 70px;
-  margin-right: 70px;
   margin-top: 45px;
   display: inline-block;
 }
@@ -131,26 +121,9 @@ td {
 }
 
 .mobile-buffer {
-    padding-left: 70px;
-    padding-right: 70px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
-
-    
-  /* .info-btns-printing .btn {
-    margin: 10px;
-    color: white;
-    background-color: #BF3B3B;
-    border-color: #BF3B3B;
-    max-width: 150px;
-    align-items: center;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    border-width: 3px;
-  } */
 
   a:hover, a:visited, a:link, a:active {
       font-family: Signika Negative, Arial, Helvetica, sans-serif;
