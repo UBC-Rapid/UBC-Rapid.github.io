@@ -18,6 +18,9 @@
 
 /* Add to a page's main wrapper (below the header image). */
 .page-content {
+  max-width: 1280px;   /* same content column on every page */
+  margin-left: auto;
+  margin-right: auto;
   padding-left: var(--page-gutter);
   padding-right: var(--page-gutter);
   /* Only breaks a word (e.g. a long email/URL) if it can't fit on a line by
