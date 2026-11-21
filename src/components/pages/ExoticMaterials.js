@@ -25,7 +25,7 @@ const materials = [
     details: {
       material: "Thermoplastic Polyurethane (TPU)",
       properties: "Flexible thermoplastic elastomer that combines rubber-like elasticity with plastic durability. Recovers its shape after being stretched or compressed.",
-      applicability: "Highly versatile mater, however, limitations like its lower stiffness and yield strength compared to rigid filaments like PLA or ABS make it unsuitable for structural parts under heavy loads.",
+      applicability: "Highly versatile material, however, limitations like its lower stiffness and yield strength compared to rigid filaments like PLA or ABS make it unsuitable for structural parts under heavy loads.",
       printing: "Nozzle around 200°C, bed near 50°C. Keep print speed slow and cooling low.",
       author: "Samuel Lau, Joyce Ting, Stella Ormandy, Jun Ishihara, Angel Shen, Pete Taranamai, Raymond Zhang, Jordan Huang",
       date: "November 10th, 2024"
