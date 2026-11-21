@@ -8,7 +8,7 @@ export default function Printing() {
 
         <>
             <h1 className='printing'>PRINTING</h1>
-            <div className='printing_wrapper'>
+            <div className='printing_wrapper page-content'>
                 <br /><br />
                 {/* <p><strong>Cost:</strong> Filament Costs Only (Specified Below)</p> */}
                 <p><strong>Cost:</strong> Bring your own filament! (Specified Below)</p>

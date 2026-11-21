@@ -24,14 +24,6 @@
   display: inline-block;
 }
 
-.info-btns-joinus .btn {
-  max-width: 300px;
-  align-items: center;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-}
-
 img {
   width: 100%;
 }
