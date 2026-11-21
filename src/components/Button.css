@@ -24,13 +24,6 @@
   font-size: 20px;
 }
 
-.btn--large {
-  padding: 16px 200px; /* Keep the button dimensions */
-  font-size: 30px; /* Text size */
-  font-weight: bold; /* Make text bold */
-  font-stretch: expanded; /* Widen the font (if supported by the font family) */
-}
-
 /* Use this button for any default red button */
 .btn--primary {
   margin: 10px;
@@ -44,6 +37,17 @@
   border: 3px solid var(--primary);
   border-color: #BF3B3B;
   transition: all 0.3s ease-in-out;
+}
+
+/* Large call-to-action button. Sized by width (not padding) so it can shrink
+   to fit narrow screens. Kept below .btn--primary so its max-width wins. */
+.btn--large {
+  width: 406px;     /* same width the button had before on desktop */
+  max-width: 100%;  /* never wider than its container */
+  padding: 16px 20px;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: expanded;
 }
 
 .btn--primary:hover {

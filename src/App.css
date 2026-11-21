@@ -8,6 +8,20 @@
     font-family: Montserrat, Arial, Helvetica, serif;
 }
 
+/* ---- Shared page layout ----
+   --page-gutter is the space between page content and the screen edge.
+   It scales with screen width: 16px on small phones, up to 70px on desktop. */
+:root {
+  --page-gutter: clamp(16px, 5vw, 70px);
+}
+
+/* Add to a page's main wrapper (below the header image). */
+.page-content {
+  padding-left: var(--page-gutter);
+  padding-right: var(--page-gutter);
+  overflow-wrap: anywhere; /* long words/emails/URLs wrap instead of widening the page */
+}
+
   .home,
   .printing,
   .consulting,
