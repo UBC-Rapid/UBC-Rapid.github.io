@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import "../../App.css";
 import "./ExoticMaterials.css";
 
+import materials from "../../data/materials.json";
+
 
 // rows in every material pop-up
 const DETAIL_ROWS = [
@@ -9,8 +11,11 @@ const DETAIL_ROWS = [
   { key: "properties", label: "General Properties" },
   { key: "applicability", label: "Applicability" },
   { key: "printing", label: "3D Printing" },
+  { key: "author", label: "Author" },
+  { key: "date", label: "Date Completed" },
 ];
 
+/* commented out for testing import
 
 const materials = [
   {
@@ -101,6 +106,7 @@ const materials = [
   //   }
   // }
 ];
+*/
 
 export default function ExoticMaterials() {
   // which material's pop-up is open (null = none open)
@@ -173,7 +179,20 @@ export default function ExoticMaterials() {
             </div>
           ))}
         </div>
+
+        <div className="contact_cta">
+                    <p className="contact_cta_text">
+            Interested in learning more about our exotic materials projects?
+            <br />
+            Get in contact at{" "}
+            <a className="contact_cta_email" href="mailto:rapid.ubc@gmail.com">
+              rapid.ubc@gmail.com
+            </a>
+        </p>
+        </div>
       </div>
+
+      
 
       {/* ====== POP-UP (only shows when a material is selected) ====== */}
       {selected && (

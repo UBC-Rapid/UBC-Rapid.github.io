@@ -281,3 +281,23 @@ margin-bottom: 4px;
 font-size: 17px;
   }
 }
+
+.contact_cta {
+  text-align: center;
+  margin: 48px auto 64px;
+  padding: 0 20px;
+}
+
+.contact_cta_text {
+  font-size: 1.3rem;
+  
+}
+
+.contact_cta_email {
+  color: #b03a3a;
+  text-decoration: none;
+}
+
+.contact_cta_email:hover {
+  text-decoration: underline;
+}
