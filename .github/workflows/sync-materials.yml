@@ -1,0 +1,45 @@
+name: Sync exotic materials from sheet
+
+on:
+  workflow_dispatch: # runs only when "run workflow" clicked in github actions tab
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Download sheet as CSV
+        run: curl -sSfL "$SHEET_CSV_URL" -o materials.csv
+        env:
+          SHEET_CSV_URL: ${{ secrets.MATERIALS_SHEET_CSV_URL }}
+
+      - name: Convert CSV to materials.json
+        run: node scripts/sheet-to-materials.js materials.csv src/data/materials.json
+
+      # opens (or updates) PR only if materials.json actually changed
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: auto/materials-sync
+          add-paths: |
+            src/data/materials.json
+            public/images/ExoticMaterialsPhotos/
+          commit-message: "feat: sync exotic materials from sheet"
+          title: "feat: sync exotic materials from sheet"
+          body: |
+            Automated update from the Exotic Materials sheet, note if a material is missing, check the "Convert CSV to materials.json"
+            step in the actions log: it says which sheet row was skipped and why.
+
+            ## How to test
+            1. checkout this branch, run `npm start`
+            2. open the exotic Materials page and check the new/changed materials and their pop-ups
+            3. check mobile width in browser dev tools

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "tpu",
+    "title": "TPU",
+    "img": "/images/ExoticMaterialsPhotos/TPU.jpg",
+    "zoom": 1.5,
+    "x": 15,
+    "y": 12,
+    "popupY": "48%",
+    "details": {
+      "material": "Thermoplastic Polyurethane (TPU)",
+      "properties": "Flexible thermoplastic elastomer that combines rubber-like elasticity with plastic durability. Recovers its shape after being stretched or compressed.",
+      "applicability": "Highly versatile mater, however, limitations like its lower stiffness and yield strength compared to rigid filaments like PLA or ABS make it unsuitable for structural parts under heavy loads.",
+      "printing": "Nozzle around 200°C, bed near 50°C. Keep print speed slow and cooling low."
+    }
+  },
+  {
+    "id": "carbon",
+    "title": "Carbon Fiber Reinforced Nylon",
+    "img": "/images/ExoticMaterialsPhotos/carbon.jpg",
+    "zoom": 1.7,
+    "x": 0,
+    "y": 25,
+    "popupY": "45%",
+    "details": {
+      "material": "Nylon reinforced with carbon fibers",
+      "properties": "Strong and lightweight. Combines the toughness of nylon with the stiffness of carbon fibers.",
+      "applicability": "Designed for demanding applications that need high strength and stiffness at low weight.",
+      "printing": "Abrasive, so a hardened steel nozzle is essential. Nozzle around 260°C, heated bed near 80°C to reduce warping."
+    }
+  },
+  {
+    "id": "stone",
+    "title": "Stone Fill PLA",
+    "img": "/images/ExoticMaterialsPhotos/stonefill.jpg",
+    "zoom": 1.5,
+    "x": 0,
+    "y": 30,
+    "popupY": "43%",
+    "details": {
+      "material": "PLA blended with powdered stone",
+      "properties": "Prints look and feel like real stone. The stone powder makes the filament heavier and more abrasive than standard PLA.",
+      "applicability": "Excels when the goal is a realistic stone texture.",
+      "printing": "Use a hardened steel nozzle. Nozzle around 210–220°C, bed near 55°C."
+    }
+  },
+  {
+    "id": "test",
+    "title": "Test Material TM",
+    "img": "/images/ExoticMaterialsPhotos/test.jpg",
+    "zoom": 1,
+    "x": 0,
+    "y": 0,
+    "details": {
+      "material": "Test blended with Test",
+      "properties": "Very test feels like test, xy but also z",
+      "applicability": "Useful for testing",
+      "printing": "Print at xyz degrees",
+      "author": "T. Est",
+      "date": "Nov 25, 2026"
+    }
+  }
+]

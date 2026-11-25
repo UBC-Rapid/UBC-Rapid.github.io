@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../../App.css";
 import "./ExoticMaterials.css";
+import materials from "../../data/materials.json";
 
 
 // rows in every material pop-up
@@ -13,6 +14,7 @@ const DETAIL_ROWS = [
   { key: "date", label: "Date Completed" },
 ];
 
+/*
 const materials = [
   {
     id: "tpu",
@@ -109,6 +111,7 @@ const materials = [
   //   }
   // }
 ];
+*/
 
 export default function ExoticMaterials() {
   // which material's pop-up is open (null = none open)
