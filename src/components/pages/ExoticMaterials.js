@@ -181,6 +181,17 @@ export default function ExoticMaterials() {
             </div>
           ))}
         </div>
+
+                <div className="contact_cta">
+          <p className="contact_cta_text">
+            Interested in learning more about our exotic materials projects?
+            <br />
+            Get in contact at{" "}
+            <a className="contact_cta_email" href="mailto:rapid.ubc@gmail.com">
+              rapid.ubc@gmail.com
+            </a>
+          </p>
+        </div>
       </div>
 
       {/* ====== POP-UP (only shows when a material is selected) ====== */}
